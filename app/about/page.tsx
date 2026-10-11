@@ -43,8 +43,7 @@ const beliefs = [
 const involved = [
   { title: "Get featured", text: "Tell us your story. Editorial features are free.", cta: "Apply", href: "/get-featured" },
   { title: "Read the letter", text: "One founder story and one look ahead, every week.", cta: "Subscribe", href: "/newsletter" },
-  // TODO: replace [email address] and point this card at a mailto: link
-  { title: "Write or partner", text: "Contributors and brand partners: [email address].", cta: "Get in touch", href: "/get-featured#partner" },
+  { title: "Write or partner", text: "Contributors and brand partners: partners@vitreaonline.in", cta: "Email us", href: "mailto:partners@vitreaonline.in" },
 ];
 
 export default function AboutPage() {
@@ -152,15 +151,26 @@ export default function AboutPage() {
 
       <footer className="vetria-about__footer">
         <div className="vetria-container vetria-about__involved">
-          {involved.map((item) => (
-            <Link key={item.title} href={item.href} className="vetria-about__involved-card">
-              <span className="vetria-about__involved-title">{item.title}</span>
-              <span className="vetria-about__involved-text">{item.text}</span>
-              <span className="vetria-about__involved-cta">
-                {item.cta} <span aria-hidden="true">→</span>
-              </span>
-            </Link>
-          ))}
+          {involved.map((item) => {
+            const inner = (
+              <>
+                <span className="vetria-about__involved-title">{item.title}</span>
+                <span className="vetria-about__involved-text">{item.text}</span>
+                <span className="vetria-about__involved-cta">
+                  {item.cta} <span aria-hidden="true">→</span>
+                </span>
+              </>
+            );
+            return item.href.startsWith("mailto:") ? (
+              <a key={item.title} href={item.href} className="vetria-about__involved-card">
+                {inner}
+              </a>
+            ) : (
+              <Link key={item.title} href={item.href} className="vetria-about__involved-card">
+                {inner}
+              </Link>
+            );
+          })}
         </div>
         <div className="vetria-about__footer-bottom">
           <div className="vetria-container vetria-about__footer-row">
@@ -391,6 +401,7 @@ export default function AboutPage() {
         }
 
         .vetria-about__involved-text {
+          overflow-wrap: anywhere;
           color: var(--muted-on-dark);
           font-size: 15px;
           line-height: 24px;
