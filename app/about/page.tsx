@@ -134,12 +134,17 @@ export default function AboutPage() {
               Mayank Jena, founder and editor
             </h2>
             <p>
-              [Two or three sentences in your own voice: your background in brand strategy and content,
-              why you started Vitrea, and what you want it to be for founders.]
+              I started Vitrea because the businesses I admire most are rarely the ones being written
+              about. The café with a waitlist, the label run from a spare room, the bar that knows every
+              regular by name: each one is a founder&apos;s bet, and those bets deserve to be told
+              properly.
+            </p>
+            <p>
+              Vitrea is where those stories live, alongside plain-English thinking on where marketing is
+              heading, so every owner who reads it leaves with something they can use.
             </p>
             <p className="vetria-about__muted">
-              [Optional line on contributors: &ldquo;Vitrea works with a small group of writers and
-              contributors around the world.&rdquo;]
+              Know a business we should feature? <Link href="/get-featured">Tell us about it</Link>.
             </p>
           </div>
         </section>
@@ -340,6 +345,12 @@ export default function AboutPage() {
         .vetria-about__founder-title {
           font-size: 40px;
           line-height: 46px;
+        }
+
+        .vetria-about__founder-text .vetria-about__muted a {
+          color: var(--gold-text);
+          text-decoration: underline;
+          text-underline-offset: 3px;
         }
 
         .vetria-about__founder-text .vetria-about__muted {
