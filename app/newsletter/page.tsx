@@ -26,7 +26,7 @@ export default function NewsletterPage() {
       <header className="vetria-nl__header">
         <div className="vetria-container vetria-nl__header-inner">
           <Link href="/" aria-label="Vitrea home">
-            <Wordmark size={40} />
+            <Wordmark size={30} />
           </Link>
           <Link href="/" className="vetria-text-link">
             Read the site <span aria-hidden="true">→</span>
@@ -71,7 +71,7 @@ export default function NewsletterPage() {
         <div className="vetria-nl__preview-wrap">
           <div className="vetria-nl__preview" aria-label="Sample issue" role="group">
             <div className="vetria-nl__preview-head">
-              <Wordmark size={28} tone="light" />
+              <Wordmark size={24} tone="light" />
               <span>Issue [01]</span>
             </div>
             <div className="vetria-nl__preview-body">
