@@ -34,7 +34,7 @@ export default function EditorialPolicyPage() {
             Trust is the reason a Vitrea feature means something. These are the rules we hold
             ourselves to.
           </p>
-          <p className="vetria-ep__updated">Last updated [Date]</p>
+          <p className="vetria-ep__updated">Last updated 12 October 2026</p>
         </section>
 
         <div className="vetria-container vetria-ep__layout">
@@ -101,9 +101,8 @@ export default function EditorialPolicyPage() {
                 We edit for length and clarity, and we never change the meaning of what someone said.
               </p>
               <p>
-                [Your policy, choose one: &ldquo;Subjects can check facts and quotes before
-                publication; editorial decisions stay with Vitrea.&rdquo; or &ldquo;We don&apos;t share
-                stories before publication.&rdquo;]
+                Subjects can check facts and quotes before publication. Editorial decisions stay with
+                Vitrea.
               </p>
             </section>
 
@@ -114,25 +113,24 @@ export default function EditorialPolicyPage() {
                 articles. When we get something wrong, we fix it and add a dated correction note at the
                 end of the story.
               </p>
-              {/* TODO: replace with a mailto: link once the corrections address exists */}
               <p>
-                Spotted an error? Write to <a href="#contact">[corrections email]</a>.
+                Spotted an error? Write to <a href="mailto:editor@vitreaonline.in">editor@vitreaonline.in</a>.
               </p>
             </section>
 
             <section id="ai" aria-labelledby="ai-h">
               <h2 id="ai-h">How we use AI</h2>
               <p>
-                [Confirm before publishing: &ldquo;We use AI tools to help with transcription, research
-                and drafts. Every story is shaped, checked and approved by a human editor. We never
-                invent quotes, and any AI-generated imagery is labelled.&rdquo;]
+                We use AI tools to help with transcription, research and drafts. Every story is shaped,
+                checked and approved by a human editor. We never invent quotes, and any AI-generated
+                imagery is labelled.
               </p>
             </section>
 
             <section id="contact" aria-labelledby="contact-h" className="vetria-ep__contact">
               <h2 id="contact-h">Contact the editor</h2>
               <p>
-                Questions about this policy or a story: <a href="#contact">[editor email]</a>. Want to
+                Questions about this policy or a story: <a href="mailto:editor@vitreaonline.in">editor@vitreaonline.in</a>. Want to
                 be featured? <Link href="/get-featured">Apply here</Link>.
               </p>
             </section>
@@ -228,6 +226,7 @@ export default function EditorialPolicyPage() {
         }
 
         .vetria-ep__content a {
+          overflow-wrap: anywhere;
           color: var(--gold-text);
         }
 
