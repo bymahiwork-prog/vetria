@@ -7,10 +7,10 @@ export default function SimpleFooter() {
     <>
       <footer className="vetria-simple-footer">
         <div className="vetria-container vetria-simple-footer__inner">
-          <Link href="/" aria-label="Vetria home">
+          <Link href="/" aria-label="Vitrea home">
             <Wordmark size={28} tone="light" />
           </Link>
-          <span>Paid partnerships are always labelled Sponsored. © 2026 Vetria</span>
+          <span>Paid partnerships are always labelled Sponsored. © 2026 Vitrea</span>
         </div>
       </footer>
 

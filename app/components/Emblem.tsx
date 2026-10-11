@@ -6,7 +6,7 @@ type EmblemProps = {
   decorative?: boolean;
 };
 
-// The "Featured in Vetria" emblem: a V monogram ringed by the tagline.
+// The "Featured in Vitrea" emblem: a V monogram ringed by the tagline.
 // Badge only — never use it as the main logo.
 export default function Emblem({ size = 160, tone = "cream", decorative = true }: EmblemProps) {
   const ringId = useId();
@@ -23,7 +23,7 @@ export default function Emblem({ size = 160, tone = "cream", decorative = true }
       viewBox="0 0 300 300"
       {...(decorative
         ? { "aria-hidden": true }
-        : { role: "img", "aria-label": "Featured in Vetria" })}
+        : { role: "img", "aria-label": "Featured in Vitrea" })}
     >
       <defs>
         <path
@@ -43,7 +43,7 @@ export default function Emblem({ size = 160, tone = "cream", decorative = true }
         style={{ fontFamily: "var(--font-body)" }}
       >
         <textPath href={`#${ringId}`} textLength="690" lengthAdjust="spacing">
-          VETRIA · STORIES OF WHAT&apos;S NEXT ·
+          VITREA · STORIES OF WHAT&apos;S NEXT ·
         </textPath>
       </text>
       <text

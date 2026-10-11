@@ -1,16 +1,20 @@
 import type { Metadata } from "next";
+import { pageMeta } from "../lib/site";
 import Link from "next/link";
 import Wordmark from "../components/Wordmark";
 import StoryImage from "../components/StoryImage";
 import SignupForm from "../components/SignupForm";
 
-export const metadata: Metadata = {
-  title: "The Vetria letter",
-  description: "One founder story. One look ahead. A short weekly letter, free.",
-};
+export const metadata: Metadata = pageMeta({
+  path: "/newsletter",
+  absoluteTitle: true,
+  title: "The Vitrea Letter | A weekly newsletter for founders",
+  description:
+    "One founder story and one look ahead at small-business marketing, every week. A short, free newsletter for people who run a business worth talking about.",
+});
 
 const benefits = [
-  "The week's best Vetria feature, condensed to a five-minute read",
+  "The week's best Vitrea feature, condensed to a five-minute read",
   "One shift in marketing or AI, and what it means for a small business",
   "A first look at businesses we're about to feature",
 ];
@@ -21,7 +25,7 @@ export default function NewsletterPage() {
     <div className="vetria-nl">
       <header className="vetria-nl__header">
         <div className="vetria-container vetria-nl__header-inner">
-          <Link href="/" aria-label="Vetria home">
+          <Link href="/" aria-label="Vitrea home">
             <Wordmark size={40} />
           </Link>
           <Link href="/" className="vetria-text-link">
@@ -32,7 +36,7 @@ export default function NewsletterPage() {
 
       <main id="main" className="vetria-container vetria-nl__main">
         <div className="vetria-nl__text">
-          <span className="vetria-kicker">The Vetria letter · Weekly</span>
+          <span className="vetria-kicker">The Vitrea letter · Weekly</span>
           <h1 className="vetria-nl__title">
             <span>One founder story.</span>
             <em>One look ahead.</em>
@@ -88,7 +92,7 @@ export default function NewsletterPage() {
 
       <footer className="vetria-nl__footer">
         <div className="vetria-container vetria-nl__footer-inner">
-          <span>© 2026 Vetria</span>
+          <span>© 2026 Vitrea</span>
           <span>
             <Link href="/editorial-policy">Editorial policy</Link> · [Privacy policy]
           </span>

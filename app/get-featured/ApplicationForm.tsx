@@ -155,7 +155,7 @@ export default function ApplicationForm() {
           <input {...field("agree")} type="checkbox" checked={fields.agree}
             onChange={(e) => set("agree", e.target.checked)} />
           <label htmlFor="gf-agree">
-            I understand editorial features are chosen by Vetria&apos;s editors and are never paid for.
+            I understand editorial features are chosen by Vitrea&apos;s editors and are never paid for.
           </label>
         </div>
         {error("agree")}

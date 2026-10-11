@@ -9,13 +9,13 @@ export default function CoverStory() {
         <div className="vetria-container vetria-cover__inner">
           <div className="vetria-cover__text">
             <div className="vetria-cover__labels">
-              <span className="vetria-badge">Vetria Feature</span>
+              <span className="vetria-badge">Vitrea Feature</span>
               <span className="vetria-kicker">{coverStory.kicker}</span>
             </div>
 
-            <h1 id="vetria-cover-title" className="vetria-cover__title">
+            <h2 id="vetria-cover-title" className="vetria-cover__title">
               {coverStory.title}
-            </h1>
+            </h2>
 
             <p className="vetria-cover__standfirst">{coverStory.standfirst}</p>
             <p className="vetria-cover__byline">{coverStory.byline}</p>

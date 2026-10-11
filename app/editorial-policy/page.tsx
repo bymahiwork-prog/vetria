@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
+import { pageMeta } from "../lib/site";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import SimpleFooter from "../components/SimpleFooter";
 
-export const metadata: Metadata = {
-  title: "Editorial policy — Vetria",
-  description: "How Vetria chooses, writes and labels what it publishes.",
-};
+export const metadata: Metadata = pageMeta({
+  path: "/editorial-policy",
+  title: "Editorial policy: how we choose and label stories",
+  description:
+    "How Vitrea chooses which businesses to feature, keeps editorial independent, labels sponsored content, checks facts and handles corrections.",
+});
 
 const sections = [
   { id: "choose", label: "How we choose stories" },
@@ -28,7 +31,7 @@ export default function EditorialPolicyPage() {
           <span className="vetria-kicker">Editorial policy</span>
           <h1 className="vetria-ep__title">How we choose, write and label what we publish</h1>
           <p className="vetria-ep__lead">
-            Trust is the reason a Vetria feature means something. These are the rules we hold
+            Trust is the reason a Vitrea feature means something. These are the rules we hold
             ourselves to.
           </p>
           <p className="vetria-ep__updated">Last updated [Date]</p>
@@ -61,13 +64,13 @@ export default function EditorialPolicyPage() {
             <section id="independence" aria-labelledby="independence-h">
               <h2 id="independence-h">Independence</h2>
               <p>
-                <strong>Editorial features are never paid for.</strong> No business can buy a Vetria
+                <strong>Editorial features are never paid for.</strong> No business can buy a Vitrea
                 Feature, a place in a series, or a better review. Advertisers and sponsors have no say
                 over editorial stories.
               </p>
               <p>
                 If we have a personal or business relationship with someone we feature, including as a
-                client of a company connected to Vetria, we say so at the top of the story.
+                client of a company connected to Vitrea, we say so at the top of the story.
               </p>
             </section>
 
@@ -76,7 +79,7 @@ export default function EditorialPolicyPage() {
               <p>Businesses can pay for a sponsored spotlight. When they do, you&apos;ll always know:</p>
               <div className="vetria-ep__labels">
                 <div className="vetria-ep__label-card">
-                  <span className="vetria-badge">Vetria Feature</span>
+                  <span className="vetria-badge">Vitrea Feature</span>
                   <span>Editorial. Chosen by our editors. Never paid for.</span>
                 </div>
                 <div className="vetria-ep__label-card">
@@ -99,7 +102,7 @@ export default function EditorialPolicyPage() {
               </p>
               <p>
                 [Your policy, choose one: &ldquo;Subjects can check facts and quotes before
-                publication; editorial decisions stay with Vetria.&rdquo; or &ldquo;We don&apos;t share
+                publication; editorial decisions stay with Vitrea.&rdquo; or &ldquo;We don&apos;t share
                 stories before publication.&rdquo;]
               </p>
             </section>

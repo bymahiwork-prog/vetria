@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
+import { pageMeta } from "../lib/site";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import StoryImage from "../components/StoryImage";
 
-export const metadata: Metadata = {
-  title: "About — Vetria",
+export const metadata: Metadata = pageMeta({
+  path: "/about",
+  absoluteTitle: true,
+  title: "About Vitrea | Founder stories and the future of business",
   description:
-    "Vetria is an independent media brand for founders, owners and the people who back them.",
-};
+    "Vitrea is an independent media brand telling the stories of founders and independent businesses, and explaining where small-business marketing is heading.",
+});
 
 const pillars = [
   {
@@ -51,12 +54,12 @@ export default function AboutPage() {
 
       <main id="main">
         <section className="vetria-about__intro" aria-label="Introduction">
-          <span className="vetria-kicker">About Vetria</span>
+          <span className="vetria-kicker">About Vitrea</span>
           <h1 className="vetria-about__title">
             Stories of the businesses <em>building what&apos;s next.</em>
           </h1>
           <p className="vetria-about__lead">
-            Vetria is an independent media brand for founders, owners and the people who back them. We
+            Vitrea is an independent media brand for founders, owners and the people who back them. We
             tell the stories of small businesses with the care big companies get, and explain where
             business is heading.
           </p>
@@ -120,16 +123,16 @@ export default function AboutPage() {
         <section className="vetria-container vetria-about__founder" aria-labelledby="founder-title">
           <StoryImage src={null} alt="[Founder portrait]" height={420} className="vetria-about__portrait" />
           <div className="vetria-about__founder-text">
-            <span className="vetria-kicker">Who&apos;s behind Vetria</span>
+            <span className="vetria-kicker">Who&apos;s behind Vitrea</span>
             <h2 id="founder-title" className="vetria-about__founder-title">
               [Founder name], founder and editor
             </h2>
             <p>
               [Two or three sentences in your own voice: your background in brand strategy and content,
-              why you started Vetria, and what you want it to be for founders.]
+              why you started Vitrea, and what you want it to be for founders.]
             </p>
             <p className="vetria-about__muted">
-              [Optional line on contributors: &ldquo;Vetria works with a small group of writers and
+              [Optional line on contributors: &ldquo;Vitrea works with a small group of writers and
               contributors around the world.&rdquo;]
             </p>
           </div>
@@ -150,7 +153,7 @@ export default function AboutPage() {
         </div>
         <div className="vetria-about__footer-bottom">
           <div className="vetria-container vetria-about__footer-row">
-            <span>© 2026 Vetria</span>
+            <span>© 2026 Vitrea</span>
             <span>Paid partnerships are always labelled Sponsored.</span>
           </div>
         </div>

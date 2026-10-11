@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Navbar from "../../components/Navbar";
 import StoryImage from "../../components/StoryImage";
+import JsonLd from "../../components/JsonLd";
+import { absoluteUrl, defaultShareImage, site } from "../../lib/site";
 import { getStory, stories, type StoryBlock } from "../../content/stories";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -15,7 +17,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const story = getStory(slug);
   if (!story) return {};
-  return { title: `${story.title} — Vetria`, description: story.standfirst };
+  const path = `/features/${story.slug}`;
+  return {
+    title: story.title,
+    description: story.standfirst,
+    alternates: { canonical: path },
+    // Drafts (placeholders) stay out of search results until they're published.
+    robots: story.draft ? { index: false, follow: true } : { index: true, follow: true },
+    openGraph: {
+      type: "article",
+      url: path,
+      title: story.title,
+      description: story.standfirst,
+      ...(story.publishedAt ? { publishedTime: story.publishedAt } : {}),
+      images: story.heroImage ? [{ url: story.heroImage, alt: story.heroAlt }] : [defaultShareImage],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: story.title,
+      description: story.standfirst,
+      images: [story.heroImage ?? defaultShareImage.url],
+    },
+  };
 }
 
 function Block({ block, first }: { block: StoryBlock; first: boolean }) {
@@ -42,16 +65,41 @@ export default async function FeatureArticlePage({ params }: Props) {
   if (!story) notFound();
 
   const firstParagraph = story.body.findIndex((b) => b.type === "paragraph");
+  const url = absoluteUrl(`/features/${story.slug}`);
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline: story.title,
+    description: story.standfirst,
+    url,
+    mainEntityOfPage: url,
+    inLanguage: site.locale,
+    author: { "@type": "Person", name: story.writer },
+    publisher: { "@id": absoluteUrl("/#organization") },
+    image: story.heroImage ? [absoluteUrl(story.heroImage)] : [absoluteUrl("/opengraph-image.png")],
+    ...(story.publishedAt ? { datePublished: story.publishedAt } : {}),
+    about: { "@type": "Organization", name: story.business.name },
+  };
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: site.name, item: absoluteUrl("/") },
+      { "@type": "ListItem", position: 2, name: "Features", item: absoluteUrl("/#latest") },
+      { "@type": "ListItem", position: 3, name: story.title, item: url },
+    ],
+  };
 
   return (
     <>
+      {!story.draft && <JsonLd data={[articleSchema, breadcrumbSchema]} />}
       <Navbar />
 
       <main id="main">
         <article>
           <header className="vetria-article__head">
             <div className="vetria-article__labels">
-              <span className="vetria-badge">Vetria Feature</span>
+              <span className="vetria-badge">Vitrea Feature</span>
               <span className="vetria-kicker">{story.kicker}</span>
             </div>
             <h1 className="vetria-article__title">{story.title}</h1>
@@ -121,7 +169,7 @@ export default async function FeatureArticlePage({ params }: Props) {
         </div>
         <div className="vetria-article__footer-bottom">
           <div className="vetria-container vetria-article__footer-row">
-            <span>© 2026 Vetria</span>
+            <span>© 2026 Vitrea</span>
             <span>Paid partnerships are always labelled Sponsored.</span>
           </div>
         </div>
