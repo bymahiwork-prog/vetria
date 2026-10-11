@@ -1,16 +1,15 @@
 // Site-wide facts used for SEO: canonical URLs, sitemap, robots and structured data.
 //
-// Set NEXT_PUBLIC_SITE_URL to the live domain (e.g. https://www.yourdomain.com) in Vercel:
-// Project → Settings → Environment Variables. Without it, URLs fall back to localhost,
-// which is fine for local work but must not ship.
-const rawUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+// The live domain. NEXT_PUBLIC_SITE_URL (set in Vercel: Project → Settings → Environment
+// Variables) overrides it, e.g. if the site is served from www.vitreaonline.in instead.
+const rawUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://vitreaonline.in";
 
 export const site = {
-  name: "Vetria",
+  name: "Vitrea",
   url: rawUrl.replace(/\/$/, ""),
   tagline: "Stories of the businesses building what's next",
   description:
-    "Vetria is an independent media brand featuring founders and independent businesses, and explaining where small-business marketing is heading.",
+    "Vitrea is an independent media brand featuring founders and independent businesses, and explaining where small-business marketing is heading.",
   locale: "en",
   // TODO: add the real profile URLs once the handles are locked (Instagram, LinkedIn…).
   // These become "sameAs" in structured data, which helps Google and AI search recognise the brand.

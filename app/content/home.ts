@@ -75,7 +75,7 @@ export const getFeatured = {
 };
 
 export const newsletter = {
-  kicker: "The Vetria letter",
+  kicker: "The Vitrea letter",
   title: "One founder story and one look ahead, every week",
   note: "Free. Unsubscribe any time.",
 };

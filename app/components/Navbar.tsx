@@ -23,7 +23,7 @@ export default function Navbar() {
     <>
       <header className="vetria-nav">
         <div className="vetria-container vetria-nav__inner">
-          <Link href="/" className="vetria-nav__brand" aria-label="Vetria home">
+          <Link href="/" className="vetria-nav__brand" aria-label="Vitrea home">
             <Wordmark size={40} />
           </Link>
 

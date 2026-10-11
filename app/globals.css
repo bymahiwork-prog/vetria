@@ -1,5 +1,5 @@
 /* =========================================
-   VETRIA — GLOBAL STYLES
+   VITREA — GLOBAL STYLES
    Brand kit v1 "Gilded press": tokens, reset and shared utilities.
    Component styles live next to each component in app/components.
    ========================================= */
@@ -93,7 +93,7 @@ h6 {
   --cream: #fbf9f5;      /* the paper: page ground (token name kept for compatibility) */
   --espresso: #1a1410;   /* the ink: text, logo, buttons, dark bands */
   --gold: #b8955a;       /* accent only: rules, the full stop, details. Never text on paper */
-  --burgundy: #6e1e2a;   /* signal: Vetria Feature badge, once per layout */
+  --burgundy: #6e1e2a;   /* signal: Vitrea Feature badge, once per layout */
 
   /* Supporting tones */
   --paper: #f4f0e8;      /* quiet bands and raised cards */

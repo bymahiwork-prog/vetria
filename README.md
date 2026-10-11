@@ -1,12 +1,13 @@
-# Vetria
+# Vitrea
 
-Stories of the businesses building what's next. Next.js site for the Vetria media brand.
+Stories of the businesses building what's next. Next.js site for the Vitrea media brand.
 
-## Before going live: set the domain
+## Domain
 
-Set `NEXT_PUBLIC_SITE_URL` (for example `https://www.yourdomain.com`) in Vercel under
-Project → Settings → Environment Variables, then redeploy. Canonical URLs, the sitemap,
-robots.txt and structured data all use it. Without it they point at localhost.
+The site is set up for `https://vitreaonline.in` (see `app/lib/site.ts`). Canonical URLs,
+the sitemap, robots.txt and structured data all use it. If the live site is served from
+`www.vitreaonline.in` instead, set `NEXT_PUBLIC_SITE_URL=https://www.vitreaonline.in` in
+Vercel under Project → Settings → Environment Variables and redeploy.
 
 ## Publishing a feature
 

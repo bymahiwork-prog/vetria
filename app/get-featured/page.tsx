@@ -9,9 +9,9 @@ import ApplicationForm from "./ApplicationForm";
 export const metadata: Metadata = pageMeta({
   path: "/get-featured",
   absoluteTitle: true,
-  title: "Get your business featured in Vetria | Free founder features",
+  title: "Get your business featured in Vitrea | Free founder features",
   description:
-    "Apply to have your business featured in Vetria. Editorial features are free and chosen by our editors. Tell us your founder story in about ten minutes.",
+    "Apply to have your business featured in Vitrea. Editorial features are free and chosen by our editors. Tell us your founder story in about ten minutes.",
 });
 
 const steps = [
@@ -20,7 +20,7 @@ const steps = [
   { title: "Interview", text: "A written Q&A or a short call, plus photos or a short reel of your space." },
   {
     title: "Published",
-    text: "Your feature goes live on the site and Instagram, with a Featured in Vetria badge to share.",
+    text: "Your feature goes live on the site and Instagram, with a Featured in Vitrea badge to share.",
   },
 ];
 
@@ -37,9 +37,9 @@ const faqs = [
   },
   {
     q: "Can I see the feature before it goes live?",
-    a: "[Your policy: e.g. you can check facts and quotes; editorial decisions stay with Vetria.]",
+    a: "[Your policy: e.g. you can check facts and quotes; editorial decisions stay with Vitrea.]",
   },
-  { q: "Which countries do you cover?", a: "Anywhere. Vetria is published in English for a global audience." },
+  { q: "Which countries do you cover?", a: "Anywhere. Vitrea is published in English for a global audience." },
 ];
 
 // FAQ structured data: only answers that are final (placeholders in [brackets] are left out).
@@ -68,7 +68,7 @@ export default function GetFeaturedPage() {
             <span className="vetria-kicker">Get featured</span>
             <h1 className="vetria-gf__title">Your story, told properly.</h1>
             <p className="vetria-gf__lead">
-              Vetria features founders and independent businesses building something worth knowing
+              Vitrea features founders and independent businesses building something worth knowing
               about. Editorial features are free and chosen by our editors.
             </p>
             <a href="#apply" className="vetria-btn vetria-btn--primary vetria-gf__start">
@@ -122,11 +122,11 @@ export default function GetFeaturedPage() {
             </div>
             <div className="vetria-gf__ways-grid">
               <div className="vetria-gf__way">
-                <span className="vetria-badge">Vetria Feature</span>
+                <span className="vetria-badge">Vitrea Feature</span>
                 <span className="vetria-gf__way-price">Free</span>
                 <p>
                   Chosen by our editors. Written in your words, published on the site and Instagram,
-                  with a Featured in Vetria badge.
+                  with a Featured in Vitrea badge.
                 </p>
                 <a href="#apply" className="vetria-btn vetria-btn--inverse">Apply</a>
               </div>

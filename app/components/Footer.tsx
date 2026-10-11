@@ -28,7 +28,7 @@ export default function Footer() {
           </div>
 
           <div className="vetria-footer__bottom">
-            <span>© 2026 Vetria</span>
+            <span>© 2026 Vitrea</span>
             <span>Paid partnerships are always labelled Sponsored.</span>
           </div>
         </div>

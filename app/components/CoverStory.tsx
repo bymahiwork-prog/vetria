@@ -9,7 +9,7 @@ export default function CoverStory() {
         <div className="vetria-container vetria-cover__inner">
           <div className="vetria-cover__text">
             <div className="vetria-cover__labels">
-              <span className="vetria-badge">Vetria Feature</span>
+              <span className="vetria-badge">Vitrea Feature</span>
               <span className="vetria-kicker">{coverStory.kicker}</span>
             </div>
 

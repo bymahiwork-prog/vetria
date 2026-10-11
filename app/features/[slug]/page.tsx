@@ -99,7 +99,7 @@ export default async function FeatureArticlePage({ params }: Props) {
         <article>
           <header className="vetria-article__head">
             <div className="vetria-article__labels">
-              <span className="vetria-badge">Vetria Feature</span>
+              <span className="vetria-badge">Vitrea Feature</span>
               <span className="vetria-kicker">{story.kicker}</span>
             </div>
             <h1 className="vetria-article__title">{story.title}</h1>
@@ -169,7 +169,7 @@ export default async function FeatureArticlePage({ params }: Props) {
         </div>
         <div className="vetria-article__footer-bottom">
           <div className="vetria-container vetria-article__footer-row">
-            <span>© 2026 Vetria</span>
+            <span>© 2026 Vitrea</span>
             <span>Paid partnerships are always labelled Sponsored.</span>
           </div>
         </div>
