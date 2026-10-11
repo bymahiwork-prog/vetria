@@ -11,10 +11,10 @@ type EmblemProps = {
 export default function Emblem({ size = 160, tone = "cream", decorative = true }: EmblemProps) {
   const ringId = useId();
   const onCream = tone === "cream";
-  const ring = onCream ? "#c49a4a" : "#d4ae62";
-  const ringText = onCream ? "#2b1e17" : "#f3ebdd";
-  const disc = onCream ? "#2b1e17" : "#f3ebdd";
-  const letter = onCream ? "#f3ebdd" : "#2b1e17";
+  const ring = onCream ? "#b8955a" : "#cdb07a";
+  const ringText = onCream ? "#1a1410" : "#fbf9f5";
+  const disc = onCream ? "#1a1410" : "#fbf9f5";
+  const letter = onCream ? "#fbf9f5" : "#1a1410";
 
   return (
     <svg
@@ -57,7 +57,7 @@ export default function Emblem({ size = 160, tone = "cream", decorative = true }
       >
         V
       </text>
-      <circle cx="182" cy="176" r="6" fill="#c49a4a" />
+      <circle cx="182" cy="176" r="6" fill={ring} />
     </svg>
   );
 }

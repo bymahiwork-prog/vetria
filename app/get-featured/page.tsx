@@ -52,7 +52,7 @@ export default function GetFeaturedPage() {
               Vetria features founders and independent businesses building something worth knowing
               about. Editorial features are free and chosen by our editors.
             </p>
-            <a href="#apply" className="vetria-btn vetria-btn--gold vetria-gf__start">
+            <a href="#apply" className="vetria-btn vetria-btn--primary vetria-gf__start">
               Start your application
             </a>
           </div>
@@ -109,7 +109,7 @@ export default function GetFeaturedPage() {
                   Chosen by our editors. Written in your words, published on the site and Instagram,
                   with a Featured in Vetria badge.
                 </p>
-                <a href="#apply" className="vetria-btn vetria-gf__way-apply">Apply</a>
+                <a href="#apply" className="vetria-btn vetria-btn--inverse">Apply</a>
               </div>
               <div className="vetria-gf__way">
                 <span className="vetria-gf__sponsored">Sponsored</span>
@@ -444,15 +444,6 @@ export default function GetFeaturedPage() {
           border-radius: var(--radius-pill);
           font-size: 12px;
           font-weight: 700;
-        }
-
-        .vetria-gf__way-apply {
-          background: var(--gold-on-dark);
-          color: var(--espresso);
-        }
-
-        .vetria-gf__way-apply:hover {
-          background: var(--cream);
         }
 
         .vetria-gf__faq {

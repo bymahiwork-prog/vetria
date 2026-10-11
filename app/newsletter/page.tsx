@@ -56,7 +56,7 @@ export default function NewsletterPage() {
           <SignupForm
             id="newsletter-page"
             buttonLabel="Subscribe free"
-            buttonTone="gold"
+            buttonTone="espresso"
             note="Free. No spam. Unsubscribe in one click."
             doneMessage="Check your inbox to confirm. Your first letter arrives [Tuesday]."
             align="start"

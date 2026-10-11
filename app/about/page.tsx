@@ -222,7 +222,7 @@ export default function AboutPage() {
           display: flex;
           flex-direction: column;
           gap: 20px;
-          color: #e8dccb;
+          color: var(--rule);
           line-height: 28px;
         }
 

@@ -115,7 +115,7 @@ export default async function FeatureArticlePage({ params }: Props) {
       <footer className="vetria-article__footer">
         <div className="vetria-container vetria-article__cta">
           <span className="vetria-article__cta-text">Your business could be next.</span>
-          <Link href="/get-featured" className="vetria-btn vetria-btn--gold">
+          <Link href="/get-featured" className="vetria-btn vetria-btn--inverse">
             Tell us your story
           </Link>
         </div>
@@ -330,9 +330,8 @@ export default async function FeatureArticlePage({ params }: Props) {
           line-height: 40px;
         }
 
-        .vetria-article__cta .vetria-btn--gold {
+        .vetria-article__cta .vetria-btn {
           min-height: 52px;
-          background: var(--gold-on-dark);
         }
 
         .vetria-article__footer-bottom {
