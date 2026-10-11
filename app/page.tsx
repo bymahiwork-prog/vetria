@@ -1,18 +1,33 @@
 import AnnouncementBar from "./components/AnnouncementBar";
 import Navbar from "./components/Navbar";
-import FeaturedStory from "./components/FeaturedStory";
+import CoverStory from "./components/CoverStory";
 import LatestFeatures from "./components/LatestFeatures";
+import TheFuture from "./components/TheFuture";
+import Series from "./components/Series";
+import GetFeaturedBand from "./components/GetFeaturedBand";
+import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
+// Homepage layout follows the Vetria website design (Home artboard):
+// announcement bar → header → cover story → latest features → The Future →
+// series → get featured → newsletter → footer.
+// Copy and placeholders live in app/content/home.ts.
 export default function Home() {
   return (
     <>
       <AnnouncementBar />
       <Navbar />
 
-      <main>
-        <FeaturedStory />
+      <main id="main">
+        <CoverStory />
         <LatestFeatures />
+        <TheFuture />
+        <Series />
+        <GetFeaturedBand />
+        <Newsletter />
       </main>
+
+      <Footer />
     </>
   );
 }

@@ -1,6 +1,7 @@
 /* =========================================
    VETRIA — GLOBAL STYLES
-   Base styles, design tokens and utilities
+   Brand kit v1 "Gilded press": tokens, reset and shared utilities.
+   Component styles live next to each component in app/components.
    ========================================= */
 
 /* 1. CSS RESET */
@@ -18,13 +19,13 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 5rem;
+  scroll-padding-top: 2rem;
   -webkit-text-size-adjust: 100%;
 }
 
 body {
   min-height: 100vh;
-  line-height: 1.5;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -48,6 +49,7 @@ input,
 textarea,
 select {
   font: inherit;
+  color: inherit;
 }
 
 button {
@@ -73,89 +75,74 @@ h6 {
   font: inherit;
 }
 
-button,
-input,
-textarea,
-select {
-  border-radius: 0;
-}
-
 :focus-visible {
-  outline: 2px solid currentColor;
-  outline-offset: 4px;
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
 }
 
 ::selection {
-  background: #d0b16a;
-  color: #291b14;
+  background: var(--gold);
+  color: var(--espresso);
 }
 
 
-/* 2. GLOBAL DESIGN TOKENS */
+/* 2. DESIGN TOKENS (brand kit v1) */
 
 :root {
-  /* Brand palette */
-  --vetria-ivory: #f3ecd9;
-  --vetria-cream: #faf7ef;
-  --vetria-paper: #f7f1e3;
+  /* Core palette — 60 / 30 / 10, burgundy under 5% */
+  --cream: #f3ebdd;      /* the paper: page ground */
+  --espresso: #2b1e17;   /* the ink: text, logo, dark bands */
+  --gold: #c49a4a;       /* accent: rules, buttons, the full stop. Never text on cream */
+  --burgundy: #6e1e2a;   /* signal: Vetria Feature badge, once per layout */
 
-  --vetria-ink: #291b14;
-  --vetria-ink-soft: #45382d;
+  /* Supporting tones */
+  --paper: #fbf7f0;      /* raised cards and panels */
+  --ink-muted: #6b5b4e;  /* bylines, captions (5.5:1 on cream) */
+  --gold-text: #7a5c24;  /* gold when it has to be text (5.2:1 on cream) */
+  --rule: #d9cbb3;       /* hairlines and borders */
+  --placeholder: #e3d6c1;/* image placeholders until real photos */
 
-  --vetria-gold: #c4a04d;
-  --vetria-gold-light: #d8c58e;
+  /* On espresso */
+  --gold-on-dark: #d4ae62;
+  --muted-on-dark: #b8a792;
+  --rule-on-dark: #4a3a2e;
 
-  --vetria-muted: #827665;
-  --vetria-border: #dfd2b6;
+  /* Typography (set by next/font in app/layout.tsx) */
+  --font-display: var(--font-playfair), Georgia, "Times New Roman", serif;
+  --font-body: var(--font-manrope), "Helvetica Neue", Arial, sans-serif;
 
-  /* Typography */
-  --font-body: Arial, Helvetica, sans-serif;
-  --font-display: Georgia, "Times New Roman", serif;
-
-  /* General layout */
-  --page-max-width: 1440px;
-  --page-gutter: clamp(20px, 5vw, 80px);
+  /* Layout */
+  --page-max-width: 1200px;
+  --page-gutter: 24px;
 
   /* Spacing scale */
   --space-1: 4px;
   --space-2: 8px;
-  --space-3: 12px;
-  --space-4: 16px;
-  --space-5: 24px;
-  --space-6: 32px;
-  --space-7: 48px;
-  --space-8: 64px;
-  --space-9: 96px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 40px;
+  --space-6: 64px;
 
-  /* Shared UI */
-  --border-width: 1px;
+  /* Shape */
+  --radius-sm: 2px;
+  --radius-pill: 999px;
+
   --transition-fast: 180ms ease;
-  --transition-normal: 300ms ease;
-
-  /* Layering */
-  --z-base: 1;
-  --z-header: 20;
-  --z-overlay: 100;
 }
 
 
 /* 3. BASE DOCUMENT STYLES */
 
-html {
-  background: var(--vetria-ivory);
-  color: var(--vetria-ink);
+html,
+body {
+  background: var(--cream);
+  color: var(--espresso);
 }
 
 body {
-  background: var(--vetria-ivory);
-  color: var(--vetria-ink);
   font-family: var(--font-body);
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 400;
-}
-
-main {
-  min-width: 0;
 }
 
 h1,
@@ -164,70 +151,167 @@ h3,
 h4,
 h5,
 h6 {
-  color: inherit;
   font-family: var(--font-display);
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.12;
 }
 
-p {
-  max-width: 75ch;
-}
 
-small {
-  font-size: 0.8125rem;
-}
-
-strong {
-  font-weight: 600;
-}
-
-
-/* 4. SHARED CONTAINER UTILITY */
+/* 4. SHARED UTILITIES */
 
 .vetria-container {
-  width: min(
-    calc(100% - 2 * var(--page-gutter)),
-    var(--page-max-width)
-  );
+  width: min(100% - 2 * var(--page-gutter), var(--page-max-width));
   margin-inline: auto;
 }
 
-
-/* 5. GENERAL INTERACTION UTILITIES */
-
-a,
-button,
-input,
-textarea,
-select {
-  -webkit-tap-highlight-color: transparent;
+/* Category label: the only place capitals are used */
+.vetria-kicker {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold-text);
 }
 
-a,
-button {
+.vetria-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  background: var(--burgundy);
+  color: var(--cream);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.vetria-rule {
+  width: 64px;
+  height: 1px;
+  background: var(--gold);
+}
+
+.vetria-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 24px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
   transition:
-    color var(--transition-fast),
     background-color var(--transition-fast),
+    color var(--transition-fast),
     border-color var(--transition-fast);
 }
 
-button:disabled {
-  cursor: not-allowed;
-  opacity: 0.55;
+.vetria-btn--gold {
+  background: var(--gold);
+  color: var(--espresso);
+}
+
+.vetria-btn--gold:hover {
+  background: var(--gold-on-dark);
+}
+
+.vetria-btn--outline-dark {
+  border-color: var(--gold-on-dark);
+  color: var(--cream);
+}
+
+.vetria-btn--outline-dark:hover {
+  background: var(--gold-on-dark);
+  color: var(--espresso);
+}
+
+.vetria-text-link {
+  color: var(--gold-text);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.vetria-text-link:hover {
+  color: var(--espresso);
+}
+
+/* Labelled stand-in for photography until the first shoots */
+.vetria-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: var(--placeholder);
+  color: var(--ink-muted);
+  font-size: 14px;
+  text-align: center;
+}
+
+.vetria-section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--gold);
+}
+
+.vetria-section-head h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+/* The primary logo (app/components/Wordmark.tsx) */
+.vetria-wordmark {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.vetria-wordmark--dark {
+  color: var(--espresso);
+}
+
+.vetria-wordmark--dark .vetria-wordmark__dot {
+  color: var(--gold);
+}
+
+.vetria-wordmark--light {
+  color: var(--cream);
+}
+
+.vetria-wordmark--light .vetria-wordmark__dot {
+  color: var(--gold-on-dark);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
 }
 
 
-/* 6. ACCESSIBILITY */
+/* 5. ACCESSIBILITY */
 
 .skip-to-content {
   position: absolute;
   top: 12px;
   left: 12px;
-  z-index: var(--z-overlay);
+  z-index: 100;
   padding: 12px 16px;
-  background: var(--vetria-ink);
-  color: var(--vetria-cream);
+  background: var(--espresso);
+  color: var(--cream);
   transform: translateY(-150%);
 }
 
@@ -247,20 +331,10 @@ button:disabled {
 }
 
 
-/* 7. RESPONSIVE BASE ADJUSTMENTS */
-
-@media (max-width: 768px) {
-  :root {
-    --page-gutter: 22px;
-  }
-
-  body {
-    font-size: 14px;
-  }
-}
+/* 6. RESPONSIVE BASE ADJUSTMENTS */
 
 @media (max-width: 480px) {
   :root {
-    --page-gutter: 18px;
+    --page-gutter: 16px;
   }
 }
