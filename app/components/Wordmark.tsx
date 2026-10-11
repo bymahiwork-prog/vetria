@@ -3,16 +3,17 @@ type WordmarkProps = {
   tone?: "dark" | "light";
 };
 
-// The primary logo: "Vitrea." in Playfair Display Italic with a gold full stop.
-// tone="dark" = espresso text for cream grounds; tone="light" = cream text for espresso grounds.
+// The primary logo: the VITREA logotype (public/vitrea-logo.svg, transparent background).
+// `size` sets the logo's height in pixels; the width follows the logo's proportions.
+// tone="dark" = espresso on light grounds; tone="light" = ivory on espresso grounds.
 // Styles live in globals.css (.vetria-wordmark) because the mark is used in several places.
-export default function Wordmark({ size = 40, tone = "dark" }: WordmarkProps) {
+export default function Wordmark({ size = 28, tone = "dark" }: WordmarkProps) {
   return (
     <span
       className={`vetria-wordmark vetria-wordmark--${tone}`}
-      style={{ fontSize: size }}
-    >
-      Vitrea<span className="vetria-wordmark__dot">.</span>
-    </span>
+      style={{ height: size }}
+      role="img"
+      aria-label="Vitrea"
+    />
   );
 }

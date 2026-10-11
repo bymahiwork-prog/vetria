@@ -278,28 +278,39 @@ h6 {
 }
 
 /* The primary logo (app/components/Wordmark.tsx) */
+/* The logo: public/vitrea-logo.svg, used as a mask so one file can be any colour. */
 .vetria-wordmark {
-  font-family: var(--font-display);
-  font-style: italic;
-  font-weight: 400;
-  line-height: 1;
-  white-space: nowrap;
+  display: inline-block;
+  flex: none;
+  aspect-ratio: 4788 / 1074;
+  background-color: currentColor;
+  vertical-align: middle;
+  -webkit-mask: url("/vitrea-logo.svg") left center / contain no-repeat;
+  mask: url("/vitrea-logo.svg") left center / contain no-repeat;
 }
 
 .vetria-wordmark--dark {
   color: var(--espresso);
 }
 
-.vetria-wordmark--dark .vetria-wordmark__dot {
-  color: var(--gold);
-}
-
 .vetria-wordmark--light {
   color: var(--cream);
 }
 
-.vetria-wordmark--light .vetria-wordmark__dot {
-  color: var(--gold-on-dark);
+/* Windows high-contrast mode drops backgrounds, so fall back to the name in text. */
+@media (forced-colors: active) {
+  .vetria-wordmark {
+    background: none;
+    mask: none;
+    -webkit-mask: none;
+    aspect-ratio: auto;
+  }
+
+  .vetria-wordmark::before {
+    content: "VITREA";
+    font-family: var(--font-display);
+    letter-spacing: 0.08em;
+  }
 }
 
 .sr-only {

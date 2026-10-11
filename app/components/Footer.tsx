@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="vetria-container vetria-footer__inner">
           <div className="vetria-footer__top">
             <div className="vetria-footer__brand">
-              <Wordmark size={40} tone="light" />
+              <Wordmark size={32} tone="light" />
               <p>Stories of the businesses building what&apos;s next.</p>
             </div>
 
@@ -59,6 +59,10 @@ export default function Footer() {
           display: flex;
           flex-direction: column;
           gap: 12px;
+        }
+
+        .vetria-footer__brand .vetria-wordmark {
+          align-self: flex-start;
         }
 
         .vetria-footer__brand p {
