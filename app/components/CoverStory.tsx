@@ -13,9 +13,9 @@ export default function CoverStory() {
               <span className="vetria-kicker">{coverStory.kicker}</span>
             </div>
 
-            <h1 id="vetria-cover-title" className="vetria-cover__title">
+            <h2 id="vetria-cover-title" className="vetria-cover__title">
               {coverStory.title}
-            </h1>
+            </h2>
 
             <p className="vetria-cover__standfirst">{coverStory.standfirst}</p>
             <p className="vetria-cover__byline">{coverStory.byline}</p>

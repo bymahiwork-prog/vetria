@@ -1,13 +1,17 @@
 import type { Metadata } from "next";
+import { pageMeta } from "../lib/site";
 import Link from "next/link";
 import Wordmark from "../components/Wordmark";
 import StoryImage from "../components/StoryImage";
 import SignupForm from "../components/SignupForm";
 
-export const metadata: Metadata = {
-  title: "The Vetria letter",
-  description: "One founder story. One look ahead. A short weekly letter, free.",
-};
+export const metadata: Metadata = pageMeta({
+  path: "/newsletter",
+  absoluteTitle: true,
+  title: "The Vetria Letter | A weekly newsletter for founders",
+  description:
+    "One founder story and one look ahead at small-business marketing, every week. A short, free newsletter for people who run a business worth talking about.",
+});
 
 const benefits = [
   "The week's best Vetria feature, condensed to a five-minute read",

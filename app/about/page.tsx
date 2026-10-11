@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
+import { pageMeta } from "../lib/site";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import StoryImage from "../components/StoryImage";
 
-export const metadata: Metadata = {
-  title: "About — Vetria",
+export const metadata: Metadata = pageMeta({
+  path: "/about",
+  absoluteTitle: true,
+  title: "About Vetria | Founder stories and the future of business",
   description:
-    "Vetria is an independent media brand for founders, owners and the people who back them.",
-};
+    "Vetria is an independent media brand telling the stories of founders and independent businesses, and explaining where small-business marketing is heading.",
+});
 
 const pillars = [
   {

@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
+import { pageMeta } from "../lib/site";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import SimpleFooter from "../components/SimpleFooter";
 
-export const metadata: Metadata = {
-  title: "Editorial policy — Vetria",
-  description: "How Vetria chooses, writes and labels what it publishes.",
-};
+export const metadata: Metadata = pageMeta({
+  path: "/editorial-policy",
+  title: "Editorial policy: how we choose and label stories",
+  description:
+    "How Vetria chooses which businesses to feature, keeps editorial independent, labels sponsored content, checks facts and handles corrections.",
+});
 
 const sections = [
   { id: "choose", label: "How we choose stories" },

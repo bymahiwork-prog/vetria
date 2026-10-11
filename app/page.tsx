@@ -19,6 +19,7 @@ export default function Home() {
       <Navbar />
 
       <main id="main">
+        <h1 className="sr-only">Vetria: stories of the businesses building what&apos;s next</h1>
         <CoverStory />
         <LatestFeatures />
         <TheFuture />

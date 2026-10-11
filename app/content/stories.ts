@@ -10,6 +10,10 @@ export type StoryBlock =
 
 export type FeatureStory = {
   slug: string;
+  // true = kept out of Google and the sitemap (placeholders, unfinished drafts). Set false to publish.
+  draft: boolean;
+  // ISO date (YYYY-MM-DD) when published; used in search results and structured data.
+  publishedAt: string | null;
   kicker: string;
   title: string;
   standfirst: string;
@@ -33,6 +37,8 @@ export type FeatureStory = {
 export const stories: FeatureStory[] = [
   {
     slug: "sample-story",
+    draft: true,
+    publishedAt: null,
     kicker: "Feature · Hospitality · [City]",
     title: "How [Founder name] turned a twelve-seat café into a waitlist",
     standfirst:
@@ -82,3 +88,5 @@ export const stories: FeatureStory[] = [
 export function getStory(slug: string) {
   return stories.find((story) => story.slug === slug);
 }
+
+export const publishedStories = () => stories.filter((story) => !story.draft);

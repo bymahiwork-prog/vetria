@@ -1,14 +1,18 @@
 import type { Metadata } from "next";
+import { absoluteUrl, pageMeta } from "../lib/site";
+import JsonLd from "../components/JsonLd";
 import Navbar from "../components/Navbar";
 import Emblem from "../components/Emblem";
 import SimpleFooter from "../components/SimpleFooter";
 import ApplicationForm from "./ApplicationForm";
 
-export const metadata: Metadata = {
-  title: "Get featured — Vetria",
+export const metadata: Metadata = pageMeta({
+  path: "/get-featured",
+  absoluteTitle: true,
+  title: "Get your business featured in Vetria | Free founder features",
   description:
-    "Vetria features founders and independent businesses building something worth knowing about. Editorial features are free and chosen by our editors.",
-};
+    "Apply to have your business featured in Vetria. Editorial features are free and chosen by our editors. Tell us your founder story in about ten minutes.",
+});
 
 const steps = [
   { title: "Apply", text: "Answer a few questions about you and your business. About ten minutes." },
@@ -38,9 +42,24 @@ const faqs = [
   { q: "Which countries do you cover?", a: "Anywhere. Vetria is published in English for a global audience." },
 ];
 
+// FAQ structured data: only answers that are final (placeholders in [brackets] are left out).
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  url: absoluteUrl("/get-featured"),
+  mainEntity: faqs
+    .filter((faq) => !faq.a.startsWith("["))
+    .map((faq) => ({
+      "@type": "Question",
+      name: faq.q,
+      acceptedAnswer: { "@type": "Answer", text: faq.a },
+    })),
+};
+
 export default function GetFeaturedPage() {
   return (
     <>
+      <JsonLd data={faqSchema} />
       <Navbar />
 
       <main id="main">
