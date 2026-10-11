@@ -43,8 +43,7 @@ const beliefs = [
 const involved = [
   { title: "Get featured", text: "Tell us your story. Editorial features are free.", cta: "Apply", href: "/get-featured" },
   { title: "Read the letter", text: "One founder story and one look ahead, every week.", cta: "Subscribe", href: "/newsletter" },
-  // TODO: replace [email address] and point this card at a mailto: link
-  { title: "Write or partner", text: "Contributors and brand partners: [email address].", cta: "Get in touch", href: "/get-featured#partner" },
+  { title: "Write or partner", text: "Contributors and brand partners: partners@vitreaonline.in", cta: "Email us", href: "mailto:partners@vitreaonline.in" },
 ];
 
 export default function AboutPage() {
@@ -121,19 +120,30 @@ export default function AboutPage() {
         </section>
 
         <section className="vetria-container vetria-about__founder" aria-labelledby="founder-title">
-          <StoryImage src={null} alt="[Founder portrait]" height={420} className="vetria-about__portrait" />
+          <StoryImage
+            src="/images/about/mayank-jena.jpg"
+            alt="Mayank Jena, founder and editor of Vitrea, seated in a leather armchair with a tablet"
+            height={420}
+            position="50% 22%"
+            className="vetria-about__portrait"
+          />
           <div className="vetria-about__founder-text">
             <span className="vetria-kicker">Who&apos;s behind Vitrea</span>
             <h2 id="founder-title" className="vetria-about__founder-title">
-              [Founder name], founder and editor
+              Mayank Jena, founder and editor
             </h2>
             <p>
-              [Two or three sentences in your own voice: your background in brand strategy and content,
-              why you started Vitrea, and what you want it to be for founders.]
+              I started Vitrea because the businesses I admire most are rarely the ones being written
+              about. The café with a waitlist, the label run from a spare room, the bar that knows every
+              regular by name: each one is a founder&apos;s bet, and those bets deserve to be told
+              properly.
+            </p>
+            <p>
+              Vitrea is where those stories live, alongside plain-English thinking on where marketing is
+              heading, so every owner who reads it leaves with something they can use.
             </p>
             <p className="vetria-about__muted">
-              [Optional line on contributors: &ldquo;Vitrea works with a small group of writers and
-              contributors around the world.&rdquo;]
+              Know a business we should feature? <Link href="/get-featured">Tell us about it</Link>.
             </p>
           </div>
         </section>
@@ -141,15 +151,26 @@ export default function AboutPage() {
 
       <footer className="vetria-about__footer">
         <div className="vetria-container vetria-about__involved">
-          {involved.map((item) => (
-            <Link key={item.title} href={item.href} className="vetria-about__involved-card">
-              <span className="vetria-about__involved-title">{item.title}</span>
-              <span className="vetria-about__involved-text">{item.text}</span>
-              <span className="vetria-about__involved-cta">
-                {item.cta} <span aria-hidden="true">→</span>
-              </span>
-            </Link>
-          ))}
+          {involved.map((item) => {
+            const inner = (
+              <>
+                <span className="vetria-about__involved-title">{item.title}</span>
+                <span className="vetria-about__involved-text">{item.text}</span>
+                <span className="vetria-about__involved-cta">
+                  {item.cta} <span aria-hidden="true">→</span>
+                </span>
+              </>
+            );
+            return item.href.startsWith("mailto:") ? (
+              <a key={item.title} href={item.href} className="vetria-about__involved-card">
+                {inner}
+              </a>
+            ) : (
+              <Link key={item.title} href={item.href} className="vetria-about__involved-card">
+                {inner}
+              </Link>
+            );
+          })}
         </div>
         <div className="vetria-about__footer-bottom">
           <div className="vetria-container vetria-about__footer-row">
@@ -336,6 +357,12 @@ export default function AboutPage() {
           line-height: 46px;
         }
 
+        .vetria-about__founder-text .vetria-about__muted a {
+          color: var(--gold-text);
+          text-decoration: underline;
+          text-underline-offset: 3px;
+        }
+
         .vetria-about__founder-text .vetria-about__muted {
           font-size: 17px;
           line-height: 28px;
@@ -374,6 +401,7 @@ export default function AboutPage() {
         }
 
         .vetria-about__involved-text {
+          overflow-wrap: anywhere;
           color: var(--muted-on-dark);
           font-size: 15px;
           line-height: 24px;
