@@ -63,6 +63,29 @@ export default function GetFeaturedBand() {
           min-height: 52px;
           padding-inline: 28px;
         }
+
+        /* Phones: stack emblem, text and button so nothing can run off the edge. */
+        @media (max-width: 700px) {
+          .vetria-getfeatured__inner {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 28px;
+          }
+
+          .vetria-getfeatured__inner > svg {
+            width: 120px;
+            height: 120px;
+          }
+
+          .vetria-getfeatured__text {
+            flex: none;
+            width: 100%;
+          }
+
+          .vetria-getfeatured__title {
+            overflow-wrap: break-word;
+          }
+        }
       `}</style>
     </>
   );
