@@ -8,7 +8,7 @@ import Wordmark from "./Wordmark";
 // Only the agreed pages. The logo links to the homepage; Get featured is the gold button.
 // "Features" opens the feature article page: point it at the latest story as you publish.
 const links = [
-  { label: "Features", href: "/features/sample-story" },
+  { label: "Features", href: "/features/seezen-coffee-house-kanpur" },
   { label: "About", href: "/about" },
   { label: "Editorial policy", href: "/editorial-policy" },
   { label: "Newsletter", href: "/newsletter" },

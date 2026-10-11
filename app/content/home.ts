@@ -12,14 +12,16 @@ export type Story = {
 };
 
 export const coverStory = {
-  kicker: "Cover story · Hospitality",
-  title: "How [Founder name] turned a twelve-seat café into a waitlist",
+  kicker: "Cover story · Hospitality · Kanpur",
+  title: "Seezen Coffee House, Kanpur: the café built for staying",
   standfirst:
-    "[One-line standfirst: the decision, the risk, and what changed for the business.]",
-  byline: "By [Writer] · [8] min read",
-  href: "/features/sample-story",
-  image: null as string | null,
-  imageAlt: "[Cover photo: founder in their space, warm natural light]",
+    "In Civil Lines, Seezen Coffee House & Kitchen makes the case for the all-day café: sculpted arches, a rope-woven ceiling and doors open 10am to midnight.",
+  byline: "By The Vitrea team · 3 min read",
+  href: "/features/seezen-coffee-house-kanpur",
+  image: "/images/features/seezen/lit-arch-room.jpg" as string | null,
+  imageAlt:
+    "Seezen's bar room in Kanpur with a rope-woven ceiling, fringed pendant lamps and backlit arches along the walls",
+  imagePosition: "40% 50%",
 };
 
 export const latestFeatures: Story[] = [

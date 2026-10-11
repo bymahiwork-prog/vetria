@@ -31,6 +31,9 @@ export default function CoverStory() {
             src={coverStory.image}
             alt={coverStory.imageAlt}
             height={520}
+            position={coverStory.imagePosition}
+            sizes="(max-width: 860px) 100vw, 600px"
+            priority
             className="vetria-cover__image"
           />
         </div>

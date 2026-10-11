@@ -125,6 +125,7 @@ export default function AboutPage() {
             alt="Mayank Jena, founder and editor of Vitrea, seated in a leather armchair with a tablet"
             height={420}
             position="50% 22%"
+            sizes="(max-width: 860px) 100vw, 560px"
             className="vetria-about__portrait"
           />
           <div className="vetria-about__founder-text">
