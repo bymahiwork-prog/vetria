@@ -17,7 +17,7 @@ const pillars = [
     label: "01 · Features",
     title: "Founder stories",
     text: "In-depth stories of the decisions, risks and turning points behind independent businesses, in their own words.",
-    href: "/#latest",
+    href: "/features",
   },
   {
     label: "02 · The Future",

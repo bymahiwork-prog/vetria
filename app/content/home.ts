@@ -86,7 +86,7 @@ export const footerLinks = [
   {
     heading: "Read",
     links: [
-      { label: "Features", href: "#latest" },
+      { label: "Features", href: "/features" },
       { label: "The Future", href: "#future" },
       { label: "Series", href: "#series" },
     ],
