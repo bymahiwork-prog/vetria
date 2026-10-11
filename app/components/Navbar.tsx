@@ -1,179 +1,111 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
+import Wordmark from "./Wordmark";
+
+const links = [
+  { label: "Features", href: "#latest" },
+  { label: "The Future", href: "#future" },
+  { label: "Series", href: "#series" },
+  { label: "About", href: "#about" },
+];
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-
-  const links = [
-    { label: "THE EDIT", href: "#latest" },
-    { label: "BUSINESS", href: "#future" },
-    { label: "CULTURE", href: "#series" },
-    { label: "OUR STORY", href: "#about" },
-  ];
+  const close = () => setMenuOpen(false);
 
   return (
     <>
       <header className="vetria-nav">
-        <a
-          href="/"
-          className="vetria-nav__brand"
-          aria-label="Vetria home"
-        >
-          vetria<span>.</span>
-          <small>THE ART OF WHAT'S NEXT</small>
-        </a>
+        <div className="vetria-container vetria-nav__inner">
+          <Link href="/" className="vetria-nav__brand" aria-label="Vetria home">
+            <Wordmark size={40} />
+          </Link>
 
-        <nav
-          className={`vetria-nav__links ${
-            menuOpen ? "is-open" : ""
-          }`}
-          aria-label="Main navigation"
-        >
-          {links.map((link) => (
-            <a
-              key={link.label}
-              href={link.href}
-              onClick={() => setMenuOpen(false)}
-            >
-              {link.label}
-            </a>
-          ))}
-
-          <a
-            href="#newsletter"
-            className="vetria-nav__subscribe"
-            onClick={() => setMenuOpen(false)}
+          <button
+            className="vetria-nav__toggle"
+            type="button"
+            aria-label={menuOpen ? "Close menu" : "Open menu"}
+            aria-expanded={menuOpen}
+            aria-controls="vetria-main-nav"
+            onClick={() => setMenuOpen(!menuOpen)}
           >
-            SUBSCRIBE <span aria-hidden="true">↗</span>
-          </a>
-        </nav>
+            <span />
+            <span />
+          </button>
 
-        <button
-          className="vetria-nav__toggle"
-          type="button"
-          aria-label={menuOpen ? "Close menu" : "Open menu"}
-          aria-expanded={menuOpen}
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          <span />
-          <span />
-        </button>
+          <nav
+            id="vetria-main-nav"
+            className={`vetria-nav__links ${menuOpen ? "is-open" : ""}`}
+            aria-label="Main"
+          >
+            {links.map((link) => (
+              <a key={link.label} href={link.href} onClick={close}>
+                {link.label}
+              </a>
+            ))}
+            <a
+              href="#get-featured"
+              className="vetria-btn vetria-btn--gold vetria-nav__cta"
+              onClick={close}
+            >
+              Get featured
+            </a>
+          </nav>
+        </div>
       </header>
 
       <style>{`
         .vetria-nav {
           position: relative;
           z-index: 20;
-          width: 100%;
-          min-height: 100px;
-          padding: 22px 5%;
+          background: var(--cream);
+          border-bottom: 1px solid var(--rule);
+        }
+
+        .vetria-nav__inner {
           display: flex;
           align-items: center;
           justify-content: space-between;
-          gap: 32px;
-          background: #f3ecd9;
-          color: #291b14;
-          border-bottom: 1px solid #dfd2b6;
-        }
-
-        .vetria-nav__brand {
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-          color: #291b14;
-          font-family: Georgia, "Times New Roman", serif;
-          font-size: 43px;
-          line-height: 0.95;
-          letter-spacing: -2px;
-          text-decoration: none;
-          white-space: nowrap;
-        }
-
-        .vetria-nav__brand > span {
-          display: inline;
-          color: #c4a04d;
-        }
-
-        .vetria-nav__brand small {
-          margin-top: 9px;
-          font-family: Arial, Helvetica, sans-serif;
-          font-size: 8px;
-          line-height: 1.5;
-          font-weight: 500;
-          letter-spacing: 2px;
+          gap: 24px;
+          padding-block: 20px;
         }
 
         .vetria-nav__links {
           display: flex;
           align-items: center;
-          justify-content: flex-end;
-          gap: clamp(18px, 2.5vw, 38px);
+          gap: 28px;
+          font-size: 15px;
+          font-weight: 600;
         }
 
-        .vetria-nav__links > a {
-          color: #45382d;
-          font-family: Arial, Helvetica, sans-serif;
-          font-size: 10px;
-          font-weight: 500;
-          letter-spacing: 1.2px;
-          text-decoration: none;
-          white-space: nowrap;
-          transition: color 180ms ease;
-        }
-
-        .vetria-nav__links > a:hover {
-          color: #a17c2e;
-        }
-
-        .vetria-nav__links > .vetria-nav__subscribe {
-          display: inline-flex;
-          align-items: center;
-          gap: 12px;
-          padding: 14px 18px;
-          background: #291b14;
-          color: #f3ecd9;
-          border: 1px solid #291b14;
-        }
-
-        .vetria-nav__links > .vetria-nav__subscribe:hover {
-          background: #45382d;
-          color: #ffffff;
+        .vetria-nav__links > a:not(.vetria-nav__cta):hover {
+          color: var(--gold-text);
         }
 
         .vetria-nav__toggle {
           display: none;
-          width: 42px;
-          height: 42px;
+          width: 44px;
+          height: 44px;
           flex-direction: column;
           align-items: center;
           justify-content: center;
           gap: 6px;
+          border: 1px solid var(--rule);
+          border-radius: var(--radius-sm);
           background: transparent;
-          border: 1px solid #dfd2b6;
-          color: #291b14;
         }
 
         .vetria-nav__toggle span {
-          display: block;
           width: 18px;
           height: 1px;
-          background: currentColor;
+          background: var(--espresso);
         }
 
-        @media (max-width: 900px) {
-          .vetria-nav {
-            min-height: 88px;
-            padding: 20px 24px;
-          }
-
-          .vetria-nav__brand {
-            font-size: 38px;
-          }
-
+        @media (max-width: 860px) {
           .vetria-nav__toggle {
             display: flex;
-            flex-shrink: 0;
           }
 
           .vetria-nav__links {
@@ -182,33 +114,25 @@ export default function Navbar() {
             left: 0;
             right: 0;
             display: none;
-            align-items: stretch;
             flex-direction: column;
+            align-items: stretch;
             gap: 0;
-            padding: 12px 24px 24px;
-            background: #f3ecd9;
-            border-bottom: 1px solid #dfd2b6;
+            padding: 8px var(--page-gutter) 24px;
+            background: var(--cream);
+            border-bottom: 1px solid var(--rule);
           }
 
           .vetria-nav__links.is-open {
             display: flex;
           }
 
-          .vetria-nav__links > a {
+          .vetria-nav__links > a:not(.vetria-nav__cta) {
             padding: 16px 0;
-            border-bottom: 1px solid #dfd2b6;
+            border-bottom: 1px solid var(--rule);
           }
 
-          .vetria-nav__links > .vetria-nav__subscribe {
-            justify-content: space-between;
+          .vetria-nav__cta {
             margin-top: 16px;
-            padding: 16px;
-          }
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-          .vetria-nav__links > a {
-            transition: none;
           }
         }
       `}</style>
