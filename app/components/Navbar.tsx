@@ -10,6 +10,7 @@ const links = [
   { label: "The Future", href: "/#future" },
   { label: "Series", href: "/#series" },
   { label: "About", href: "/about" },
+  { label: "Newsletter", href: "/newsletter" },
 ];
 
 export default function Navbar() {
