@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { getFeatured } from "../content/home";
 import Emblem from "./Emblem";
 
@@ -19,9 +20,9 @@ export default function GetFeaturedBand() {
             <p className="vetria-getfeatured__body">{getFeatured.text}</p>
           </div>
 
-          <a href={getFeatured.cta.href} className="vetria-btn vetria-btn--gold vetria-getfeatured__cta">
+          <Link href={getFeatured.cta.href} className="vetria-btn vetria-btn--gold vetria-getfeatured__cta">
             {getFeatured.cta.label}
-          </a>
+          </Link>
         </div>
       </section>
 

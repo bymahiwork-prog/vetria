@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { latestFeatures } from "../content/home";
 import StoryImage from "./StoryImage";
 
@@ -11,20 +12,20 @@ export default function LatestFeatures() {
       >
         <div className="vetria-section-head">
           <h2 id="vetria-latest-title">Latest features</h2>
-          <a href="#latest" className="vetria-text-link">
+          <Link href="#latest" className="vetria-text-link">
             All features <span aria-hidden="true">→</span>
-          </a>
+          </Link>
         </div>
 
         <div className="vetria-latest__grid">
           {latestFeatures.map((story, i) => (
             <article key={i}>
-              <a href={story.href} className="vetria-latest__card">
+              <Link href={story.href} className="vetria-latest__card">
                 <StoryImage src={story.image} alt={story.imageAlt} height={240} />
                 <span className="vetria-kicker">{story.kicker}</span>
                 <h3 className="vetria-latest__title">{story.title}</h3>
                 <span className="vetria-latest__meta">{story.meta}</span>
-              </a>
+              </Link>
             </article>
           ))}
         </div>

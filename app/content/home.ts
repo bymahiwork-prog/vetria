@@ -17,7 +17,7 @@ export const coverStory = {
   standfirst:
     "[One-line standfirst: the decision, the risk, and what changed for the business.]",
   byline: "By [Writer] · [8] min read",
-  href: "#latest",
+  href: "/features/sample-story",
   image: null as string | null,
   imageAlt: "[Cover photo: founder in their space, warm natural light]",
 };
@@ -27,7 +27,7 @@ export const latestFeatures: Story[] = [
     kicker: "Feature · F&B",
     title: "[Headline about a founder's turning point]",
     meta: "[City] · [6] min read",
-    href: "#latest",
+    href: "/features/sample-story",
     image: null,
     imageAlt: "[Feature photo]",
   },
@@ -35,7 +35,7 @@ export const latestFeatures: Story[] = [
     kicker: "Feature · Lifestyle",
     title: "[Headline about a brand built on one product]",
     meta: "[City] · [5] min read",
-    href: "#latest",
+    href: "/features/sample-story",
     image: null,
     imageAlt: "[Feature photo]",
   },
@@ -43,7 +43,7 @@ export const latestFeatures: Story[] = [
     kicker: "Feature · Retail",
     title: "[Headline about a small team doing big numbers]",
     meta: "[City] · [7] min read",
-    href: "#latest",
+    href: "/features/sample-story",
     image: null,
     imageAlt: "[Feature photo]",
   },
@@ -71,7 +71,7 @@ export const series = [
 export const getFeatured = {
   title: "Building something worth a story?",
   text: "Editorial features are free and chosen by our editors. Tell us about your business in ten minutes.",
-  cta: { label: "Tell us your story", href: "#get-featured" },
+  cta: { label: "Tell us your story", href: "/get-featured" },
 };
 
 export const newsletter = {
@@ -92,9 +92,9 @@ export const footerLinks = [
   {
     heading: "Work with us",
     links: [
-      { label: "Get featured", href: "#get-featured" },
-      { label: "Partner with us", href: "#get-featured" },
-      { label: "Editorial policy", href: "#about" },
+      { label: "Get featured", href: "/get-featured" },
+      { label: "Partner with us", href: "/get-featured#partner" },
+      { label: "Editorial policy", href: "/editorial-policy" },
     ],
   },
   {
@@ -103,7 +103,7 @@ export const footerLinks = [
       // TODO: replace "#" with the real profile URLs once the handles are locked.
       { label: "Instagram", href: "#" },
       { label: "LinkedIn", href: "#" },
-      { label: "Newsletter", href: "#newsletter" },
+      { label: "Newsletter", href: "/newsletter" },
     ],
   },
 ];
