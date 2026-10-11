@@ -55,7 +55,18 @@ function Block({ block, first }: { block: StoryBlock; first: boolean }) {
         </blockquote>
       );
     case "image":
-      return <StoryImage src={block.src} alt={block.alt} height={380} />;
+      return (
+        <figure className="vetria-article__figure">
+          <StoryImage
+            src={block.src}
+            alt={block.alt}
+            aspectRatio={block.aspectRatio ?? "3 / 2"}
+            position={block.position}
+            sizes="(max-width: 700px) 100vw, 632px"
+          />
+          {block.caption && <figcaption>{block.caption}</figcaption>}
+        </figure>
+      );
   }
 }
 
@@ -74,7 +85,10 @@ export default async function FeatureArticlePage({ params }: Props) {
     url,
     mainEntityOfPage: url,
     inLanguage: site.locale,
-    author: { "@type": "Person", name: story.writer },
+    // A named writer is a Person; a team byline ("The Vitrea team") is the publisher itself.
+    author: story.writer.includes(site.name)
+      ? { "@id": absoluteUrl("/#organization") }
+      : { "@type": "Person", name: story.writer },
     publisher: { "@id": absoluteUrl("/#organization") },
     image: story.heroImage ? [absoluteUrl(story.heroImage)] : [absoluteUrl("/opengraph-image.png")],
     ...(story.publishedAt ? { datePublished: story.publishedAt } : {}),
@@ -114,7 +128,15 @@ export default async function FeatureArticlePage({ params }: Props) {
           </header>
 
           <figure className="vetria-container vetria-article__hero">
-            <StoryImage src={story.heroImage} alt={story.heroAlt} height={560} />
+            <StoryImage
+              src={story.heroImage}
+              alt={story.heroAlt}
+              height={560}
+              position={story.heroPosition}
+              sizes="(max-width: 1280px) 100vw, 1200px"
+              priority
+              className="vetria-article__hero-img"
+            />
             <figcaption>{story.heroCaption}</figcaption>
           </figure>
 
@@ -124,7 +146,15 @@ export default async function FeatureArticlePage({ params }: Props) {
             ))}
 
             <aside className="vetria-article__business" aria-label="About the business">
-              <StoryImage src={story.business.logo} alt="" height={72} className="vetria-article__logo" />
+              {story.business.logo && (
+                <StoryImage
+                  src={story.business.logo}
+                  alt=""
+                  height={72}
+                  sizes="72px"
+                  className="vetria-article__logo"
+                />
+              )}
               <div className="vetria-article__business-text">
                 <span className="vetria-kicker">About the business</span>
                 <span className="vetria-article__business-name">{story.business.name}</span>
@@ -142,6 +172,7 @@ export default async function FeatureArticlePage({ params }: Props) {
           </div>
         </article>
 
+        {story.readNext.length > 0 && (
         <section className="vetria-article__next" aria-labelledby="read-next-title">
           <div className="vetria-container vetria-article__next-inner">
             <h2 id="read-next-title" className="vetria-article__next-title">
@@ -150,7 +181,7 @@ export default async function FeatureArticlePage({ params }: Props) {
             <div className="vetria-article__next-grid">
               {story.readNext.map((item, i) => (
                 <Link key={i} href={item.href} className="vetria-article__next-card">
-                  <StoryImage src={item.image} alt="" height={200} />
+                  <StoryImage src={item.image} alt="" height={200} sizes="(max-width: 860px) 100vw, 400px" />
                   <span className="vetria-kicker">{item.kicker}</span>
                   <span className="vetria-article__next-headline">{item.title}</span>
                 </Link>
@@ -158,6 +189,7 @@ export default async function FeatureArticlePage({ params }: Props) {
             </div>
           </div>
         </section>
+        )}
       </main>
 
       <footer className="vetria-article__footer">
@@ -223,6 +255,19 @@ export default async function FeatureArticlePage({ params }: Props) {
           margin-top: 10px;
           color: var(--ink-muted);
           font-size: 13px;
+        }
+
+        .vetria-article__figure figcaption {
+          margin-top: 10px;
+          color: var(--ink-muted);
+          font-size: 13px;
+          line-height: 20px;
+        }
+
+        @media (max-width: 600px) {
+          .vetria-article__hero-img {
+            height: 300px !important;
+          }
         }
 
         .vetria-article__body {

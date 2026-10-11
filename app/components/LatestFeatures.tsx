@@ -21,7 +21,7 @@ export default function LatestFeatures() {
           {latestFeatures.map((story, i) => (
             <article key={i}>
               <Link href={story.href} className="vetria-latest__card">
-                <StoryImage src={story.image} alt={story.imageAlt} height={240} />
+                <StoryImage src={story.image} alt={story.imageAlt} height={240} sizes="(max-width: 860px) 100vw, 400px" />
                 <span className="vetria-kicker">{story.kicker}</span>
                 <h3 className="vetria-latest__title">{story.title}</h3>
                 <span className="vetria-latest__meta">{story.meta}</span>
