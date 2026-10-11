@@ -114,7 +114,7 @@ export default function EditorialPolicyPage() {
                 end of the story.
               </p>
               <p>
-                Spotted an error? Write to <a href="mailto:corrections@vitreaonline.in">corrections@vitreaonline.in</a>.
+                Spotted an error? Write to <a href="mailto:editor@vitreaonline.in">editor@vitreaonline.in</a>.
               </p>
             </section>
 
