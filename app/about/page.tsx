@@ -121,11 +121,17 @@ export default function AboutPage() {
         </section>
 
         <section className="vetria-container vetria-about__founder" aria-labelledby="founder-title">
-          <StoryImage src={null} alt="[Founder portrait]" height={420} className="vetria-about__portrait" />
+          <StoryImage
+            src="/images/about/mayank-jena.jpg"
+            alt="Mayank Jena, founder and editor of Vitrea, seated in a leather armchair with a tablet"
+            height={420}
+            position="50% 22%"
+            className="vetria-about__portrait"
+          />
           <div className="vetria-about__founder-text">
             <span className="vetria-kicker">Who&apos;s behind Vitrea</span>
             <h2 id="founder-title" className="vetria-about__founder-title">
-              [Founder name], founder and editor
+              Mayank Jena, founder and editor
             </h2>
             <p>
               [Two or three sentences in your own voice: your background in brand strategy and content,

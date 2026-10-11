@@ -58,6 +58,7 @@ const organization = {
   slogan: site.tagline,
   description: site.description,
   publishingPrinciples: absoluteUrl("/editorial-policy"),
+  founder: { "@type": "Person", name: site.founder, jobTitle: "Founder and editor", url: absoluteUrl("/about") },
   ...(site.sameAs.length ? { sameAs: site.sameAs } : {}),
 };
 
