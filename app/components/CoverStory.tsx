@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { coverStory } from "../content/home";
 import StoryImage from "./StoryImage";
 
@@ -21,9 +22,9 @@ export default function CoverStory() {
 
             <div className="vetria-rule" />
 
-            <a href={coverStory.href} className="vetria-text-link">
+            <Link href={coverStory.href} className="vetria-text-link">
               Read the story <span aria-hidden="true">→</span>
-            </a>
+            </Link>
           </div>
 
           <StoryImage

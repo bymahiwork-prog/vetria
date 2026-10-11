@@ -5,7 +5,8 @@ type StoryImageProps = {
   className?: string;
 };
 
-// Shows the photo when one exists; until then, a labelled placeholder in the brand's tint.
+// Shows the photo when one exists; until then, a placeholder in the brand's tint.
+// With a descriptive alt, the placeholder shows that text as a label; with alt="" it is a plain block.
 // When real photos arrive, swap the <img> for next/image if you want automatic resizing.
 export default function StoryImage({ src, alt, height, className = "" }: StoryImageProps) {
   if (src) {
@@ -16,6 +17,16 @@ export default function StoryImage({ src, alt, height, className = "" }: StoryIm
         alt={alt}
         className={className}
         style={{ width: "100%", height, objectFit: "cover" }}
+      />
+    );
+  }
+
+  if (!alt) {
+    return (
+      <div
+        className={`vetria-placeholder ${className}`}
+        style={{ height }}
+        aria-hidden="true"
       />
     );
   }

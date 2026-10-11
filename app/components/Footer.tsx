@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { footerLinks } from "../content/home";
 import Wordmark from "./Wordmark";
 
@@ -17,9 +18,9 @@ export default function Footer() {
                 <nav key={col.heading} aria-label={col.heading} className="vetria-footer__col">
                   <span className="vetria-kicker vetria-footer__heading">{col.heading}</span>
                   {col.links.map((link) => (
-                    <a key={link.label} href={link.href}>
+                    <Link key={link.label} href={link.href}>
                       {link.label}
-                    </a>
+                    </Link>
                   ))}
                 </nav>
               ))}

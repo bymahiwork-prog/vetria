@@ -2,17 +2,20 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import Wordmark from "./Wordmark";
 
 const links = [
-  { label: "Features", href: "#latest" },
-  { label: "The Future", href: "#future" },
-  { label: "Series", href: "#series" },
-  { label: "About", href: "#about" },
+  { label: "Features", href: "/#latest" },
+  { label: "The Future", href: "/#future" },
+  { label: "Series", href: "/#series" },
+  { label: "About", href: "/about" },
+  { label: "Newsletter", href: "/newsletter" },
 ];
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
   const close = () => setMenuOpen(false);
 
   return (
@@ -40,18 +43,27 @@ export default function Navbar() {
             className={`vetria-nav__links ${menuOpen ? "is-open" : ""}`}
             aria-label="Main"
           >
-            {links.map((link) => (
-              <a key={link.label} href={link.href} onClick={close}>
-                {link.label}
-              </a>
-            ))}
-            <a
-              href="#get-featured"
+            {links.map((link) => {
+              const current = link.href === pathname;
+              return (
+                <Link
+                  key={link.label}
+                  href={link.href}
+                  onClick={close}
+                  className={current ? "is-current" : undefined}
+                  aria-current={current ? "page" : undefined}
+                >
+                  {link.label}
+                </Link>
+              );
+            })}
+            <Link
+              href="/get-featured"
               className="vetria-btn vetria-btn--gold vetria-nav__cta"
               onClick={close}
             >
               Get featured
-            </a>
+            </Link>
           </nav>
         </div>
       </header>
@@ -80,7 +92,8 @@ export default function Navbar() {
           font-weight: 600;
         }
 
-        .vetria-nav__links > a:not(.vetria-nav__cta):hover {
+        .vetria-nav__links > a:not(.vetria-nav__cta):hover,
+        .vetria-nav__links > a.is-current {
           color: var(--gold-text);
         }
 
