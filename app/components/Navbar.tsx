@@ -5,11 +5,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Wordmark from "./Wordmark";
 
+// Only the agreed pages. The logo links to the homepage; Get featured is the gold button.
+// "Features" opens the feature article page: point it at the latest story as you publish.
 const links = [
-  { label: "Features", href: "/#latest" },
-  { label: "The Future", href: "/#future" },
-  { label: "Series", href: "/#series" },
+  { label: "Features", href: "/features/sample-story" },
   { label: "About", href: "/about" },
+  { label: "Editorial policy", href: "/editorial-policy" },
   { label: "Newsletter", href: "/newsletter" },
 ];
 
@@ -44,7 +45,7 @@ export default function Navbar() {
             aria-label="Main"
           >
             {links.map((link) => {
-              const current = link.href === pathname;
+              const current = pathname === link.href;
               return (
                 <Link
                   key={link.label}
