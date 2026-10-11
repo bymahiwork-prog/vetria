@@ -3,11 +3,12 @@ import { absoluteUrl } from "./lib/site";
 import { publishedStories } from "./content/stories";
 
 // Date the site structure last changed; bump it when pages are added or rewritten.
-const SITE_UPDATED = "2026-10-11";
+const SITE_UPDATED = "2026-10-12";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const pages: MetadataRoute.Sitemap = [
     { url: absoluteUrl("/"), lastModified: SITE_UPDATED, changeFrequency: "weekly", priority: 1 },
+    { url: absoluteUrl("/features"), lastModified: SITE_UPDATED, changeFrequency: "weekly", priority: 0.9 },
     { url: absoluteUrl("/get-featured"), lastModified: SITE_UPDATED, changeFrequency: "monthly", priority: 0.8 },
     { url: absoluteUrl("/newsletter"), lastModified: SITE_UPDATED, changeFrequency: "monthly", priority: 0.6 },
     { url: absoluteUrl("/about"), lastModified: SITE_UPDATED, changeFrequency: "yearly", priority: 0.6 },

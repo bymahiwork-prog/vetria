@@ -12,7 +12,7 @@ export default function LatestFeatures() {
       >
         <div className="vetria-section-head">
           <h2 id="vetria-latest-title">Latest features</h2>
-          <Link href="#latest" className="vetria-text-link">
+          <Link href="/features" className="vetria-text-link">
             All features <span aria-hidden="true">→</span>
           </Link>
         </div>

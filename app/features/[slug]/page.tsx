@@ -99,7 +99,7 @@ export default async function FeatureArticlePage({ params }: Props) {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: site.name, item: absoluteUrl("/") },
-      { "@type": "ListItem", position: 2, name: "Features", item: absoluteUrl("/#latest") },
+      { "@type": "ListItem", position: 2, name: "Features", item: absoluteUrl("/features") },
       { "@type": "ListItem", position: 3, name: story.title, item: url },
     ],
   };
