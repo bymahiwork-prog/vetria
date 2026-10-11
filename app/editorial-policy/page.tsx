@@ -68,10 +68,6 @@ export default function EditorialPolicyPage() {
                 Feature, a place in a series, or a better review. Advertisers and sponsors have no say
                 over editorial stories.
               </p>
-              <p>
-                If we have a personal or business relationship with someone we feature, including as a
-                client of a company connected to Vitrea, we say so at the top of the story.
-              </p>
             </section>
 
             <section id="sponsored" aria-labelledby="sponsored-h">
