@@ -60,7 +60,7 @@ export default function Navbar() {
             })}
             <Link
               href="/get-featured"
-              className="vetria-btn vetria-btn--gold vetria-nav__cta"
+              className="vetria-btn vetria-btn--primary vetria-nav__cta"
               onClick={close}
             >
               Get featured

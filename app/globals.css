@@ -86,26 +86,26 @@ h6 {
 }
 
 
-/* 2. DESIGN TOKENS (brand kit v1) */
+/* 2. DESIGN TOKENS (brand kit v1.1 "Gallery white") */
 
 :root {
-  /* Core palette — 60 / 30 / 10, burgundy under 5% */
-  --cream: #f3ebdd;      /* the paper: page ground */
-  --espresso: #2b1e17;   /* the ink: text, logo, dark bands */
-  --gold: #c49a4a;       /* accent: rules, buttons, the full stop. Never text on cream */
+  /* Core palette: near-white paper, near-black ink, gold as a quiet accent */
+  --cream: #fbf9f5;      /* the paper: page ground (token name kept for compatibility) */
+  --espresso: #1a1410;   /* the ink: text, logo, buttons, dark bands */
+  --gold: #b8955a;       /* accent only: rules, the full stop, details. Never text on paper */
   --burgundy: #6e1e2a;   /* signal: Vetria Feature badge, once per layout */
 
   /* Supporting tones */
-  --paper: #fbf7f0;      /* raised cards and panels */
-  --ink-muted: #6b5b4e;  /* bylines, captions (5.5:1 on cream) */
-  --gold-text: #7a5c24;  /* gold when it has to be text (5.2:1 on cream) */
-  --rule: #d9cbb3;       /* hairlines and borders */
-  --placeholder: #e3d6c1;/* image placeholders until real photos */
+  --paper: #f4f0e8;      /* quiet bands and raised cards */
+  --ink-muted: #6b5f55;  /* bylines, captions, kickers (5.9:1 on paper) */
+  --gold-text: #7d6236;  /* gold when it has to be text: links (5.4:1 on paper) */
+  --rule: #ebe5da;       /* hairlines and borders */
+  --placeholder: #e9e3d8;/* image placeholders until real photos */
 
-  /* On espresso */
-  --gold-on-dark: #d4ae62;
-  --muted-on-dark: #b8a792;
-  --rule-on-dark: #4a3a2e;
+  /* On the dark ink bands */
+  --gold-on-dark: #cdb07a;
+  --muted-on-dark: #b3a899;
+  --rule-on-dark: #3a3029;
 
   /* Typography (set by next/font in app/layout.tsx) */
   --font-display: var(--font-playfair), Georgia, "Times New Roman", serif;
@@ -172,7 +172,7 @@ h6 {
   line-height: 16px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--gold-text);
+  color: var(--ink-muted);
 }
 
 .vetria-badge {
@@ -210,17 +210,27 @@ h6 {
     border-color var(--transition-fast);
 }
 
-.vetria-btn--gold {
-  background: var(--gold);
+/* Primary: ink fill, ivory text. On dark bands, the inverse. */
+.vetria-btn--primary {
+  background: var(--espresso);
+  color: var(--cream);
+}
+
+.vetria-btn--primary:hover {
+  background: var(--gold-text);
+}
+
+.vetria-btn--inverse {
+  background: var(--cream);
   color: var(--espresso);
 }
 
-.vetria-btn--gold:hover {
+.vetria-btn--inverse:hover {
   background: var(--gold-on-dark);
 }
 
 .vetria-btn--outline-dark {
-  border-color: var(--gold-on-dark);
+  border-color: var(--muted-on-dark);
   color: var(--cream);
 }
 

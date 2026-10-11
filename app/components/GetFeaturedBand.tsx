@@ -20,7 +20,7 @@ export default function GetFeaturedBand() {
             <p className="vetria-getfeatured__body">{getFeatured.text}</p>
           </div>
 
-          <Link href={getFeatured.cta.href} className="vetria-btn vetria-btn--gold vetria-getfeatured__cta">
+          <Link href={getFeatured.cta.href} className="vetria-btn vetria-btn--primary vetria-getfeatured__cta">
             {getFeatured.cta.label}
           </Link>
         </div>
