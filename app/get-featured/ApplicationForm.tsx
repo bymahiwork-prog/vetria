@@ -4,6 +4,10 @@ import { useState, type FormEvent } from "react";
 
 const EMAIL_PATTERN = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 
+// Web3Forms delivers each application to Vitrea's inbox. This access key is designed to be
+// public (it only allows sending to the inbox it was created for), so it can live in the page.
+const WEB3FORMS_ACCESS_KEY = "84d9f37b-6ef6-41e1-acf3-3051c3644775";
+
 const categories = [
   "Food and drink",
   "Hospitality and travel",
@@ -53,13 +57,16 @@ export default function ApplicationForm() {
   const [fields, setFields] = useState<Fields>(empty);
   const [errors, setErrors] = useState<Errors>({});
   const [sent, setSent] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [sendError, setSendError] = useState("");
+  const [honeypot, setHoneypot] = useState(false);
 
   function set<K extends keyof Fields>(key: K, value: Fields[K]) {
     setFields((f) => ({ ...f, [key]: value }));
     if (errors[key]) setErrors((e) => ({ ...e, [key]: undefined }));
   }
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const found = validate(fields);
     setErrors(found);
@@ -68,9 +75,37 @@ export default function ApplicationForm() {
       document.getElementById(`gf-${firstError}`)?.focus();
       return;
     }
-    // TODO: send `fields` somewhere you'll see it (email, Google Sheet, Airtable, CRM)
-    // before showing the confirmation. Nothing is stored yet.
-    setSent(true);
+    setSending(true);
+    setSendError("");
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          access_key: WEB3FORMS_ACCESS_KEY,
+          subject: `New Vitrea feature application: ${fields.business.trim()}`,
+          from_name: "Vitrea website",
+          replyto: fields.email.trim(),
+          botcheck: honeypot,
+          "Name": fields.name.trim(),
+          "Email": fields.email.trim(),
+          "Business": fields.business.trim(),
+          "City and country": fields.city.trim(),
+          "Website or Instagram": fields.link.trim() || "Not given",
+          "Category": fields.category,
+          "Story": fields.story.trim(),
+        }),
+      });
+      const result = await response.json().catch(() => ({}));
+      if (!response.ok || result.success === false) throw new Error(result.message || "Send failed");
+      setSent(true);
+    } catch {
+      setSendError(
+        "Sorry, your application didn't go through. Please try again in a minute, or email editor@vitreaonline.in.",
+      );
+    } finally {
+      setSending(false);
+    }
   }
 
   if (sent) {
@@ -79,7 +114,7 @@ export default function ApplicationForm() {
         <span className="vetria-apply__sent-title">
           Thank you<span>.</span>
         </span>
-        <p>Our editors read every application and reply within [X] working days.</p>
+        <p>Your application is with our editors. We read every one, and we&apos;ll be in touch if your story is a fit.</p>
       </div>
     );
   }
@@ -161,10 +196,27 @@ export default function ApplicationForm() {
         {error("agree")}
       </div>
 
+      {/* Hidden from people; bots that tick it are rejected by Web3Forms. */}
+      <input
+        type="checkbox"
+        name="botcheck"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        style={{ display: "none" }}
+        checked={honeypot}
+        onChange={(e) => setHoneypot(e.target.checked)}
+      />
+
       <div className="vetria-apply__full">
-        <button type="submit" className="vetria-btn vetria-apply__submit">
-          Send application
+        <button type="submit" className="vetria-btn vetria-apply__submit" disabled={sending} aria-busy={sending}>
+          {sending ? "Sending…" : "Send application"}
         </button>
+        {sendError && (
+          <p role="alert" className="vetria-apply__error" style={{ marginTop: 12 }}>
+            {sendError}
+          </p>
+        )}
       </div>
     </form>
   );

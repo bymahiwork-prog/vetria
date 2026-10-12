@@ -16,7 +16,7 @@ export const metadata: Metadata = pageMeta({
 
 const steps = [
   { title: "Apply", text: "Answer a few questions about you and your business. About ten minutes." },
-  { title: "We review", text: "Our editors read every application and reply within [X] working days." },
+  { title: "We review", text: "Our editors read every application and reply to the stories we take forward." },
   { title: "Interview", text: "A written Q&A or a short call, plus photos or a short reel of your space." },
   {
     title: "Published",
