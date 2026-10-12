@@ -5,9 +5,10 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Wordmark from "./Wordmark";
 
-// Only the agreed pages. The logo links to the homepage; Get featured is the gold button.
+// Only the agreed pages. Home and the logo both go to the homepage; Get featured is the button.
 // "Features" opens the list of all published features.
 const links = [
+  { label: "Home", href: "/" },
   { label: "Features", href: "/features" },
   { label: "About", href: "/about" },
   { label: "Editorial policy", href: "/editorial-policy" },
