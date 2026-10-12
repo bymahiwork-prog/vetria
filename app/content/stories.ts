@@ -49,6 +49,101 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "hoots-new-delhi",
+    draft: false,
+    publishedAt: "2026-10-12",
+    kicker: "Feature · Bar · New Delhi",
+    title: "Hoots', New Delhi: the speakeasy with a family tree",
+    standfirst:
+      "Hidden off a wine bar in Vasant Vihar, Hoots' has poured numbered cocktails since 2016, built a fictional family of owls and made Asia's 50 Best Bars.",
+    writer: "The Vitrea team",
+    date: "12 October 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "There is no sign for Hoots'. In Basant Lok market in Vasant Vihar, New Delhi, you go to Perch Wine & Coffee Bar and find a door on the first floor. Behind it is a low-lit room with leather seating, jazz on the speakers and a bartender who is the centre of attention. The drinks on the menu do not have names. They have numbers.",
+      },
+      {
+        type: "paragraph",
+        text: "Hoots' opened in 2016, and Esquire India has called it perhaps one of Delhi's earliest examples of a bar within a bar. For a long time it was hard to find even if you were looking: Culture Trip reported that in its early days you had to call ahead for the number, and nothing marked the entrance. It has since become one of the city's most recognised cocktail bars, placing 26th on Asia's 50 Best Bars in 2022. That a room this small, with this little self-promotion, got there is the reason it is worth a closer look.",
+      },
+      { type: "heading", text: "Robert, William and Albert: the owls behind Hoots'" },
+      {
+        type: "paragraph",
+        text: "Hoots' began as a small, living-room-style space connected to Perch, used to show off specialty cocktails. Over time it gained a story of its own, and a cast to go with it.",
+      },
+      {
+        type: "paragraph",
+        text: "Its co-founder, Sandeep Bishnoy, built a fictional family around the bar, ThePrint reported in 2025. Robert Hoots is an owl. His father is William, his grandfather is Albert, and his sister Margaret lends her name to Margaret's Eye, a hidden space reached through an unmarked gate nearby. Bishnoy described the Perch building to ThePrint as being like a family tree.",
+      },
+      {
+        type: "paragraph",
+        text: "It would be easy to dismiss this as a gimmick. In practice it gives the bar a way to organise its menu, its rooms and its tone without ever putting up a sign.",
+      },
+      { type: "heading", text: "Numbered cocktails at a Vasant Vihar speakeasy" },
+      {
+        type: "paragraph",
+        text: "The list runs to about 25 drinks. Harper's Bazaar India describes it as five classics alongside signatures that go by number alone. The best known, according to the magazine, is the No. 5, a gin gimlet made with a palo santo cordial. Culture Trip recommended the No. 4: tequila with clarified citrus and grapefruit, hibiscus cordial and sparkling wine.",
+      },
+      {
+        type: "paragraph",
+        text: "The family appears on the menu too. In 2025, ThePrint found the drinks grouped by generation. William's section holds Prohibition-era variations on sours, punches and martinis. Albert's is about modern elegance, with a classic sour of whiskey, citrus, sugar and egg white. Robert's is the experimental one: his sour swaps the whiskey for pisco and adds ricotta, including a ricotta air.",
+      },
+      {
+        type: "paragraph",
+        text: "The 50 Best guide to the bar points to an Old Fashioned twist made with miso and a whisky sour topped with chamomile foam. Cheese boards and cigars are offered alongside, and ThePrint reported that each cocktail was priced at Rs 845.",
+      },
+      { type: "heading", text: "A smuggler's den, and a place on Asia's 50 Best Bars" },
+      {
+        type: "paragraph",
+        text: "The room borrows from the Prohibition-era speakeasy: dark interiors, low lighting, leather booths and what Harper's Bazaar India calls vintage 1920s décor. Esquire India compared it to a smuggler's den, while the 50 Best guide likened it to a cosy living room. Both descriptions fit. It is a quiet bar, and Outlook Traveller noted that its following has grown by word of mouth.",
+      },
+      {
+        type: "paragraph",
+        text: "The recognition came anyway. The 50 Best guide says Hoots' first entered the extended 51–100 list of Asia's 50 Best Bars, as only the second Indian bar to appear on it. In 2022 it reached No. 26 on the main list, Business Today reported. Esquire India noted in 2026 that it continues to appear on lists of India's best bars.",
+      },
+      { type: "heading", text: "Why Hoots' matters to independent owners" },
+      {
+        type: "paragraph",
+        text: "Hoots' shows that being hard to find can be a strategy rather than a problem, as long as what people find is worth the effort. An unmarked door, a number instead of a name and a story about a family of owls give guests something to pass on. Outlook Traveller described the bar's following as built on word of mouth, and that is what the hidden entrance is designed to produce.",
+      },
+      {
+        type: "paragraph",
+        text: "The second lesson is about using what you already have. Hoots' grew out of a room connected to an existing business, and its fictional family now ties together the spaces in its building. For an owner with one venue and spare space, a second, smaller concept with its own identity can reach a different crowd without competing with the first.",
+      },
+      { type: "heading", text: "Plan your visit" },
+      {
+        type: "paragraph",
+        text: "If you are looking for a quiet cocktail bar in New Delhi for a slow drink, Hoots' rewards the search.",
+      },
+      {
+        type: "paragraph",
+        text: "Where: 18-A, first floor, Basant Lok market, Vasant Vihar, New Delhi 110057, through Perch Wine & Coffee Bar.",
+      },
+      { type: "paragraph", text: "When: Tuesday to Sunday, 6pm to 1am." },
+      {
+        type: "paragraph",
+        text: "What to order: The No. 5 gin gimlet with palo santo cordial, the No. 4, or one of the sours, with a cheese board on the side.",
+      },
+      {
+        type: "paragraph",
+        text: "Good for: Quiet cocktails, dates and an evening with cigars and cheese.",
+      },
+    ],
+    business: {
+      name: "Hoots'",
+      details: "Vasant Vihar, New Delhi · Bar · Opened 2016",
+      logo: null,
+      website: "",
+      instagram: "https://www.instagram.com/mr.hoots/",
+    },
+    readNext: [],
+  },
+  {
     slug: "indian-accent-new-delhi",
     draft: false,
     publishedAt: "2026-10-12",
