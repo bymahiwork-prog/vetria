@@ -31,18 +31,21 @@ export const future = {
   title: "Where small business is heading, explained",
   intro:
     "AI search, social commerce and the new rules of getting found, written for owners, not analysts.",
-  cta: { label: "Read The Future", href: "#future" },
+  // Until The Future articles exist, the button sends readers to the newsletter.
+  cta: { label: "Get it in the weekly letter", href: "/newsletter" },
+  // Coming-soon titles. When an article is published, add its href and a read time as meta.
   articles: [
-    { title: "[How customers find a business through AI answers]", meta: "[5] min read", href: "#future" },
-    { title: "[Selling inside social apps: what's working now]", meta: "[6] min read", href: "#future" },
-    { title: "[The owner as creator: running social without an agency]", meta: "[4] min read", href: "#future" },
-  ],
+    { title: "How customers now find a business through AI answers", meta: "Coming soon", href: null },
+    { title: "Selling inside social apps: what's working now", meta: "Coming soon", href: null },
+    { title: "The owner as creator: running social without an agency", meta: "Coming soon", href: null },
+  ] as { title: string; meta: string; href: string | null }[],
 };
 
-export const series = [
-  { title: "Five things I wish I knew", text: "Founders on the lessons nobody told them.", href: "#series" },
-  { title: "The future of [industry]", text: "One industry a month, from the people inside it.", href: "#series" },
-  { title: "Brands to watch", text: "Independent names worth knowing this year.", href: "#series" },
+// Series start soon: cards show "Starting soon" until an href is added.
+export const series: { title: string; text: string; href: string | null }[] = [
+  { title: "Five things I wish I knew", text: "Founders on the lessons nobody told them.", href: null },
+  { title: "The future of hospitality", text: "One industry at a time, from the people inside it.", href: null },
+  { title: "Brands to watch", text: "Independent names worth knowing this year.", href: null },
 ];
 
 export const getFeatured = {
@@ -62,8 +65,8 @@ export const footerLinks = [
     heading: "Read",
     links: [
       { label: "Features", href: "/features" },
-      { label: "The Future", href: "#future" },
-      { label: "Series", href: "#series" },
+      { label: "The Future", href: "/#future" },
+      { label: "Series", href: "/#series" },
     ],
   },
   {

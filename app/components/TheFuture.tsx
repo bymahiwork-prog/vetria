@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { future } from "../content/home";
 
 export default function TheFuture() {
@@ -11,23 +12,34 @@ export default function TheFuture() {
               {future.title}
             </h2>
             <p className="vetria-future__text">{future.intro}</p>
-            <a href={future.cta.href} className="vetria-btn vetria-btn--outline-dark">
+            <Link href={future.cta.href} className="vetria-btn vetria-btn--outline-dark">
               {future.cta.label}
-            </a>
+            </Link>
           </div>
 
           <ol className="vetria-future__list">
             {future.articles.map((article, i) => (
               <li key={i}>
-                <a href={article.href} className="vetria-future__item">
-                  <span className="vetria-future__num" aria-hidden="true">
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                  <span className="vetria-future__copy">
-                    <span className="vetria-future__item-title">{article.title}</span>
-                    <span className="vetria-future__meta">{article.meta}</span>
-                  </span>
-                </a>
+                {(() => {
+                  const inner = (
+                    <>
+                      <span className="vetria-future__num" aria-hidden="true">
+                        {String(i + 1).padStart(2, "0")}
+                      </span>
+                      <span className="vetria-future__copy">
+                        <span className="vetria-future__item-title">{article.title}</span>
+                        <span className="vetria-future__meta">{article.meta}</span>
+                      </span>
+                    </>
+                  );
+                  return article.href ? (
+                    <Link href={article.href} className="vetria-future__item">
+                      {inner}
+                    </Link>
+                  ) : (
+                    <div className="vetria-future__item vetria-future__item--soon">{inner}</div>
+                  );
+                })()}
               </li>
             ))}
           </ol>
@@ -109,6 +121,10 @@ export default function TheFuture() {
 
         .vetria-future__item:hover .vetria-future__item-title {
           color: var(--gold-on-dark);
+        }
+
+        .vetria-future__item--soon:hover .vetria-future__item-title {
+          color: inherit;
         }
 
         .vetria-future__meta {
