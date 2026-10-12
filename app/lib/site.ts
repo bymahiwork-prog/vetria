@@ -10,7 +10,6 @@ export const site = {
   tagline: "Stories of the businesses building what's next",
   description:
     "Vitrea is an independent media brand featuring founders and independent businesses, and explaining where small-business marketing is heading.",
-  founder: "Mayank Jena",
   locale: "en",
   // TODO: add the real profile URLs once the handles are locked (Instagram, LinkedIn…).
   // These become "sameAs" in structured data, which helps Google and AI search recognise the brand.
