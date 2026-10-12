@@ -40,6 +40,7 @@ export type FeatureStory = {
     details: string;
     // Optional: shown in the "About the business" box when provided.
     logo: string | null;
+    // Full https URLs, or "" to hide the link.
     website: string;
     instagram: string;
   };
@@ -231,3 +232,10 @@ export function getStory(slug: string) {
 }
 
 export const publishedStories = () => stories.filter((story) => !story.draft);
+
+// Published stories, newest first (by publishedAt, then by position in the list above).
+export const latestStories = () =>
+  publishedStories()
+    .map((story, i) => ({ story, i }))
+    .sort((a, b) => (b.story.publishedAt ?? "").localeCompare(a.story.publishedAt ?? "") || a.i - b.i)
+    .map(({ story }) => story);

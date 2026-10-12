@@ -14,6 +14,9 @@ type StoryImageProps = {
   sizes?: string;
   // true for the main photo at the top of a page: loads first instead of lazily.
   priority?: boolean;
+  // When there is no photo, show a branded tile with this name instead of a placeholder.
+  tileTitle?: string;
+  tileLabel?: string;
 };
 
 // Shows the photo when one exists; until then, a placeholder in the brand's tint.
@@ -28,6 +31,8 @@ export default function StoryImage({
   position = "50% 50%",
   sizes = "(max-width: 860px) 100vw, 720px",
   priority = false,
+  tileTitle,
+  tileLabel,
 }: StoryImageProps) {
   const box = aspectRatio ? { aspectRatio } : { height };
 
@@ -43,6 +48,15 @@ export default function StoryImage({
           fetchPriority={priority ? "high" : "auto"}
           style={{ objectFit: "cover", objectPosition: position }}
         />
+      </div>
+    );
+  }
+
+  if (!src && tileTitle) {
+    return (
+      <div className={`vetria-tile ${className}`} style={box} aria-hidden="true">
+        {tileLabel && <span className="vetria-tile__label">{tileLabel}</span>}
+        <span className="vetria-tile__title">{tileTitle}</span>
       </div>
     );
   }
