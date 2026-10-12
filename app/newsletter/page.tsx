@@ -40,7 +40,7 @@ export default function NewsletterPage() {
           <h1 className="vetria-nl__title">
             <span>One founder story.</span>
             <em>One look ahead.</em>
-            <span>Every [Tuesday].</span>
+            <span>Every Tuesday.</span>
           </h1>
           <p className="vetria-nl__lead">
             A short weekly letter for people who run, or want to run, a business worth talking about.
@@ -62,7 +62,7 @@ export default function NewsletterPage() {
             buttonLabel="Subscribe free"
             buttonTone="espresso"
             note="Free. No spam. Unsubscribe in one click."
-            doneMessage="Check your inbox to confirm. Your first letter arrives [Tuesday]."
+            doneMessage="Check your inbox to confirm. Your first letter arrives on Tuesday."
             align="start"
             size="lg"
           />
@@ -72,18 +72,29 @@ export default function NewsletterPage() {
           <div className="vetria-nl__preview" aria-label="Sample issue" role="group">
             <div className="vetria-nl__preview-head">
               <Wordmark size={24} tone="light" />
-              <span>Issue [01]</span>
+              <span>Issue 01</span>
             </div>
             <div className="vetria-nl__preview-body">
               <span className="vetria-kicker">This week&apos;s story</span>
-              <StoryImage src={null} alt="[Feature photo]" height={160} />
-              <span className="vetria-nl__preview-headline">[Feature headline]</span>
-              <span className="vetria-nl__preview-text">[Two-line summary of the story.]</span>
+              <StoryImage
+                src="/images/features/seezen/lit-arch-room.jpg"
+                alt="The bar room at Seezen Coffee House & Kitchen, Kanpur"
+                height={160}
+                sizes="440px"
+              />
+              <span className="vetria-nl__preview-headline">
+                Seezen Coffee House, Kanpur: the café built for staying
+              </span>
+              <span className="vetria-nl__preview-text">
+                Sculpted arches, a rope-woven ceiling and doors open 10am to midnight.
+              </span>
               <div className="vetria-nl__preview-rule" />
               <span className="vetria-kicker">The look ahead</span>
-              <span className="vetria-nl__preview-trend">[One trend, explained]</span>
+              <span className="vetria-nl__preview-trend">
+                How customers now find a business through AI answers
+              </span>
               <span className="vetria-nl__preview-text">
-                [What it means for a small business, in one line.]
+                What to fix on your Google profile and website so AI search recommends you.
               </span>
             </div>
           </div>
@@ -94,7 +105,7 @@ export default function NewsletterPage() {
         <div className="vetria-container vetria-nl__footer-inner">
           <span>© 2026 Vitrea</span>
           <span>
-            <Link href="/editorial-policy">Editorial policy</Link> · [Privacy policy]
+            <Link href="/editorial-policy">Editorial policy</Link>
           </span>
         </div>
       </footer>

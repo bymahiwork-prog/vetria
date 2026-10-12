@@ -132,13 +132,18 @@ export default function GetFeaturedPage() {
               </div>
               <div className="vetria-gf__way">
                 <span className="vetria-gf__sponsored">Sponsored</span>
-                <span className="vetria-gf__way-price">From [YOUR PRICE]</span>
+                <span className="vetria-gf__way-price">Rates on request</span>
                 <p>
                   A guaranteed spotlight on a date you choose, produced by our team, clearly labelled
-                  Sponsored everywhere it appears.
+                  Sponsored everywhere it appears. For rates, email{" "}
+                  <a href="mailto:partners@vitreaonline.in" className="vetria-gf__mail">partners@vitreaonline.in</a>.
                 </p>
-                {/* TODO: point this at a partnerships email or contact form */}
-                <a href="#partner" className="vetria-btn vetria-btn--outline-dark">Partner with us</a>
+                <a
+                  href="mailto:partners@vitreaonline.in?subject=Sponsored%20spotlight%20on%20Vitrea"
+                  className="vetria-btn vetria-btn--outline-dark"
+                >
+                  Ask for rates
+                </a>
               </div>
             </div>
           </div>
@@ -449,6 +454,13 @@ export default function GetFeaturedPage() {
 
         .vetria-gf__way .vetria-btn {
           margin-top: 8px;
+        }
+
+        .vetria-gf__mail {
+          color: var(--gold-on-dark);
+          text-decoration: underline;
+          text-underline-offset: 3px;
+          overflow-wrap: anywhere;
         }
 
         .vetria-gf__way-price {
