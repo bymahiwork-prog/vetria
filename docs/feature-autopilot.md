@@ -12,7 +12,7 @@ Work top to bottom. Publish the first unticked brand. When you publish one, tick
 
 | Done | # | Brand | Type | City | Suggested slug |
 |---|---|---|---|---|---|
-| [ ] | 1 | Indian Accent, The Lodhi | Restaurant | New Delhi | `indian-accent-new-delhi` |
+| [x] | 1 | Indian Accent, The Lodhi | Restaurant | New Delhi | `indian-accent-new-delhi` |
 | [ ] | 2 | Hoots | Bar | New Delhi | `hoots-new-delhi` |
 | [ ] | 3 | Zetu | Restaurant | New Delhi (Mehrauli) | `zetu-mehrauli-new-delhi` |
 | [ ] | 4 | Barbet & Pals | Bar | New Delhi | `barbet-and-pals-new-delhi` |
@@ -147,3 +147,5 @@ If anything failed, say exactly what, and that nothing was published.
 Newest at the bottom. One block per run: date and time (IST), brand, title, slug, sources, notes.
 
 - 2026-10-12: Seezen Coffee House, Kanpur (`seezen-coffee-house-kanpur`), published by hand with photos courtesy of Seezen. Not part of the queue.
+
+- 2026-10-12 11:50 IST: Indian Accent, The Lodhi, New Delhi. Title: "Indian Accent, New Delhi: modern Indian, still evolving". Slug: `indian-accent-new-delhi`. Sources: https://www.indianaccent.com/newdelhi ; https://www.restaurantindia.in/news/chef-manish-mehrotra-who-gave-india-its-first-taste-of-innovative-indian-cuisine-part-ways ; https://bwhotelier.com/article/indian-accent-opens-at-the-lodhi-new-delhi-131729 ; https://www.outlooktraveller.com/News/indian-restaurants-on-asias-50-best-list-2025 ; https://edition.cnn.com/travel/article/indian-accent-best-indian-restaurant ; https://www.forbesindia.com/article/lifes/manish-mehrotra-and-his-modernindian-legacy/93786/1 ; https://www.bwtravel.com/industry-insights/indian-accent-launches-chaat-tasting-menu-12234365 ; https://en.wikipedia.org/wiki/Indian_Accent_(restaurant) . Notes: no photos; current opening hours not verifiable, so the "When" line is omitted. 2026 Asia's 50 Best rank not found, so the 2025 rank (46th) is used.

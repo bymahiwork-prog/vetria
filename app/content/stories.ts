@@ -49,6 +49,106 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "indian-accent-new-delhi",
+    draft: false,
+    publishedAt: "2026-10-12",
+    kicker: "Feature · Restaurant · New Delhi",
+    title: "Indian Accent, New Delhi: modern Indian, still evolving",
+    standfirst:
+      "At The Lodhi in New Delhi, Indian Accent has spent over fifteen years reworking Indian classics into tasting menus, with a decade on Asia's 50 Best list.",
+    writer: "The Vitrea team",
+    date: "12 October 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "The bread at Indian Accent has always been a small provocation. A naan the size of a coin, stuffed with melted blue cheese, became one of the kitchen's best-known signatures. Today the menu at this restaurant on Lodhi Road in New Delhi lists a hundred-layer paneer and a potato chaat finished with black truffle. The dishes change; the habit of making the familiar look new does not.",
+      },
+      {
+        type: "paragraph",
+        text: "Indian Accent opened in 2009 at The Manor, a boutique hotel in Friends Colony, under the restaurateur Rohit Khattar. After eight years there it moved to The Lodhi, where it has been since 2017. Its cooking pairs Indian flavours and traditions with global ingredients and techniques, and it was one of the early Indian restaurants to build its service around tasting menus. That bet, made when high-end Indian dining was rare in the city, is why it still matters.",
+      },
+      { type: "heading", text: "The two Mehrotras behind Indian Accent" },
+      {
+        type: "paragraph",
+        text: "For most of its life, the restaurant's public face was Manish Mehrotra. He had cooked in London at Oriental Octopus and Tamarai before developing the early dishes that became Indian Accent's food, and Forbes India later called him India's most path-breaking chef.",
+      },
+      {
+        type: "paragraph",
+        text: "In July 2024, after joining the company in 2000, Manish Mehrotra announced he was leaving Indian Accent and its sister restaurant Comorin. The kitchen in New Delhi passed to Shantanu Mehrotra, who joined Old World Hospitality in 1999 and has been executive chef at Indian Accent since it opened at The Manor. Restaurant India reported at the time that he would lead the brand, which EHV International now runs in New Delhi, Mumbai and New York.",
+      },
+      {
+        type: "paragraph",
+        text: "It is a rare thing in fine dining: a handover to someone who had been on the pass since the first service. Continuity, rather than reinvention, was the plan.",
+      },
+      { type: "heading", text: "Tasting menus, chaat and a hundred layers of paneer" },
+      {
+        type: "paragraph",
+        text: "The main event in New Delhi is the Chef's Tasting menu: six courses, each paired with wines from India and around the world. There is also a shorter four-course Lite Tasting menu, an à la carte menu at lunch and dinner, and separate vegan and gluten-free menus.",
+      },
+      {
+        type: "paragraph",
+        text: "Dishes the restaurant names on its own site include the hundred-layer paneer, malai kofta, a five-spice squash curry, Kolhapuri chicken with avocado and Gujarati thalipeeth, and green jackfruit with XO balchao. Dessert might be a single-origin Manam chocolate cake with basundi and berries.",
+      },
+      {
+        type: "paragraph",
+        text: "Street food has always been part of the vocabulary. Outlook Traveller pictured the restaurant's modern take on papdi chaat, and one summer the kitchen ran a lunch-only chaat tasting menu that took in a lotus stem chaat from Lucknow, moong pani pakodi in heeng-infused water and a puchka served with five different waters, from jamun to smoked pineapple.",
+      },
+      {
+        type: "quote",
+        text: "Chaat is perhaps India's most democratic and nostalgic cuisine",
+        attribution: "Shantanu Mehrotra, executive chef, in BW Travel",
+      },
+      { type: "heading", text: "A quiet room at The Lodhi, and a long run on the lists" },
+      {
+        type: "paragraph",
+        text: "When the restaurant moved to The Lodhi, the team designed the new space themselves in a modern, minimalist style. The pearl-lustred plaster walls of the original room were recreated, and Amit Pasricha's photographs of Delhi monuments hang throughout, with a picture of Lodhi Garden at the centre of the main dining room. BW Hotelier reported seating for more than a hundred, with private dining rooms overlooking water. CNN singled out the cocktail bar, with its latticed cabinets lit in warm amber.",
+      },
+      {
+        type: "paragraph",
+        text: "The recognition has been steady. Indian Accent says it has been on Asia's 50 Best Restaurants list since 2015, and it placed 46th in the 2025 edition. Condé Nast Traveller India has voted it the No. 1 restaurant in India, TIME included it among the World's 100 Greatest Places, and La Liste counted it among the ten best restaurants in India for 2024.",
+      },
+      {
+        type: "paragraph",
+        text: "Away from the lists, the restaurant has adopted two shelter homes for girls run by the Salaam Baalak Trust.",
+      },
+      { type: "heading", text: "Why Indian Accent matters to independent owners" },
+      {
+        type: "paragraph",
+        text: "The lesson here is not the awards. It is the idea underneath them. Indian Accent took food its guests already knew, from chaat to kofta, and gave them a reason to see it again. CNN reported that the menu was first criticised as too upmarket and too expensive. The restaurant kept going, and the city came round. A clear concept, held through the awkward early years, did more than any campaign could.",
+      },
+      {
+        type: "paragraph",
+        text: "The second lesson is succession. Many independent businesses are built around one well-known founder or chef. Indian Accent shows what it looks like to have someone ready from inside the kitchen when that person moves on, so that the menu, the standards and the reputation stay with the business, not with a single name.",
+      },
+      { type: "heading", text: "Plan your visit" },
+      {
+        type: "paragraph",
+        text: "If you are looking for a modern Indian restaurant in New Delhi for a long, special-occasion meal, Indian Accent is worth booking ahead.",
+      },
+      { type: "paragraph", text: "Where: The Lodhi, Lodhi Road, New Delhi 110003." },
+      {
+        type: "paragraph",
+        text: "What to order: The six-course Chef's Tasting menu with wine pairing, or the hundred-layer paneer, potato chaat with black truffle and the Manam chocolate cake from the à la carte menu.",
+      },
+      {
+        type: "paragraph",
+        text: "Good for: Tasting-menu dinners, wine pairings and private dining for groups of 10 to 40 guests.",
+      },
+    ],
+    business: {
+      name: "Indian Accent",
+      details: "The Lodhi, New Delhi · Restaurant · Opened 2009",
+      logo: null,
+      website: "https://www.indianaccent.com/newdelhi",
+      instagram: "https://www.instagram.com/indianaccent/",
+    },
+    readNext: [],
+  },
+  {
     slug: "seezen-coffee-house-kanpur",
     draft: false,
     publishedAt: "2026-10-12",
