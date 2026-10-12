@@ -5,7 +5,7 @@ import SimpleFooter from "../components/SimpleFooter";
 import StoryImage from "../components/StoryImage";
 import JsonLd from "../components/JsonLd";
 import { absoluteUrl, pageMeta, site } from "../lib/site";
-import { publishedStories } from "../content/stories";
+import { latestStories } from "../content/stories";
 
 export const metadata: Metadata = pageMeta({
   path: "/features",
@@ -15,7 +15,7 @@ export const metadata: Metadata = pageMeta({
 });
 
 // Newest first. Drafts never appear here.
-const features = publishedStories().sort((a, b) => (b.publishedAt ?? "").localeCompare(a.publishedAt ?? ""));
+const features = latestStories();
 
 const listSchema = {
   "@context": "https://schema.org",
@@ -63,6 +63,8 @@ export default function FeaturesPage() {
                       aspectRatio="3 / 2"
                       position={story.heroPosition}
                       sizes="(max-width: 860px) 100vw, 400px"
+                      tileTitle={story.business.name}
+                      tileLabel={story.kicker.split(" · ").slice(-1)[0]}
                     />
                     <span className="vetria-kicker">{story.kicker}</span>
                     <h2 className="vetria-features__card-title">{story.title}</h2>

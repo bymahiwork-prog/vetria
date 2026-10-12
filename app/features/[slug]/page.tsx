@@ -127,18 +127,20 @@ export default async function FeatureArticlePage({ params }: Props) {
             <div className="vetria-rule" />
           </header>
 
-          <figure className="vetria-container vetria-article__hero">
-            <StoryImage
-              src={story.heroImage}
-              alt={story.heroAlt}
-              height={560}
-              position={story.heroPosition}
-              sizes="(max-width: 1280px) 100vw, 1200px"
-              priority
-              className="vetria-article__hero-img"
-            />
-            <figcaption>{story.heroCaption}</figcaption>
-          </figure>
+          {story.heroImage && (
+            <figure className="vetria-container vetria-article__hero">
+              <StoryImage
+                src={story.heroImage}
+                alt={story.heroAlt}
+                height={560}
+                position={story.heroPosition}
+                sizes="(max-width: 1280px) 100vw, 1200px"
+                priority
+                className="vetria-article__hero-img"
+              />
+              <figcaption>{story.heroCaption}</figcaption>
+            </figure>
+          )}
 
           <div className="vetria-article__body">
             {story.body.map((block, i) => (
@@ -161,12 +163,16 @@ export default async function FeatureArticlePage({ params }: Props) {
                 <span className="vetria-article__business-details">{story.business.details}</span>
               </div>
               <div className="vetria-article__business-links">
-                <a href={story.business.website} className="vetria-text-link">
-                  Website <span aria-hidden="true">→</span>
-                </a>
-                <a href={story.business.instagram} className="vetria-text-link">
-                  Instagram <span aria-hidden="true">→</span>
-                </a>
+                {story.business.website && (
+                  <a href={story.business.website} className="vetria-text-link" rel="noopener">
+                    Website <span aria-hidden="true">→</span>
+                  </a>
+                )}
+                {story.business.instagram && (
+                  <a href={story.business.instagram} className="vetria-text-link" rel="noopener">
+                    Instagram <span aria-hidden="true">→</span>
+                  </a>
+                )}
               </div>
             </aside>
           </div>
@@ -181,7 +187,13 @@ export default async function FeatureArticlePage({ params }: Props) {
             <div className="vetria-article__next-grid">
               {story.readNext.map((item, i) => (
                 <Link key={i} href={item.href} className="vetria-article__next-card">
-                  <StoryImage src={item.image} alt="" height={200} sizes="(max-width: 860px) 100vw, 400px" />
+                  <StoryImage
+                    src={item.image}
+                    alt=""
+                    height={200}
+                    sizes="(max-width: 860px) 100vw, 400px"
+                    tileTitle={item.title}
+                  />
                   <span className="vetria-kicker">{item.kicker}</span>
                   <span className="vetria-article__next-headline">{item.title}</span>
                 </Link>

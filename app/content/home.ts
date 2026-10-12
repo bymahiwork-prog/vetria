@@ -24,32 +24,7 @@ export const coverStory = {
   imagePosition: "40% 50%",
 };
 
-export const latestFeatures: Story[] = [
-  {
-    kicker: "Feature · F&B",
-    title: "[Headline about a founder's turning point]",
-    meta: "[City] · [6] min read",
-    href: "/features/sample-story",
-    image: null,
-    imageAlt: "[Feature photo]",
-  },
-  {
-    kicker: "Feature · Lifestyle",
-    title: "[Headline about a brand built on one product]",
-    meta: "[City] · [5] min read",
-    href: "/features/sample-story",
-    image: null,
-    imageAlt: "[Feature photo]",
-  },
-  {
-    kicker: "Feature · Retail",
-    title: "[Headline about a small team doing big numbers]",
-    meta: "[City] · [7] min read",
-    href: "/features/sample-story",
-    image: null,
-    imageAlt: "[Feature photo]",
-  },
-];
+// "Latest features" on the homepage is built automatically from app/content/stories.ts.
 
 export const future = {
   kicker: "The Future",
