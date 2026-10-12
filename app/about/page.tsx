@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { pageMeta } from "../lib/site";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
-import StoryImage from "../components/StoryImage";
 
 export const metadata: Metadata = pageMeta({
   path: "/about",
@@ -119,20 +118,12 @@ export default function AboutPage() {
           </div>
         </section>
 
-        <section className="vetria-container vetria-about__founder" aria-labelledby="founder-title">
-          <StoryImage
-            src="/images/about/mayank-jena.jpg"
-            alt="Mayank Jena, founder and editor of Vitrea, seated in a leather armchair with a tablet"
-            height={420}
-            position="50% 22%"
-            sizes="(max-width: 860px) 100vw, 560px"
-            className="vetria-about__portrait"
-          />
-          <div className="vetria-about__founder-text">
-            <span className="vetria-kicker">Who&apos;s behind Vitrea</span>
-            <h2 id="founder-title" className="vetria-about__founder-title">
-              Mayank Jena, founder and editor
-            </h2>
+        <section className="vetria-container vetria-about__note" aria-labelledby="note-title">
+          <span className="vetria-kicker">Founder&apos;s note</span>
+          <h2 id="note-title" className="vetria-about__note-title">
+            Why we started Vitrea
+          </h2>
+          <div className="vetria-about__note-body">
             <p>
               I started Vitrea because the businesses I admire most are rarely the ones being written
               about. The café with a waitlist, the label run from a spare room, the bar that knows every
@@ -143,10 +134,11 @@ export default function AboutPage() {
               Vitrea is where those stories live, alongside plain-English thinking on where marketing is
               heading, so every owner who reads it leaves with something they can use.
             </p>
-            <p className="vetria-about__muted">
-              Know a business we should feature? <Link href="/get-featured">Tell us about it</Link>.
-            </p>
           </div>
+          <span className="vetria-about__note-sign">Founder, Vitrea</span>
+          <p className="vetria-about__muted">
+            Know a business we should feature? <Link href="/get-featured">Tell us about it</Link>.
+          </p>
         </section>
       </main>
 
@@ -331,42 +323,45 @@ export default function AboutPage() {
           line-height: 32px;
         }
 
-        .vetria-about__founder {
-          display: flex;
-          flex-wrap: wrap;
-          align-items: center;
-          gap: 48px;
-          padding-block: 72px;
-        }
-
-        .vetria-about__portrait {
-          flex: 1 1 360px;
-          min-width: 0;
-        }
-
-        .vetria-about__founder-text {
-          flex: 1 1 420px;
-          min-width: 0;
+        .vetria-about__note {
+          max-width: 760px;
           display: flex;
           flex-direction: column;
-          gap: 16px;
-          line-height: 28px;
+          align-items: center;
+          gap: 18px;
+          padding-block: 88px;
+          text-align: center;
         }
 
-        .vetria-about__founder-title {
+        .vetria-about__note-title {
           font-size: 40px;
           line-height: 46px;
         }
 
-        .vetria-about__founder-text .vetria-about__muted a {
+        .vetria-about__note-body {
+          display: flex;
+          flex-direction: column;
+          gap: 18px;
+          font-family: var(--font-display);
+          font-size: 22px;
+          font-style: italic;
+          line-height: 34px;
+        }
+
+        .vetria-about__note-sign {
+          padding-top: 14px;
+          border-top: 1px solid var(--gold);
+          color: var(--ink-muted);
+          font-size: 13px;
+          font-weight: 700;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+        }
+
+        .vetria-about__note .vetria-about__muted a {
           color: var(--gold-text);
           text-decoration: underline;
           text-underline-offset: 3px;
-        }
-
-        .vetria-about__founder-text .vetria-about__muted {
-          font-size: 17px;
-          line-height: 28px;
         }
 
         .vetria-about__footer {
@@ -433,17 +428,18 @@ export default function AboutPage() {
           .vetria-about__why-inner,
           .vetria-about__publish,
           .vetria-about__believe-inner,
-          .vetria-about__founder {
+          .vetria-about__note {
             padding-block: var(--space-5);
           }
 
-          .vetria-about__portrait {
-            height: 320px !important;
-          }
-
-          .vetria-about__founder-title {
+          .vetria-about__note-title {
             font-size: 32px;
             line-height: 38px;
+          }
+
+          .vetria-about__note-body {
+            font-size: 19px;
+            line-height: 30px;
           }
         }
       `}</style>
