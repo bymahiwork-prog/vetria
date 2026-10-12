@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { series } from "../content/home";
 
 export default function Series() {
@@ -13,12 +14,20 @@ export default function Series() {
         </div>
 
         <div className="vetria-series__grid">
-          {series.map((item) => (
-            <a key={item.title} href={item.href} className="vetria-series__card">
-              <span className="vetria-series__name">{item.title}</span>
-              <span className="vetria-series__text">{item.text}</span>
-            </a>
-          ))}
+          {series.map((item) =>
+            item.href ? (
+              <Link key={item.title} href={item.href} className="vetria-series__card">
+                <span className="vetria-series__name">{item.title}</span>
+                <span className="vetria-series__text">{item.text}</span>
+              </Link>
+            ) : (
+              <div key={item.title} className="vetria-series__card vetria-series__card--soon">
+                <span className="vetria-series__name">{item.title}</span>
+                <span className="vetria-series__text">{item.text}</span>
+                <span className="vetria-series__soon">Starting soon</span>
+              </div>
+            ),
+          )}
         </div>
       </section>
 
@@ -62,6 +71,19 @@ export default function Series() {
           color: var(--ink-muted);
           font-size: 15px;
           line-height: 24px;
+        }
+
+        .vetria-series__card--soon:hover {
+          border-color: var(--rule);
+        }
+
+        .vetria-series__soon {
+          margin-top: auto;
+          color: var(--gold-text);
+          font-size: 12px;
+          font-weight: 700;
+          letter-spacing: 1.5px;
+          text-transform: uppercase;
         }
       `}</style>
     </>

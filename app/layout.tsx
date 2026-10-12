@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import localFont from "next/font/local";
+import { Analytics } from "@vercel/analytics/next";
 import JsonLd from "./components/JsonLd";
 import { absoluteUrl, site } from "./lib/site";
 import "./globals.css";
@@ -80,6 +82,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           Skip to content
         </a>
         {children}
+        {/* Vercel Web Analytics: page views, no cookies. Turn it on in Vercel → Analytics. */}
+        <Suspense fallback={null}>
+          <Analytics />
+        </Suspense>
       </body>
     </html>
   );
