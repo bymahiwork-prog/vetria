@@ -49,6 +49,131 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "barbet-and-pals-new-delhi",
+    draft: false,
+    publishedAt: "2026-10-13",
+    kicker: "Feature · Bar · New Delhi",
+    title: "Barbet & Pals, New Delhi: two bartenders, one nest",
+    standfirst: "Barbet & Pals is a 38-seat cocktail bar in Greater Kailash II, New Delhi, where two old friends turn Kumaon ingredients and their own memories into drinks.",
+    writer: "The Vitrea team",
+    date: "13 October 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "Barbet & Pals announces itself with a blue door. In Uttarakhand, the home state of co-founder Jeet Rana, doors are often painted blue as a sign of warmth and welcome, Elle Gourmet India reported. Inside the Greater Kailash II bar, painted bird footprints run across the floor and up onto the wooden bar counter, as if something small had just landed and wandered off towards the drinks."
+      },
+      {
+        type: "paragraph",
+        text: "This 38-seat cocktail bar in New Delhi opened to the public on 4 November 2025, according to The Nod Mag. It belongs to two bartenders, Jeet Rana and Chirag Pal, who met while working at the Westin in Gurgaon and have been friends since. Chef Amninder Sandhu, known for Kikli and Tipai, wrote the food menu. In 2026 Tatler named it India's Best New Bar and Best Innovation Bar."
+      },
+      {
+        type: "heading",
+        text: "Who the pals are"
+      },
+      {
+        type: "paragraph",
+        text: "Rana is a former global brand ambassador for Stranger & Sons gin and has represented India at World Class, the bartending competition, The Nod Mag noted. He has also worked at Arth and Sancho's in Mumbai. Pal came up through Grappa at the Shangri-La Eros in New Delhi and FIVE Palm Jumeirah in Dubai."
+      },
+      {
+        type: "paragraph",
+        text: "The name splits neatly between them. The barbet is a colourful Himalayan bird, a nod to Rana's roots in the hills. \"Pals\" comes from Pal's surname, and doubles as an invitation to join the group. Rana told Elle Gourmet India that he wanted the name to keep him grounded in where he comes from."
+      },
+      {
+        type: "quote",
+        text: "We want it to be a place where people don't think twice before coming.",
+        attribution: "Chirag Pal, co-founder, to Elle Gourmet India"
+      },
+      {
+        type: "heading",
+        text: "Kumaon in a glass at Barbet & Pals"
+      },
+      {
+        type: "paragraph",
+        text: "The drinks list is split in two. Bird's Eye View is a travel menu that explores one Indian region at a time, and Outlook Traveller reported that a new chapter is planned every three months. The first edition is about Kumaon. Esquire India reported that the founders spent ten days with families in the region gathering ingredients before writing it."
+      },
+      {
+        type: "paragraph",
+        text: "The results lean on produce few city drinkers will have met. Myol uses a small, sharp berry from the pear family, with pine needle notes. Madua draws on lugdi, a fermented grain drink, and pairs whisky with banana and gur under a warm foam. Gundryani is built on Jose Cuervo Reposado and angelica root, with a rim of pissi loon, the hill salt mixed with chilli, mint and coriander."
+      },
+      {
+        type: "paragraph",
+        text: "The second list, The Nest, holds fourteen cocktails tied to the founders' own memories, seven by each of them. Tickle My Pickle mixes gin and dry vermouth with pickle brine, blueberry, grape and carrot. Pals' Lugdi, Pal's take on fermented rice, brings together vodka, passion fruit and mulberry, and recalls his student years at IHM Shimla. Himalayan Madhpey, with patchouli and turmeric oleo, ginger and Campari, is the drink Rana made for World Class Global in 2016. It was Outlook Traveller's standout of the night."
+      },
+      {
+        type: "paragraph",
+        text: "For something smaller, there are pickle shots: choose a spirit, then a pickle to chase it. Esquire India also reported a house amaro made from green walnuts grown in Rana's own backyard."
+      },
+      {
+        type: "heading",
+        text: "Bar snacks that do more than soak up the gin"
+      },
+      {
+        type: "paragraph",
+        text: "Sandhu's menu is built to sit alongside the drinks, and Time Out Delhi called the snacks surprisingly hearty. Gol Gol bread arrives with two butters, one with nolen gur and one with chilli and fennel. Mrs Barbet, named for Rana's wife, whose recipe it is, is chicken with a desi chimichurri and caramelised onion foam."
+      },
+      {
+        type: "paragraph",
+        text: "From the hills comes bhutuwa, mutton offal cooked Uttarakhandi-style and served with finger-millet sourdough. Bar-Brat pairs a Naga pork sausage with ice cream made from fermented bamboo shoot. Flock Fried Chicken comes with avocado, prosciutto and a poached egg. To finish, there is a warm rum bal mithai sundae with burnt butter ice cream."
+      },
+      {
+        type: "heading",
+        text: "A small Greater Kailash bar that feels lived in"
+      },
+      {
+        type: "paragraph",
+        text: "The room is dim and close. Outlook Traveller described dark polished wood and retro music; Time Out heard an 80s oldies playlist and noticed birds on the staff's lapels and winged stirrers in the glasses. One wall mixes graffiti with Aipan, the folk art of Kumaon, and includes a bird holding a martini glass. The menu itself looks like a bartender's diary, full of doodles and stickers."
+      },
+      {
+        type: "paragraph",
+        text: "Time Out Delhi gave it five out of five in April 2026 and noted, with some relief, that it is not a speakeasy. Outlook Traveller scored it 4.8 out of five. Tatler also recommends Cavity, a nine-course cocktail pairing run by the bar, best booked from Friday to Sunday."
+      },
+      {
+        type: "heading",
+        text: "Why Barbet & Pals matters to independent owners"
+      },
+      {
+        type: "paragraph",
+        text: "Barbet & Pals shows how much a small business can carry in its details. The blue door, the bird tracks, the barbet magnet that comes with the bill and the diary-style menu all repeat one idea: two friends from the hills, welcoming you in. Nothing costs much on its own, but together they give guests, and the press, a story that is easy to retell."
+      },
+      {
+        type: "paragraph",
+        text: "The second lesson is the rotating regional menu. A new chapter every few months gives regulars a reason to come back and gives the bar something new to say each season, without changing who it is. For any independent owner, a planned, recurring change of this kind can do more than a constant stream of one-off promotions."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: Ground Floor, M-51, M Block Market, Greater Kailash II, New Delhi 110048."
+      },
+      {
+        type: "paragraph",
+        text: "When: Wednesday to Monday, 5pm to 1am; closed Tuesdays."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: Himalayan Madhpey, Gundryani, Tickle My Pickle, Mrs Barbet, Bar-Brat and Gol Gol bread."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: cocktails with friends, small groups, and a night of trying ingredients you have not met before."
+      }
+    ],
+    business: {
+      name: "Barbet & Pals",
+      details: "Greater Kailash II, New Delhi · Bar · Opened 2025",
+      logo: null,
+      website: "https://barbetandpals.com",
+      instagram: "https://www.instagram.com/barbetandpals/",
+    },
+    readNext: [],
+  },
+  {
     slug: "zetu-mehrauli-new-delhi",
     draft: false,
     publishedAt: "2026-10-13",
