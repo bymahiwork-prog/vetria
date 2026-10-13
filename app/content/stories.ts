@@ -49,6 +49,131 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "zetu-mehrauli-new-delhi",
+    draft: false,
+    publishedAt: "2026-10-13",
+    kicker: "Feature · Restaurant · New Delhi",
+    title: "Zetu, New Delhi: Sri Lanka under a Mehrauli banyan",
+    standfirst: "Zetu brings the full range of Sri Lankan cooking to Mehrauli, New Delhi, with a Sri Lankan chef, a Bawa-inspired space and a 500-year-old banyan tree.",
+    writer: "The Vitrea team",
+    date: "13 October 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "You do not walk into Zetu. At the entrance to 1AQ, an art complex in Seth Sarai, Mehrauli, guests are met with tender coconut water and driven in by golf cart. The ride ends at a dining room built around a banyan tree said to be 500 years old, with plants on every side and tables set well apart."
+      },
+      {
+        type: "paragraph",
+        text: "Zetu is a Sri Lankan restaurant in New Delhi that opened to the public on 4 June 2026. Esquire India describes it as the first restaurant in the city to take on the full range of the cuisine rather than a handful of borrowed dishes. It seats 175, shares its site with the Ojas Art Gallery, and has four co-founders: Sarah Nikahetiya, Anurag Dania, Abhishek Mathur and Sagar Garg. Time Out Delhi called it the city's first permanent Sri Lankan restaurant."
+      },
+      {
+        type: "heading",
+        text: "A bridge called Zetu, from Colombo to Mehrauli"
+      },
+      {
+        type: "paragraph",
+        text: "The name comes from setu, the Sanskrit word for bridge, with a Z added to make it feel current, The Week reported. The idea behind it is a conversation between India and Sri Lanka, and the founders have said they want the restaurant to reflect everyday life in Colombo rather than a version of the island made for tourists."
+      },
+      {
+        type: "paragraph",
+        text: "Nikahetiya, a former British diplomat to India who is married to a Sri Lankan, is behind much of that. Zetu is her first hospitality venture, according to The Nod Mag. Indian Retailer reported that recipes from her family, including Kandyan ones, and produce from the family farm near Colombo helped shape the menu."
+      },
+      {
+        type: "paragraph",
+        text: "The kitchen is led by Dush Ratnayake, a Sri Lankan chef, working with the Indian chefs Mohit Kumar and Romil Malhotra. The pairing is part of the point: a Sri Lankan lead, an Indian team, and dishes adjusted for Delhi without losing their identity."
+      },
+      {
+        type: "quote",
+        text: "If we were going to introduce Sri Lankan cuisine, it had to stand on its own",
+        attribution: "Dush Ratnayake, chef, to The Week"
+      },
+      {
+        type: "heading",
+        text: "Lamprais, kotthu and hoppers on a Sri Lankan menu in Delhi"
+      },
+      {
+        type: "paragraph",
+        text: "Meals begin with choon paan, small house-made breads that nod to Sri Lanka's mobile bakeries, served with three butters: curry leaf with pesto, cashew, and tandoori. From there the menu moves between street food, family recipes and dishes tied to particular communities."
+      },
+      {
+        type: "paragraph",
+        text: "Lamprais, rice and curries wrapped in banana leaf, is a dish with Dutch Burgher roots, and EazyDiner notes that Zetu's version was developed with a well-known Colombo kitchen. Kotthu, the chopped roti dish, comes with prawns or shiitake mushrooms. Kiribath, coconut milk rice, arrives in a black-and-white checkerboard pattern, Outlook Traveller reported. Gram Dahl in Contrast turns parippu, the red lentil curry, into small bites on coconut-wood spoons with whipped citrus crème fraîche."
+      },
+      {
+        type: "paragraph",
+        text: "Air and Gold is the luxury option: a hopper with crab, shaved truffle, sour cream and caviar, and the chef's top pick according to Time Out Delhi. Ratnayake told Outlook Traveller that leaving without the Yellow Rice with Three Curries would be a mistake. Time Out also noted that the menu deliberately leans on vegetables, poultry, pulses, grains and rice, rather than the seafood many people expect."
+      },
+      {
+        type: "paragraph",
+        text: "The bar works with pandan, coconut, curry leaf, cinnamon and Ceylon tea. The Frangipani Martini is floral and gin-based. The Zetu washes rum in brown butter and adds vanilla, banana, Ceylon chai and cashew milk. Outlook Traveller's top pick was a coconut espresso martini. There is a separate zero-proof menu, and a tea programme with the Sri Lankan brands Evergreen and Ceyland."
+      },
+      {
+        type: "heading",
+        text: "Tropical modernism under a banyan tree"
+      },
+      {
+        type: "paragraph",
+        text: "Dania, an architect as well as a co-founder, designed the space. It borrows from the tropical modernism of the Sri Lankan architect Geoffrey Bawa, and Indian Retailer reported that Minnette de Silva and Bevis Bawa were also references. The result, in Esquire India's words, blurs the line between indoors and out."
+      },
+      {
+        type: "paragraph",
+        text: "There are three dining zones and more than 500 plants. Time Out Delhi described cream walls, candlelight, paintings and a rotating mini-exhibition, with palm trees in the outdoor-style area. Upstairs, a terrace has cabanas for private dining. Some of the furniture comes from Phantom Hands, the Bengaluru design studio, including a chair from its Geoffrey Bawa collection."
+      },
+      {
+        type: "paragraph",
+        text: "The early response has been warm. Outlook Traveller gave Zetu full marks for food, drinks and atmosphere. Time Out Delhi rated it four out of five and marked it recommended, though it noted that the cocktails are not the main reason to go. EazyDiner's Food Trends included it among the best new restaurant openings in India of 2026."
+      },
+      {
+        type: "heading",
+        text: "Why Zetu matters to independent owners"
+      },
+      {
+        type: "paragraph",
+        text: "Zetu shows the value of a concept that is easy to explain. One sentence covers it: the full range of Sri Lankan food, in Delhi, by people with real ties to the island. That clarity makes it simple for press, guides and guests to talk about, and almost every write-up has repeated the same story about the name, the founders and the banyan tree."
+      },
+      {
+        type: "paragraph",
+        text: "The second lesson is that the whole experience can carry the idea. The welcome with coconut water, the Bawa-inspired rooms, the Sri Lankan teas and bread that nods to a mobile bakery all tell the same story as the food. For a small business, the cuisine or product is only part of the offer. When the arrival, the room and the details all point the same way, guests remember it and describe it the same way to others."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "If you are looking for a Sri Lankan restaurant in New Delhi Zetu in Mehrauli is open from lunch through to late."
+      },
+      {
+        type: "paragraph",
+        text: "Where: 1AQ, Seth Sarai, Mehrauli, New Delhi 110030."
+      },
+      {
+        type: "paragraph",
+        text: "When: Daily, noon to midnight. Reservations on +91 8796056111."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: Choon paan with three butters, lamprais, kotthu, kiribath, Air and Gold, and the Yellow Rice with Three Curries, with a Frangipani Martini or something from the zero-proof list."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: Private dining in the terrace cabanas, and anyone curious about Sri Lankan food beyond a dish or two. Expect around ₹8,000 for two, before alcohol."
+      }
+    ],
+    business: {
+      name: "Zetu",
+      details: "Mehrauli, New Delhi · Restaurant · Opened 2026",
+      logo: null,
+      website: "",
+      instagram: ""
+    },
+    readNext: []
+  },
+  {
     slug: "hoots-new-delhi",
     draft: false,
     publishedAt: "2026-10-12",
