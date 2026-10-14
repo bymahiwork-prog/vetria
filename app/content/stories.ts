@@ -49,6 +49,114 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "bar-outrigger-goa",
+    draft: false,
+    publishedAt: "2026-10-14",
+    kicker: "Feature · Bar · Goa",
+    title: "Bar Outrigger, Goa: a rum bar at the Dona Paula jetty",
+    standfirst: "Bar Outrigger is a nautical rum bar by the Dona Paula jetty in Goa, with over 100 rums, a treasure-map welcome and a place on Asia's 50 Best Bars 51–100.",
+    writer: "The Vitrea team",
+    date: "14 October 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "Getting to Bar Outrigger starts on WhatsApp. Book a table and the reply comes with a map drawn like a treasure hunt, leading from the car park down to a cocktail bar by the Dona Paula jetty, just outside Panaji in Goa. Time Out India says the team may even send someone to walk you in, because GPS struggles with the last stretch."
+      },
+      {
+        type: "paragraph",
+        text: "Bar Outrigger is a rum bar with a nautical theme, co-founded by Arijit Bose and Francis Coelho, according to Design Pataki and Esquire India. It sits on what was once a docking area for fishing boats. Design Pataki listed it among Goa's new openings in January 2025, and within months it had a place on Asia's 50 Best Bars. For a small bar in a quiet fishing village, that is a fast rise."
+      },
+      {
+        type: "heading",
+        text: "The people behind Bar Outrigger, Dona Paula"
+      },
+      {
+        type: "paragraph",
+        text: "Bose is a bartender known for building concept bars. The Nod Mag describes Outrigger as one of the bars he created, and notes that he now runs Bar Spirit Forward in Bengaluru. Coelho is the co-founder named alongside him in Esquire India and Design Pataki."
+      },
+      {
+        type: "paragraph",
+        text: "The idea is simple to state. Design Pataki calls the bar a third place: somewhere between home and work where locals and expats can settle in. The nautical theme runs from the welcome to the walls to the menu, and the team leans on small rituals rather than spectacle."
+      },
+      {
+        type: "paragraph",
+        text: "The Nod Mag describes two of them. Staff chalk a sailor-style greeting for each booking before guests arrive. And at the end of the night, guests and staff close with a singalong of the song from Titanic, a tradition Time Out India also mentions."
+      },
+      {
+        type: "heading",
+        text: "A rum list built for exploring"
+      },
+      {
+        type: "paragraph",
+        text: "Rum is the whole point here. Tatler Asia counts more than a hundred rums from around the world, alongside tiki punches and daiquiris. Time Out India describes tasting flights that move from light and grassy styles to dark and funky ones, and Design Pataki mentions rum-tasting sessions for those who want to go deeper."
+      },
+      {
+        type: "paragraph",
+        text: "Two drinks come up again and again in the coverage: the Tiki Negroni and the Walking Dead. Tatler Asia and Esquire India both single out the Coffee Painkiller, which Esquire describes as built on coconut cream and nutmeg. Esquire also names the Kingston Negroni and the Outrigger, a house drink of lime and house rum. Tatler adds one with a nod to the founder: the Flaming Wisdom of Bose."
+      },
+      {
+        type: "paragraph",
+        text: "The food stays close to the coast. Design Pataki credits the menu to Chef Adrial, with fresh seafood and Goan home cooking. Tatler Asia picks out fried river prawns served with a Lao-style sour dip, and local seabass cured in a sharp vinaigrette."
+      },
+      {
+        type: "heading",
+        text: "Teal walls, bay windows and an Asia's 50 Best listing"
+      },
+      {
+        type: "paragraph",
+        text: "The room was designed by Ayaz and Zameer Basrai of The Busride Design Studio, Design Pataki reports. Expect teal walls, plenty of plants, cane-woven stools, brown sofas and a worn wooden L-shaped bar. A communal table sits in the middle, and bay windows look straight out over the Arabian Sea. Time Out India adds model boats and striped fabrics to the picture, and Tatler Asia notes that the bar has direct access to a private stretch of beach."
+      },
+      {
+        type: "paragraph",
+        text: "The recognition has been steady. Bar Outrigger entered Asia's 50 Best Bars 51–100 list at No. 55 in 2025, Esquire India reported, and rose to No. 51 in 2026, according to The Nod Mag and Man's World India. Outlook Luxe placed it seventh in its 2025 list of 50 bars in India to visit, as one of that year's new entries. In 2026 it was named in the inaugural Tatler Best 20 Bars India."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Bar Outrigger shows how far a clear idea can carry a small venue. It does one spirit in depth, ties every detail to one theme, and does not try to be everything to everyone. That focus makes it easy to describe, easy to recommend and easy for a journalist to write about."
+      },
+      {
+        type: "paragraph",
+        text: "It also turns its weaknesses into part of the story. A hard-to-find location becomes a treasure map on WhatsApp. A booking becomes a chalked greeting. Closing time becomes a singalong. None of these costs much, but each gives guests something to talk about afterwards. For any independent owner, the lesson is to look at the awkward parts of your own business and ask whether they could become the thing people remember."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: Dona Paula Road, near the Dona Paula Jetty, Panaji, Goa 403004."
+      },
+      {
+        type: "paragraph",
+        text: "When: From 3pm on weekdays and noon at weekends, until midnight; closed on Tuesdays, according to Time Out India."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: a rum flight, the Tiki Negroni, the Walking Dead or the Coffee Painkiller, with the fried river prawns."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: rum lovers, sunset drinks by the sea, and groups around the communal table. Book ahead on WhatsApp for directions."
+      }
+    ],
+    business: {
+      name: "Bar Outrigger",
+      details: "Dona Paula, Goa · Bar · Asia's 50 Best Bars No. 51 (2026)",
+      logo: null,
+      website: "https://www.baroutrigger.com/",
+      instagram: "https://www.instagram.com/baroutriggergoa/",
+    },
+    readNext: [],
+  },
+  {
     slug: "japonico-gurugram",
     draft: false,
     publishedAt: "2026-10-14",
