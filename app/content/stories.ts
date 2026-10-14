@@ -49,6 +49,134 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "japonico-gurugram",
+    draft: false,
+    publishedAt: "2026-10-14",
+    kicker: "Feature · Restaurant & bar · Gurugram",
+    title: "Japonico, Gurugram: robata fire and a manga cocktail list",
+    standfirst: "Japonico is a contemporary Japanese restaurant and bar on Golf Course Road, Gurugram, with a live robata grill and a cocktail list that follows one man's story.",
+    writer: "The Vitrea team",
+    date: "14 October 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "At Japonico, the cooking happens over live wood. A robata grill sits at the heart of this Japanese restaurant on Golf Course Road in Gurugram, with family-style tables on one side and a long bar on the other. Outside, a terrace looks across the metro line towards the Gurugram skyline."
+      },
+      {
+        type: "paragraph",
+        text: "Japonico is a contemporary Japanese restaurant and bar on the second floor of Tower D, Vipul Tech Square, in Sector 43. It is run by restaurateur Sahil Sambhi, founder and chief executive of Yuvi Hospitality, the group behind Bawri and VietNom. It opened in early 2025, and Indian Food Freak called it the first major restaurant launch of that year. More than a year on, it is still drawing full-marks reviews."
+      },
+      {
+        type: "heading",
+        text: "Who is behind Japonico"
+      },
+      {
+        type: "paragraph",
+        text: "Sambhi was named Best Restaurateur at the 11th edition of The Big F Awards, Indian Food Freak reported. For Japonico he brought in Freddy Birdy to work on the space, according to LBB and Outlook Traveller. Outlook Traveller calls Birdy Instagram's best-loved wordsmith."
+      },
+      {
+        type: "paragraph",
+        text: "The kitchen is led by Roberto Blondi, an Italian chef. Outlook Traveller lists Zuma in London, Roka in Riyadh and Eleven Madison Park in New York among his previous kitchens, and both Outlook Traveller and LBB note that he trained under Marco Pierre White."
+      },
+      {
+        type: "paragraph",
+        text: "The cocktails come from a familiar pairing. Indian Food Freak credited the bar programme to Jeet Rana and Chirag Pal, and Outlook Traveller named Rana as the beverage custodian who designed the list. The same two bartenders later opened their own bar, Barbet & Pals, in Greater Kailash II."
+      },
+      {
+        type: "heading",
+        text: "Japanese food with a Peruvian edge, off the robata"
+      },
+      {
+        type: "paragraph",
+        text: "Outlook Traveller describes the food as contemporary Japanese with Peruvian touches, and the menu moves easily between the grill, the sushi counter and small plates for sharing."
+      },
+      {
+        type: "paragraph",
+        text: "Two dishes come up again and again. The hamachi carpaccio was Outlook Traveller's star dish in May 2025, praised for its soft texture and smoky depth. In February 2026 the same publication picked the robata-grilled Himalayan trout, marinated in shiso and yuzu kosho, as the dish of the night."
+      },
+      {
+        type: "paragraph",
+        text: "From the grill there is also an Australian lamb cutlet, marinated for 24 hours in gochujang, and miso black cod. Sushi runs from spicy tekka hako zushi, a pressed roll, to spicy tuna crispy rice and truffle hako sushi. Indian Food Freak singled out the Atlantic crab and aji chilli taco, a clear nod to Peru."
+      },
+      {
+        type: "paragraph",
+        text: "Vegetarians are looked after. There are mushroom, truffle and cream cheese tacos, corn ribs with smoked paprika butter, a crisp shiitake salad, grilled avocado with sake and yuzu kosho, and a Tokyo-style ramen topped with enoki tempura. Desserts include a Japanese fluffy cheesecake and a house tiramisu."
+      },
+      {
+        type: "heading",
+        text: "A cocktail list that reads like a manga"
+      },
+      {
+        type: "paragraph",
+        text: "The drinks menu follows Kaito Sakamoto, a fictional character, through the chapters of his life. LBB describes a story of growth, perseverance, happiness and brotherhood, with each cocktail standing for one chapter."
+      },
+      {
+        type: "paragraph",
+        text: "It starts where the evening starts. The Humble Beginnings, a mix of fermented fruit wine, sparkling sake and vodka, is served as the welcome drink. Golden Harvest pairs tequila with green yuzu kosho and guava. The Struggle's Shadow is a whisky drink with a sesame cream foam, Japonico's take on the espresso martini. Phoenix Flame brings tequila together with bell pepper and spirulina."
+      },
+      {
+        type: "paragraph",
+        text: "Further along the story come The Bond, with Roku gin, chrysanthemum and Sichuan pepper syrup, and Roots of Ambition, which mixes Toki whisky with goji berry cordial, kaffir lime and genmaicha soda. Indian Food Freak's pick was The Legacy, a gin and vodka martini served with tobiko, pickled radish and an olive."
+      },
+      {
+        type: "heading",
+        text: "A Gurugram room that changes after dark"
+      },
+      {
+        type: "paragraph",
+        text: "Reviewers describe dark wood, textured stone and low lighting, alongside red interiors, digital art projected onto flowing water and a water feature at the bar. LBB noted metal chain curtains and amber light; Outlook Traveller heard house music."
+      },
+      {
+        type: "paragraph",
+        text: "The room shifts through the day. Outlook Traveller describes a polished lunch that gives way to a music-led bar at night, and an earlier Outlook review listed an after-hours session from 11pm to 2am. In May 2026 the publication listed Japonico among the best Japanese restaurants in Delhi NCR."
+      },
+      {
+        type: "heading",
+        text: "Why Japonico matters to independent owners"
+      },
+      {
+        type: "paragraph",
+        text: "The cocktail list is the lesson here. By building the drinks around one character and one story, Japonico gives every round something to talk about, and gives writers something to write about. Almost every review mentions Kaito Sakamoto by name. A narrative menu costs little more than a good printer, but it turns a list of drinks into something guests remember and repeat."
+      },
+      {
+        type: "paragraph",
+        text: "The second lesson is the team. Japonico paired a chef with international kitchens behind him, bartenders with their own following and a designer with a public voice. Each brought an audience and a reason for the press to pay attention. For an independent owner, choosing collaborators who already have a story of their own can do as much for getting found as any launch campaign."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: Second Floor, Tower D, Vipul Tech Square, Golf Course Road, Sector 43, Gurugram, Haryana 122009."
+      },
+      {
+        type: "paragraph",
+        text: "When: daily, lunch 12pm to 4pm and dinner from 7pm, with late hours after that; check closing time before you go."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: hamachi carpaccio, robata-grilled Himalayan trout, Atlantic crab and aji chilli taco, The Humble Beginnings and Golden Harvest."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: dinner with friends, late-night cocktails, and group meals around the robata grill."
+      }
+    ],
+    business: {
+      name: "Japonico",
+      details: "Sector 43, Gurugram · Restaurant & bar · Opened 2025",
+      logo: null,
+      website: "",
+      instagram: "https://www.instagram.com/japonico.ggn/",
+    },
+    readNext: [],
+  },
+  {
     slug: "barbet-and-pals-new-delhi",
     draft: false,
     publishedAt: "2026-10-13",
