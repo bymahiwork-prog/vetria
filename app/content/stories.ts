@@ -49,6 +49,123 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "slow-tide-goa",
+    draft: false,
+    publishedAt: "2026-10-16",
+    kicker: "Feature · Restaurant & bar · Goa",
+    title: "Slow Tide, Goa: the Anjuna beach shack, rethought",
+    standfirst: "Slow Tide is a beach shack bar and restaurant in Anjuna, Goa, with a Palinda Kannangara design, West Coast plates and three years on 30 Best Bars India.",
+    writer: "The Vitrea team",
+    date: "16 October 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "At Slow Tide, the shade comes from a lattice of mundas set over low seating in natural colours. Beyond it is Anjuna Beach in North Goa. Man's World India called it one of the best places on that beach for a sundowner, and the cocktail list is named after the people who made Anjuna famous in the 1960s."
+      },
+      {
+        type: "paragraph",
+        text: "Slow Tide is a restaurant and bar that sets out to reinvent the Goan beach shack. It stands in D'Mello Vaddo, on the site of the old San Francisco Shack, and it grew out of a smaller venture, the Anjuna Chai Shop, Gomantak Times reports. Neil, one of the owners, is the face of the project in the press. An Urbanaut event listing names him as Neil Dsouza, a Goan who had lived in Mumbai and came home during the pandemic, when the idea took shape. Design Pataki listed Slow Tide among Goa's new restaurants in February 2023."
+      },
+      {
+        type: "heading",
+        text: "A beach shack in Anjuna, built to feel temporary"
+      },
+      {
+        type: "paragraph",
+        text: "The building is the work of the Sri Lankan architect Palinda Kannangara, who is known for working with local materials. Design Pataki describes the structure as a series of light pavilions with a small footprint, meant to keep the passing, makeshift feel of a shack rather than replace it with something permanent. Esquire India reads the design as a tribute to the village's hippie past."
+      },
+      {
+        type: "paragraph",
+        text: "Inside, there is a deck and indoor seating, according to Gomantak Times, and the paper describes the mood as modern but nostalgic. Esquire India places it on Anjuna's rocky shoreline, looking straight out to the Arabian Sea."
+      },
+      {
+        type: "quote",
+        text: "There's no better theatre than a shack on the beach.",
+        attribution: "Neil, co-owner of Slow Tide, to Gomantak Times"
+      },
+      {
+        type: "heading",
+        text: "A West Coast menu, from Goa to Sri Lanka"
+      },
+      {
+        type: "paragraph",
+        text: "The kitchen looks along the whole western coastline rather than at Goa alone. Neil told Gomantak Times that the menu travels from Bassein down to Sri Lanka, and that ingredients come from the coastal regions it draws on. Design Pataki lists Goan, East Indian, old Mangalorean and Sri Lankan cooking among the influences, along with South American street food."
+      },
+      {
+        type: "paragraph",
+        text: "Esquire India names three dishes: Toddy Shop Pork Toasties, Karwari mussels and a Military Canteen mutton curry. Gomantak Times mentions thalis and seasonal specials that change with the weather: aloni bhaat in winter, a sasam salad in summer and a kalchi kodi seafood congee in the monsoon. There are also smoothies, some of them based on the ideas of Anthony William, known as the Medical Medium."
+      },
+      {
+        type: "heading",
+        text: "Cocktails named for Anjuna's characters"
+      },
+      {
+        type: "paragraph",
+        text: "The bar is where Slow Tide's sense of place is sharpest. Man's World India credits the cocktail programme to Sujan Shetty and says the drinks are named after famous hippies and other figures from the 1960s. Gomantak Times frames them as a nod to people from Goa's drinking history, and names Sailor Fred as one of them."
+      },
+      {
+        type: "paragraph",
+        text: "Man's World India recommends the Acid Erick, a clarified tequila drink with watermelon, yuzu, basil and almond milk, and the Starco Junction, which mixes vodka with chorizo, pickle and fizz. It also suggests Berlin Peter, Serge and Mushroom Jack for sunset. Esquire India, for its part, simply recommends a rum punch with your feet in the sand."
+      },
+      {
+        type: "paragraph",
+        text: "The industry has noticed. Slow Tide was ranked No. 17 at the 30 Best Bars India awards announced in January 2024, then No. 11 in the 2024 edition and No. 20 in the 2025 edition, according to YourStory and Curly Tales. Outlook Luxe placed it at No. 43 on its list of 50 bars in India to visit in 2025."
+      },
+      {
+        type: "heading",
+        text: "More than a place to eat"
+      },
+      {
+        type: "paragraph",
+        text: "Slow Tide also works as a venue. Gomantak Times says it hosts art, literature and music events for the local community, with live music from local and international musicians at weekends. Design Pataki adds book launches and a dedicated space for emerging local artists. Sheerluxe's writers, who visited by day, heard that evenings bring live music, dance and DJs."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Goa has no shortage of beach shacks, and most compete on the same things: a view, cold beer and a long menu. Slow Tide kept the format and changed what sits inside it. The architecture, the coastal menu and the cocktail names all point back to one place, Anjuna, and its history. That gives the press a story to tell and guests a reason to choose it over the shack next door."
+      },
+      {
+        type: "paragraph",
+        text: "There is a second lesson in how it uses the space. Literature events, book launches, an art space and live music give people reasons to come back that have nothing to do with the menu. For an independent business, being useful to the local community is one of the cheapest forms of marketing there is, and it compounds over time."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: D'Mello Vaddo, Anjuna Beach, North Goa."
+      },
+      {
+        type: "paragraph",
+        text: "When: Open seven days a week, according to Gomantak Times. Listed opening times vary between sources, so check before you go."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: the Acid Erick or the Starco Junction, with Karwari mussels or the Toddy Shop Pork Toasties."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: sunset cocktails, a long lunch by the sea, and weekend evenings with live music."
+      }
+    ],
+    business: {
+      name: "Slow Tide",
+      details: "Anjuna, Goa · Restaurant & bar · No. 20, 30 Best Bars India (2025)",
+      logo: null,
+      website: "",
+      instagram: "https://www.instagram.com/slowtidegoa/",
+    },
+    readNext: [],
+  },
+  {
     slug: "bar-outrigger-goa",
     draft: false,
     publishedAt: "2026-10-14",
