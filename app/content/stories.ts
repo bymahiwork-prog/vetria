@@ -49,6 +49,119 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "native-cocktail-room-jaipur",
+    draft: false,
+    publishedAt: "2026-10-17",
+    kicker: "Feature · Bar · Jaipur",
+    title: "Native Cocktail Room, Jaipur: the bar that taught a city",
+    standfirst: "Native Cocktail Room is a speakeasy-style cocktail bar off Ajmer Road in Jaipur, run by Karan and Simran Wallia and ranked No. 25 at 30 Best Bars India.",
+    writer: "The Vitrea team",
+    date: "17 October 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "The room is dim, the walls are hand-painted and the furniture comes in jewel tones, as Fodor's describes it. Native Cocktail Room sits inside Hotel Pearl Palace at Hathroi Fort, just off Ajmer Road in Jaipur, and, Curly Tales reports, the room is often full."
+      },
+      {
+        type: "paragraph",
+        text: "Native is an independent cocktail bar run by the husband-and-wife team Karan Singh Wallia and Simran Kaur Wallia, according to Outlook Luxe and Ambrosia India. Its own website calls it the Pink City's first cocktail room, and the press has taken up the idea: Outlook Traveller has described its reputation as Rajasthan's first true cocktail destination. What makes it worth a closer look is how it got there, in a city where the format was new."
+      },
+      {
+        type: "heading",
+        text: "Native Cocktail Room and Jaipur's first cocktail lessons"
+      },
+      {
+        type: "paragraph",
+        text: "Petit Futé reports that the Singh family turned a former boutique and several rooms of the Pearl Palace hotel into the bar. The guide describes a decor that mixes a Chinese cabinet style with the look of an Indian palace, and a small terrace for days when the weather is kind."
+      },
+      {
+        type: "paragraph",
+        text: "Starting out was not simple. Speaking to All About Jaipur in 2024, Simran Kaur Wallia said that the idea of a cocktail bar or a speakeasy was entirely new to the city when Native began, and that the team had to teach its guests about mixology. That patient groundwork is part of why Curly Tales, in January 2026, credited Native with changing the way Jaipur drinks."
+      },
+      {
+        type: "quote",
+        text: "When we started Native, the concept of a cocktail bar or speakeasy was entirely new to Jaipur.",
+        attribution: "Simran Kaur Wallia, Native Cocktail Room, to All About Jaipur"
+      },
+      {
+        type: "heading",
+        text: "Indian flavours, short menu"
+      },
+      {
+        type: "paragraph",
+        text: "The drinks lean on the region. Outlook Traveller has written about Native's inventive use of indigenous ingredients and its roots in terroir and regional identity, and the bar's own website says it is inspired by India and built around fusion cocktails."
+      },
+      {
+        type: "paragraph",
+        text: "The list is deliberately tight. Esquire India counted 12 signature cocktails, citing Native as an example of the move towards small, focused menus. Curly Tales picked out two: the Willow, inspired by Maharaja Hari Singh and made with honey, caramel and saffron, and the Padrino, a bittersweet Negroni-style drink that nods to The Godfather. The current menu on Native's website lists drinks including the Pondicherry Sour, the East Asian Highball, Camellia and 10th Century. A recent event listing on District says the cocktails are named after well-known personalities, with Indian flavours in each, and names Anubhav Madan as beverage manager."
+      },
+      {
+        type: "paragraph",
+        text: "Food is treated as more than an afterthought. Fodor's notes Indian, Italian and Chinese plates, from finger food to larger dishes. The website lists tempura sushi, a chicken bao, a mushroom truffle oil flatbread, a Kashmiri nadroo yakhni and a Kolkata beetroot cutlet."
+      },
+      {
+        type: "heading",
+        text: "Bar takeovers and a place on the national list"
+      },
+      {
+        type: "paragraph",
+        text: "Native has also made its name through guest shifts. All About Jaipur reported in August 2024 that the bar had hosted around 35 takeovers in two years, roughly one a month, and that its own team had travelled to pour in Mumbai, Pune, Delhi, Kolkata and Singapore. It has also welcomed a bar from Nepal. In September 2025 Bombay Daak brought its cocktails to Native, Outlook Traveller reported, and in October 2026 the Native team took its menu to High Ultra Lounge at the Sheraton Grand Bangalore, according to District."
+      },
+      {
+        type: "paragraph",
+        text: "The industry has taken note. Curly Tales reported in December 2023 that Native had made the 30 Best Bars India top 50. The awards' own archive lists it at No. 25 in the 2024 edition, and Curly Tales and Esquire India put it at No. 25 again in the 2025 edition. Outlook Luxe placed it at No. 33 on its list of 50 bars in India to visit in 2025."
+      },
+      {
+        type: "paragraph",
+        text: "The Wallias have since opened a second venue in the same building: Primitive, a restaurant with a progressive Indian menu from chef Mohib Farooqui. Simran Wallia put the difference neatly to Outlook Luxe: Native is a cocktail bar with great food, while Primitive is a fine restaurant with great cocktails."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Native opened in a city that had no habit of cocktail bars, so the first job was not selling drinks but explaining them. The bar took that on directly, educating guests rather than waiting for demand to arrive. For any independent business bringing a new format to a smaller city, that is the real work: the product only lands once people understand why it exists."
+      },
+      {
+        type: "paragraph",
+        text: "Takeovers are the other lesson. Swapping bars with teams from other cities brings new guests in, sends the Native name out, and gives the press a steady reason to write. A takeover costs far less than an advertising campaign, and it builds relationships across the trade at the same time. Paired with a short menu rooted in local flavour, it has helped a Jaipur bar earn a place on a national list."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: Hotel Pearl Palace, 51 Hathroi Fort, Hari Kishan Somani Marg, Ajmer Road, Jaipur."
+      },
+      {
+        type: "paragraph",
+        text: "When: 5:30pm to midnight, according to Native's website. Other listings give different times, and Fodor's says reservations are essential, so book ahead."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: the Willow or the Padrino, with the chicken bao or the Kolkata beetroot cutlet."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: cocktails with friends, a late evening out in Jaipur, and nights when a guest bar is in town."
+      }
+    ],
+    business: {
+      name: "Native Cocktail Room",
+      details: "Ajmer Road, Jaipur · Bar · No. 25, 30 Best Bars India (2025)",
+      logo: null,
+      website: "https://nativecocktailroom.com/",
+      instagram: "https://www.instagram.com/nativecocktailroom/",
+    },
+    readNext: [],
+  },
+  {
     slug: "slow-tide-goa",
     draft: false,
     publishedAt: "2026-10-16",
