@@ -58,9 +58,11 @@ export const stories: FeatureStory[] = [
     writer: "The Vitrea team",
     date: "17 October 2026",
     readTime: "5 min read",
-    heroImage: null,
-    heroAlt: "",
-    heroCaption: "",
+    heroImage: "/images/features/native-cocktail-room/mural-room.jpg",
+    heroAlt:
+      "A seating corner at Native Cocktail Room in Jaipur: a large hand-painted red mural of a royal couple among trees and peacocks, a green sofa, cane-backed chairs and a mirrored arch",
+    heroCaption:
+      "The mural room at Native Cocktail Room, Jaipur.",
     body: [
       {
         type: "paragraph",
@@ -171,9 +173,11 @@ export const stories: FeatureStory[] = [
     writer: "The Vitrea team",
     date: "16 October 2026",
     readTime: "5 min read",
-    heroImage: null,
-    heroAlt: "",
-    heroCaption: "",
+    heroImage: "/images/features/slow-tide/sea-deck-dusk.jpg",
+    heroAlt:
+      "The covered deck at Slow Tide in Anjuna, Goa, at dusk: a bamboo ceiling strung with lights, high tables with candles and cane chairs, and glass panels looking out over the sea",
+    heroCaption:
+      "The deck at Slow Tide, Anjuna, Goa, at dusk.",
     body: [
       {
         type: "paragraph",
@@ -288,9 +292,11 @@ export const stories: FeatureStory[] = [
     writer: "The Vitrea team",
     date: "14 October 2026",
     readTime: "5 min read",
-    heroImage: null,
-    heroAlt: "",
-    heroCaption: "",
+    heroImage: "/images/features/bar-outrigger/bar-counter.jpg",
+    heroAlt:
+      "The bar counter at Bar Outrigger in Dona Paula, Goa: bartenders at work under hanging lamps, shelves of bottles against a teal wall, and woven bar stools in the foreground",
+    heroCaption:
+      "Behind the bar at Bar Outrigger, Dona Paula, Goa.",
     body: [
       {
         type: "paragraph",
