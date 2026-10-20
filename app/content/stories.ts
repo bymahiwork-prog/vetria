@@ -402,9 +402,11 @@ export const stories: FeatureStory[] = [
     writer: "The Vitrea team",
     date: "14 October 2026",
     readTime: "5 min read",
-    heroImage: null,
-    heroAlt: "",
-    heroCaption: "",
+    heroImage: "/images/features/japonico/dining-room.jpg",
+    heroAlt:
+      "The dining room at Japonico in Gurugram: red velvet chairs and dark wooden tables, a long counter with red bar stools, a mirrored ceiling and a row of lit palms against a blue-lit curtain",
+    heroCaption:
+      "The dining room at Japonico, Golf Course Road, Gurugram.",
     body: [
       {
         type: "paragraph",
@@ -530,9 +532,11 @@ export const stories: FeatureStory[] = [
     writer: "The Vitrea team",
     date: "13 October 2026",
     readTime: "5 min read",
-    heroImage: null,
-    heroAlt: "",
-    heroCaption: "",
+    heroImage: "/images/features/barbet-and-pals/bar-counter.jpg",
+    heroAlt:
+      "The bar at Barbet & Pals in New Delhi: a long wooden counter with stools, paper lantern lights, shelves of bottles and photographs, and a colourful painted mural on the wall",
+    heroCaption:
+      "The bar at Barbet & Pals, Greater Kailash II, New Delhi.",
     body: [
       {
         type: "paragraph",
@@ -655,9 +659,11 @@ export const stories: FeatureStory[] = [
     writer: "The Vitrea team",
     date: "13 October 2026",
     readTime: "5 min read",
-    heroImage: null,
-    heroAlt: "",
-    heroCaption: "",
+    heroImage: "/images/features/zetu/entrance-and-dining-room.jpg",
+    heroAlt:
+      "Two views of Zetu in Mehrauli, New Delhi: the ochre entrance wall with the Zetu name beside a frangipani tree, and the arched dining room with cream chairs and patterned floor",
+    heroCaption:
+      "The entrance and dining room at Zetu, Mehrauli, New Delhi.",
     body: [
       {
         type: "paragraph",
@@ -781,9 +787,11 @@ export const stories: FeatureStory[] = [
     writer: "The Vitrea team",
     date: "12 October 2026",
     readTime: "5 min read",
-    heroImage: null,
-    heroAlt: "",
-    heroCaption: "",
+    heroImage: "/images/features/hoots/bar.jpg",
+    heroAlt:
+      "The bar at Hoots' in New Delhi: a long back bar lined with bottles under chalkboard menus, a green-tiled counter front and high stools with cane backs",
+    heroCaption:
+      "The bar at Hoots', Vasant Vihar, New Delhi.",
     body: [
       {
         type: "paragraph",
@@ -876,9 +884,11 @@ export const stories: FeatureStory[] = [
     writer: "The Vitrea team",
     date: "12 October 2026",
     readTime: "5 min read",
-    heroImage: null,
-    heroAlt: "",
-    heroCaption: "",
+    heroImage: "/images/features/indian-accent/the-lodhi-exterior.jpg",
+    heroAlt:
+      "The Lodhi in New Delhi at dusk: a glass dining pavilion set over a reflecting pool with floating flames, stone buildings with lit windows behind",
+    heroCaption:
+      "The Lodhi, New Delhi, home of Indian Accent, at dusk.",
     body: [
       {
         type: "paragraph",
