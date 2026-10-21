@@ -1,5 +1,6 @@
 import AnnouncementBar from "./components/AnnouncementBar";
 import Navbar from "./components/Navbar";
+import HeroVideo from "./components/HeroVideo";
 import CoverStory from "./components/CoverStory";
 import LatestFeatures from "./components/LatestFeatures";
 import TheFuture from "./components/TheFuture";
@@ -9,7 +10,7 @@ import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
 
 // Homepage layout follows the Vitrea website design (Home artboard):
-// announcement bar → header → cover story → latest features → The Future →
+// announcement bar → header → hero video (what Vitrea is) → cover story → latest features → The Future →
 // series → get featured → newsletter → footer.
 // Copy and placeholders live in app/content/home.ts.
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
 
       <main id="main">
         <h1 className="sr-only">Vitrea: stories of the businesses building what&apos;s next</h1>
+        <HeroVideo />
         <CoverStory />
         <LatestFeatures />
         <TheFuture />
