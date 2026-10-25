@@ -58,10 +58,9 @@ export const stories: FeatureStory[] = [
     writer: "The Vitrea team",
     date: "25 October 2026",
     readTime: "5 min read",
-    heroImage: "/images/features/boilermaker/bar-counter.jpg",
-    heroAlt:
-      "The bar at Boilermaker in Siolim, Goa: a row of black stools facing a counter under industrial pendant lamps, with shelves of bottles and a large BOILERMAKER sign behind",
-    heroCaption: "The bar at Boilermaker, Siolim.",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
     body: [
       {
         type: "paragraph",
@@ -82,13 +81,6 @@ export const stories: FeatureStory[] = [
       {
         type: "paragraph",
         text: "So the team built what The Nod Mag called a five-star dive bar: a beach-shack look, high standards behind the counter. The 50 Best write-up ties the name and the ethos to susegad, the Konkani word for a laid-back, friendly temperament, and describes an evening there as something like a house party."
-      },
-      {
-        type: "image",
-        src: "/images/features/boilermaker/table.jpg",
-        alt: "A black-and-white photo of a group of men talking around a table under hanging pendant lamps at Boilermaker, Goa",
-        caption: "Round a table at Boilermaker.",
-        aspectRatio: "16 / 9",
       },
       {
         type: "quote",
