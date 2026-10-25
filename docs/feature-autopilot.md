@@ -8,7 +8,7 @@ Vitrea (vitreaonline.in) is an independent media brand that features independent
 
 ## Queue
 
-Work top to bottom. Publish the first unticked brand. When you publish one, tick it here (`[x]`) in the same commit and add its entry to the Published log.
+Work top to bottom. Rows 9–28 were added on 25 Oct 2026 at Mahi's request: good independent restaurants and bars in India and abroad, alternating India and international, picked from the 2026 World's 50 Best Bars, Asia's 50 Best Bars 2026, the 30 Best Bars India 2026 masterlist and well-reviewed restaurants. Publish the first unticked brand. When you publish one, tick it here (`[x]`) in the same commit and add its entry to the Published log.
 
 | Done | # | Brand | Type | City | Suggested slug |
 |---|---|---|---|---|---|
@@ -20,6 +20,26 @@ Work top to bottom. Publish the first unticked brand. When you publish one, tick
 | [x] | 6 | Bar Outrigger | Bar | Goa | `bar-outrigger-goa` |
 | [x] | 7 | Slow Tide | Restaurant & bar | Goa | `slow-tide-goa` |
 | [x] | 8 | Native Cocktail Room | Bar | Jaipur | `native-cocktail-room-jaipur` |
+| [x] | 9 | Boilermaker | Bar | Goa | `boilermaker-goa` |
+| [ ] | 10 | Bar Leone | Bar | Hong Kong | `bar-leone-hong-kong` |
+| [ ] | 11 | Masque | Restaurant | Mumbai | `masque-mumbai` |
+| [ ] | 12 | Disfrutar | Restaurant | Barcelona | `disfrutar-barcelona` |
+| [ ] | 13 | SOKA | Bar | Bengaluru | `soka-bengaluru` |
+| [ ] | 14 | Handshake Speakeasy | Bar | Mexico City | `handshake-speakeasy-mexico-city` |
+| [ ] | 15 | The Bombay Canteen | Restaurant & bar | Mumbai | `the-bombay-canteen-mumbai` |
+| [ ] | 16 | Gaggan | Restaurant | Bangkok | `gaggan-bangkok` |
+| [ ] | 17 | Bar Spirit Forward | Bar | Bengaluru | `bar-spirit-forward-bengaluru` |
+| [ ] | 18 | Jigger & Pony | Bar | Singapore | `jigger-and-pony-singapore` |
+| [ ] | 19 | Naru Noodle Bar | Restaurant | Bengaluru | `naru-noodle-bar-bengaluru` |
+| [ ] | 20 | Semma | Restaurant | New York | `semma-new-york` |
+| [ ] | 21 | Sidecar | Bar | New Delhi | `sidecar-new-delhi` |
+| [ ] | 22 | Sips | Bar | Barcelona | `sips-barcelona` |
+| [ ] | 23 | O Pedro | Restaurant & bar | Mumbai | `o-pedro-mumbai` |
+| [ ] | 24 | Orfali Bros Bistro | Restaurant | Dubai | `orfali-bros-dubai` |
+| [ ] | 25 | Cobbler & Crew | Bar | Pune | `cobbler-and-crew-pune` |
+| [ ] | 26 | Alquímico | Bar | Cartagena | `alquimico-cartagena` |
+| [ ] | 27 | Comorin | Restaurant & bar | Gurugram | `comorin-gurugram` |
+| [ ] | 28 | Quintonil | Restaurant | Mexico City | `quintonil-mexico-city` |
 
 If every row is ticked: publish nothing, and tell Mahi the queue is finished and the scheduled task "Vitrea feature autopilot" can be deleted or given new brands.
 
@@ -33,6 +53,7 @@ Collect facts from **at least 3 independent sources**. Prefer these, in order:
 
 1. The brand's own website and official Instagram.
 2. Award lists: Asia's 50 Best Bars and Restaurants, India's Best Bars, Condé Nast Traveller India, Food Trends, Tatler Asia, Times Food & Nightlife Awards.
+   For brands outside India, also: The World's 50 Best Restaurants and Bars (and their 51–100 lists), Latin America's / MENA's 50 Best, the Michelin Guide, Time Out, Eater, The Infatuation, Condé Nast Traveller, Financial Times, The Guardian, The New York Times, South China Morning Post, Punch, Difford's Guide.
 3. Reputable press: Condé Nast Traveller India, Vogue India, GQ India, Mint Lounge, Hindustan Times, The Hindu, Indian Express, Mid-day, Architectural Digest India, Tatler Asia, Mixology/drinks trade press.
 4. Google Maps / the brand's site for the address and opening hours.
 
@@ -49,6 +70,7 @@ Write down every fact with its source URL. Useful facts:
 - No invented quotes. A direct quote is allowed only if it appears verbatim in a cited publication, and must be attributed in the sentence (for example: "…, the chef told Condé Nast Traveller India."). Prefer paraphrase. Paraphrase everything else in your own words; never copy sentences.
 - If hours or address cannot be verified, leave them out of Plan your visit rather than guessing.
 - No photos. We do not have rights to these brands' images. Do not download, hotlink or describe images from their Instagram or website. Set `heroImage: null` and use no `image` blocks. The site shows a branded tile instead.
+- For brands outside India, keep the same rules. Write for an Indian reader planning a trip: no prices in local currency unless a source states them, and name the country in the first paragraph.
 - Be fair and accurate. Vitrea is editorial, not advertising: no hype words ("best ever", "must-visit", "iconic") unless quoting an award.
 
 ## Step 2: Write
@@ -163,3 +185,5 @@ Newest at the bottom. One block per run: date and time (IST), brand, title, slug
 - 2026-10-16 ~19:05 IST: Slow Tide, D'Mello Vaddo, Anjuna, Goa. Title: "Slow Tide, Goa: the Anjuna beach shack, rethought". Slug: `slow-tide-goa`. Sources: https://www.gomantaktimes.com/my-goa/places-to-eat/rooted-to-goa-slow-tide-exudes-the-anjuna-vibe ; https://www.designpataki.com/?p=31117 ; https://www.mansworldindia.com/lifestyle/7-underrated-dining-spots-in-goa-to-visit-on-your-next-trip ; https://www.esquireindia.co.in/food-and-drinks/what-to-eat/six-beachfront-restaurants-in-goa-that-earned-their-name ; https://www.esquireindia.co.in/amp/story/food-and-drinks/where-to-drink/best-bars-in-goa-you-can-visit-on-the-long-weekend ; https://yourstory.com/ys-life/30-best-bars-awards-sidecar-cobblerandcrew ; https://curlytales.com/30bestbarsindia-list-of-2024-revealed-and-lair-steals-the-show-as-indias-best-bar-full-list-of-winners-inside/amp/ ; https://curlytales.com/india/food/bengaluru-dominates-as-bar-spirit-forward-takes-no-spot-at-best-bars-india/amp/ ; https://luxe.outlookindia.com/food-travel/food/50-bars-of-india-to-visit-in-2025 ; https://urbanaut.app/spot/slow-tide-at-the-conservatory ; https://sheerluxe.com/culture/travel/things-to-do-in-goa-india ; https://lbb.in/delhi/top-bars-in-goa . Notes: no photos; no official website found, Instagram @slowtidegoa from Design Pataki, LBB and Sheerluxe. Exact opening date not found, so the article says Design Pataki listed it among new openings in February 2023. Owner's surname (Dsouza) only from an Urbanaut event listing. Hours conflict (Gomantak: from noon daily; LBB: 9am–11:30pm), so the When line gives only 'open seven days' with a check-first note. Man's World gives a different street address (St Anthoney Prias Waddo) from Gomantak/LBB (D'Mello Vaddo); the majority version is used. Cocktail spelt Acid Erick (Man's World) rather than Acid Erik (Gomantak). One quote used, verbatim from Gomantak Times (Neil).
 
 - 2026-10-17 ~11:10 IST: Native Cocktail Room, Hotel Pearl Palace, Hathroi Fort, Ajmer Road, Jaipur. Title: "Native Cocktail Room, Jaipur: the bar that taught a city". Slug: `native-cocktail-room-jaipur`. Sources: https://nativecocktailroom.com/ ; https://curlytales.com/india/food/from-amritsar-to-guwahati-best-bars-in-tier-cities-levelling-up-indias-cocktail-culture/amp/ ; https://oteats.outlooktraveller.com/whats-new/bombay-daak-brings-its-inventive-cocktails-to-native-cocktail-room-jaipur ; https://oteats.outlooktraveller.com/features/guides/palaces-panoramas-perfect-pours-the-best-new-cocktail-bars-in-jaipur ; https://allaboutjaipur.com/bar-takeover-take-over/8562/ ; https://luxe.outlookindia.com/food-travel/food/primitive-jaipur-an-exciting-new-dining-spot-in-the-pink-city ; https://www.ambrosiaindia.com/2025/06/why-primitive-in-jaipur-should-be-your-next-dinner-reservation/ ; https://www.30bestbarsindia.in/list-of-bars/2024-archive/ ; https://curlytales.com/india/food/bengaluru-dominates-as-bar-spirit-forward-takes-no-spot-at-best-bars-india/amp/ ; https://www.esquireindia.co.in/food-and-drinks/where-to-drink/what-the-30-best-bars-list-tells-us-about-the-future-of-bars-in-india ; https://curlytales.com/from-jaipur-to-pune-these-new-cities-are-becoming-the-rising-pulse-of-indias-cocktail-scene/amp/ ; https://luxe.outlookindia.com/food-travel/food/50-bars-of-india-to-visit-in-2025 ; https://www.fodors.com/world/asia/india/rajasthan/places/jaipur-and-environs/jaipur/things-to-do/nightlife ; https://www.petitfute.co.uk/v46295-jaipur/c1169-s-amuser-sortir/c182-bar-cafe/c185-bar-a-cocktail/2028399-native-cocktail-room.html ; https://www.district.in/events/from-pink-city-to-bangalore-jaipurs-native-cocktail-room-comes-alive-at-high-ultra-lounge-oct9-2026-buy-tickets . Notes: no photos. Opening year not found, so none given. Surname spelt Wallia (Outlook Luxe, Ambrosia India) rather than Walia (All About Jaipur). Hours conflict (website 5:30pm–midnight; Curly Tales and Petit Futé noon–midnight; Curly Tales 2024 5:30–11pm), so the website's hours are given, attributed, with a book-ahead note. Instagram @nativecocktailroom from the official site. One quote used, verbatim from All About Jaipur (Simran Kaur Wallia).
+
+- 2026-10-25 ~19:30 IST (published by hand from Mahi's chat, after the 18:50 run found the queue empty): Boilermaker, Siolim, Goa. Title: "Boilermaker, Goa: the Siolim dive bar Asia ranked eighth". Slug: `boilermaker-goa`. Sources: https://thenodmag.com/content/boilermaker-new-restaurant-bar-goa ; https://www.the50.com/bars/best-in-asia/the-list/boilermaker.html ; https://www.timeout.com/india/bars-and-pubs/boilermaker ; https://homegrown.co.in/homegrown-explore/pouring-passion-in-conversation-with-countertop-boilermaker-goas-pankaj-balachandran ; https://www.esquireindia.co.in/food-and-drinks/where-to-drink/asias-50-best-bars-2026-the-three-indian-bars-putting-goa-and-bengaluru-on-the-global-cocktail-map ; https://thenodmag.com/content/asias-50-best-bars-2026-india-boilermaker-goa-bar-spirit-forward-soka-bengaluru . Notes: no photos; no official website found, Instagram @boilermaker.goa from 50 Best. Consultancy named Countertop (50 Best, Homegrown, Nod) rather than Distilled Concepts (Time Out). Hours conflict (Nod 2024: Tue–Sun 5pm–midnight; Time Out: daily 6pm–12:30am), so Time Out's are given, attributed, with a check-first note. One quote used, verbatim from Homegrown (Pankaj Balachandran).

@@ -49,6 +49,123 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "boilermaker-goa",
+    draft: false,
+    publishedAt: "2026-10-25",
+    kicker: "Feature · Bar · Goa",
+    title: "Boilermaker, Goa: the Siolim dive bar Asia ranked eighth",
+    standfirst: "Boilermaker is a craft beer and cocktail bar in Siolim, Goa, from Pankaj Balachandran and Nakul Bhonsle, now No. 8 in Asia and named India's best bar for 2026.",
+    writer: "The Vitrea team",
+    date: "25 October 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "The bar front is corrugated steel, the pendant lights are aluminium and the furniture does not match. Food arrives on steel plates, and much of the seating is outdoors. Boilermaker sits on the road from Siolim towards Thalassa in north Goa, India, opposite a wine shop, on the spot where a garage bar called Hangout once stood, The Nod Mag and Time Out India report."
+      },
+      {
+        type: "paragraph",
+        text: "It is an independent neighbourhood bar founded in late 2024 by two Goa names: Pankaj Balachandran, who co-founded Bar Tesouro, and Nakul Bhonsle, the founder of Great State Aleworks, according to The World's 50 Best Bars. In July 2026 it was ranked No. 8 in Asia's 50 Best Bars and named The Best Bar in India. It is a large result for a room that set out to feel small."
+      },
+      {
+        type: "heading",
+        text: "Boilermaker and the return of susegad Goa"
+      },
+      {
+        type: "paragraph",
+        text: "The idea was a reaction. Balachandran told Homegrown that many newer Goa venues had moved towards air-conditioned, expensive spaces that no longer felt like the state. Speaking to The Nod Mag before opening, he said guests were missing the outdoors, the casual seating and the relaxed mood."
+      },
+      {
+        type: "paragraph",
+        text: "So the team built what The Nod Mag called a five-star dive bar: a beach-shack look, high standards behind the counter. The 50 Best write-up ties the name and the ethos to susegad, the Konkani word for a laid-back, friendly temperament, and describes an evening there as something like a house party."
+      },
+      {
+        type: "quote",
+        text: "After Tesouro shut down in 2022, we took two years off to understand the market and what Goa really needed.",
+        attribution: "Pankaj Balachandran, Boilermaker, to Homegrown"
+      },
+      {
+        type: "paragraph",
+        text: "Balachandran's path to that point is long. Homegrown reports that he trained at the Taj group, became a sommelier and an Indian Sommelier Champion, then opened Perch Wine and Coffee Bar, which housed Hoots, a 20-seat cocktail bar that made Asia's 50 Best Bars. He is a founding partner of Countertop, the consultancy that 50 Best says runs Boilermaker's cocktails."
+      },
+      {
+        type: "heading",
+        text: "Beer and a shot, then everything else"
+      },
+      {
+        type: "paragraph",
+        text: "The name is the drink: a beer with a shot alongside. Time Out India says the menu builds variations on that pairing, and The Nod Mag listed a local version made with feni and cashew beer when the bar opened."
+      },
+      {
+        type: "paragraph",
+        text: "The beer comes from Bhonsle's brewery. The Nod Mag counted 12 taps at launch, with some kept free for collaborations, and named a whisky-barrel Scotch ale called Even Flow, a gondhoraj witbier called Beyond Your Wits, Hard Sun with kokum, and Long View, a pale ale made entirely with jowar. 50 Best describes the Scotch ale, brewed with smoked malt, as Goa's first."
+      },
+      {
+        type: "paragraph",
+        text: "Cocktails are split into easy-going Smashables and more layered Sessionables. Drinks named across the coverage include That Watermelon Drink, made with watermelon and clarified peanut butter (The Nod Mag, 2026); Why Did The Onion Blush?, with gin, lychee, red onion, green chilli and yoghurt; and Apple Of My Eye, a whiskey highball with red apple and bajra soda (both from 50 Best). Esquire India singled out the Biso Manana Karamel, made with dukshiri, a Goan spirit."
+      },
+      {
+        type: "paragraph",
+        text: "The food is made for sharing over several rounds. The Nod Mag reported that the menu was developed with Gayatri Desai of Ground Up and Rajat Mendhi of Bombay Picnics, and named spicy chorizo peanuts, smashed fried chicken with pineapple sambol, and prawn and chorizo gambas. 50 Best adds a Lal Bhaji Melt, with amaranth leaves, caramelised onion and cheese, and pickled cucumbers in balchão."
+      },
+      {
+        type: "heading",
+        text: "From No. 30 to No. 8 in Asia"
+      },
+      {
+        type: "paragraph",
+        text: "Recognition came quickly. Homegrown says Boilermaker reached Asia's 50 Best Bars in under a year. It entered at No. 30 in 2025, then climbed to No. 8 at the 2026 awards in Macau, Esquire India and The Nod Mag report, alongside the title of The Best Bar in India. Time Out India gives it five stars out of five."
+      },
+      {
+        type: "paragraph",
+        text: "The team prepared the ground before the doors opened. Homegrown describes pre-opening collaborations and guest shifts that built anticipation, and a stated focus on consistency once service began."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Boilermaker did not compete with Goa's newer, glossier rooms. It read the market for two years, saw what was missing, and built the opposite: open air, plain materials, local spirits and beer. For any independent owner, that is the lesson. A clear point of view, based on what your guests have lost, can be worth more than a big fit-out."
+      },
+      {
+        type: "paragraph",
+        text: "The second lesson is about how guests are treated. Balachandran told Homegrown that the team works against selective hospitality, the habit of giving a little extra only to people the staff already know. Treating a first-timer like a regular costs very little, and it is how a neighbourhood bar earns its neighbourhood."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: Vaddi, Siolim, on the road to Thalassa, opposite Vailanka Wine Store, Goa 403517."
+      },
+      {
+        type: "paragraph",
+        text: "When: 6pm to 12:30am daily, according to Time Out India. The Nod Mag listed different hours at launch, so check before you go."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: a Boilermaker, a Great State beer on tap, That Watermelon Drink, and the chorizo peanuts or smashed fried chicken."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: a long evening with friends in north Goa. Time Out India suggests arriving early and bringing a driver, as seating and parking are limited."
+      }
+    ],
+    business: {
+      name: "Boilermaker",
+      details: "Siolim, Goa · Bar · No. 8, Asia's 50 Best Bars (2026)",
+      logo: null,
+      website: "",
+      instagram: "https://www.instagram.com/boilermaker.goa/",
+    },
+    readNext: [],
+  },
+  {
     slug: "native-cocktail-room-jaipur",
     draft: false,
     publishedAt: "2026-10-17",
