@@ -49,6 +49,123 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "masque-mumbai",
+    draft: false,
+    publishedAt: "2026-10-26",
+    kicker: "Feature · Restaurant · Mumbai",
+    title: "Masque, Mumbai: ten years of tasting India",
+    standfirst: "Masque is a tasting-menu restaurant in a former textile mill in Mahalaxmi, Mumbai, ranked No. 15 in Asia in 2026 and winner of the Art of Hospitality Award.",
+    writer: "The Vitrea team",
+    date: "26 October 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "The address reads like a piece of Mumbai's industrial past: Unit G3, Laxmi Woollen Mills, Shakti Mills Lane, in Mahalaxmi. Inside the restored textile mill, dinner is a single tasting menu of ten courses. Past menus have opened with ideas such as prickly pear with nagphani and coconut malai, Outlook Traveller reports, or a reworked Gujarati ponkh bhel with Goan seaweed."
+      },
+      {
+        type: "paragraph",
+        text: "This is Masque, a modern Indian restaurant in Mumbai, India, that opened in 2016. It was founded by Aditi Dugar and Aditya Dugar, who run it through their company Urban Gourmet India, according to Restaurant India. The kitchen is led by head chef Varun Totlani. When it opened, Time Out India notes, a tasting-menu-only format was rare in the country. It is now in its tenth year."
+      },
+      {
+        type: "heading",
+        text: "From commis to head chef at Masque"
+      },
+      {
+        type: "paragraph",
+        text: "Totlani's story runs alongside the restaurant's. He trained at the Culinary Institute of America and joined Masque as a commis chef in 2016, YourStory reports. In 2022 he succeeded Prateek Sadhu as head chef."
+      },
+      {
+        type: "paragraph",
+        text: "The front of house has the same kind of continuity. Restaurant India reports that general manager Mirelle Pingfu joined as a hostess nine years ago and now leads the floor. For a restaurant in its tenth year, that depth in the team is part of the story."
+      },
+      {
+        type: "paragraph",
+        text: "In 2026 the restaurant marked its anniversary with a redesign by Atelier Ashiesh Shah. Ceramicists and artisans made new plateware, glassware and cutlery, and the restaurant says everything visible in the room is now made in India. It has also introduced a new sequence of service, which it describes as an evolution of the old format rather than a change of direction."
+      },
+      {
+        type: "quote",
+        text: "It's been 10 years of learning, building, and inching towards bringing the best of India to the table.",
+        attribution: "Aditya Dugar, co-founder, to Restaurant India"
+      },
+      {
+        type: "heading",
+        text: "Ten courses from Kashmir to the Goan coast"
+      },
+      {
+        type: "paragraph",
+        text: "The menu is built on ingredients from across India, including lesser-known regions. Outlook Traveller describes produce drawn from Kashmir's forests to the coast of Goa, with vegetarian and non-vegetarian versions of the tasting menu. Relais & Châteaux, which lists Masque, notes a network of local farmers and regional producers behind it."
+      },
+      {
+        type: "paragraph",
+        text: "Totlani has named some of the ingredients that shape his cooking: kafal berries, sea buckthorn, lantern berries, jalpai, Goan seaweed and seasonal ponkh, YourStory reports. Dishes mentioned in that interview include Kashmiri morels with patra, stuffed with fresh peas or barbecued pork, and a cacao, gondhoraj and chocolate dessert served in the dried pod shell. Time Out India pictured a dal-stuffed ravioli."
+      },
+      {
+        type: "paragraph",
+        text: "Behind the dining room sits the Masque Lab, a research kitchen that makes misos, garums and other ferments for the menu. It doubles as a small private dining room where new dishes are tried out and guest chefs cook. Upstairs on the mezzanine, The Living Room is the restaurant's bar, with cocktails that Relais & Châteaux describes as inspired by Ayurvedic ideas, using local spices and fruit."
+      },
+      {
+        type: "paragraph",
+        text: "The cooking has also travelled. In June and July 2026, Totlani led a residency at Matsalen in Stockholm Stadshotell, pairing Masque's spice-led flavours with Nordic seasonal produce, Falstaff reported."
+      },
+      {
+        type: "heading",
+        text: "India's No. 1 and the Art of Hospitality Award"
+      },
+      {
+        type: "paragraph",
+        text: "Masque is ranked No. 15 on Asia's 50 Best Restaurants 2026, and was again named the best restaurant in India on that list, for the fifth time, Time Out India reports. It also won the 2026 Art of Hospitality Award, voted by the Asia's 50 Best Restaurants Academy, and Time Out India notes it is the first Indian winner of the award on the 50 Best platform."
+      },
+      {
+        type: "paragraph",
+        text: "The run is longer than one year. Restaurant India lists No. 68 on The World's 50 Best Restaurants in 2025 and No. 2 at Condé Nast Traveller India's Top Restaurant Awards 2025. Before that, YourStory records the One to Watch award in 2020."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Masque shows what a clear format can do. It chose one menu, one sitting style and one big idea, a celebration of Indian produce, and kept refining it for a decade. The menu changes; the promise does not. For an independent owner, that is a useful model: let the product evolve, but keep the reason people come stable."
+      },
+      {
+        type: "paragraph",
+        text: "The second lesson is about people. A head chef who started as a commis and a general manager who started as a hostess are not accidents. Growing talent from within protects the culture of a place, and it is that culture that an award for hospitality recognises. The 2026 redesign adds a third point: making the room itself, down to the cutlery, part of the brand's story about where things come from."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: Unit G3, Laxmi Woollen Mills, Shakti Mills Lane, off Dr E Moses Road, Mahalaxmi, Mumbai 400011."
+      },
+      {
+        type: "paragraph",
+        text: "When: dinner from Tuesday to Sunday, closed on Mondays, according to Relais & Châteaux. Times can change, so check with the restaurant when you book."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: the ten-course tasting menu, vegetarian or non-vegetarian, and a cocktail at The Living Room."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: a special-occasion dinner, or anyone curious about how Indian ingredients are being cooked now."
+      }
+    ],
+    business: {
+      name: "Masque",
+      details: "Mahalaxmi, Mumbai · Restaurant · Opened 2016",
+      logo: null,
+      website: "https://www.masquerestaurant.com",
+      instagram: "",
+    },
+    readNext: [],
+  },
+  {
     slug: "bar-leone-hong-kong",
     draft: false,
     publishedAt: "2026-10-26",
