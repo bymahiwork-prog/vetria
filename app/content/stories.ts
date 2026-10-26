@@ -49,6 +49,119 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "bar-leone-hong-kong",
+    draft: false,
+    publishedAt: "2026-10-26",
+    kicker: "Feature · Bar · Hong Kong",
+    title: "Bar Leone, Hong Kong: the Roman bar ranked world No. 1",
+    standfirst: "Bar Leone is a Roman-style neighbourhood cocktail bar in Hong Kong from Lorenzo Antinori, named The World's Best Bar in 2025 and again in 2026.",
+    writer: "The Vitrea team",
+    date: "26 October 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "The front is warm brown, the doorway is arched and there is no booking line to call. The bar sits on Bridges Street, near Hollywood Road in Hong Kong, China. Inside, the walls carry old film posters, photographs of footballers and prints of Italian spirits, and the music can move from bossa nova to Italian disco, Islands reports. Time Out Hong Kong advises arriving early, as queues form at peak times."
+      },
+      {
+        type: "paragraph",
+        text: "This is Bar Leone, a cocktail bar on the edge of Central and Sheung Wan that opened in June 2023. It was co-founded by Lorenzo Antinori, a bartender born and raised in Rome, and Justin Shun Wah, who runs operations and the business side, according to The Standard. In October 2026 it was named The World's Best Bar for the second year running. For a small neighbourhood room, that is a long way to have come in three years."
+      },
+      {
+        type: "heading",
+        text: "A Roman neighbourhood bar in Hong Kong"
+      },
+      {
+        type: "paragraph",
+        text: "Antinori's route to Bridges Street ran through London and Seoul. The Standard reports that he joined The American Bar at The Savoy in 2010, later led Charles H at the Four Seasons Hotel Seoul, which was named Best Bar in Korea in 2019, and moved to Hong Kong that same year. He and Shun Wah, who previously worked in alcohol import and distribution in the city, met through a mutual friend."
+      },
+      {
+        type: "paragraph",
+        text: "Their idea was the bar Antinori grew up with: the Roman neighbourhood bar. The house philosophy is Cocktail Popolari, Italian for cocktails for the people, which The Standard describes as hospitality and well-made drinks over trends or theatrical technique. Antinori has said he wanted the room to feel like his grandmother's living room, KRDO reported after the 2025 awards."
+      },
+      {
+        type: "quote",
+        text: "Both Justin and I love the idea of a bar that gathers the community together and that caters to the community,",
+        attribution: "Lorenzo Antinori, Bar Leone, to The Standard"
+      },
+      {
+        type: "paragraph",
+        text: "The site itself was a choice. The founders took over the former restaurant Oolaa on Bridges Street rather than chase a busier strip such as Hollywood Road, putting space and comfort first, The Standard reports. The team also shares its recipes and methods openly."
+      },
+      {
+        type: "heading",
+        text: "Filthy Martinis, olive oil sours and mortadella"
+      },
+      {
+        type: "paragraph",
+        text: "The menu leans on classics, many with an Italian accent. Islands names the Filthy Martini as the best-seller: vodka with a large olive and a house brine made from Spanish olives smoked over cherry wood. Robb Report Hong Kong described a Leone Martini served with smoked olives and a lighter, chilled yuzu Negroni when the bar opened."
+      },
+      {
+        type: "paragraph",
+        text: "The Olive Oil Sour is the other drink that comes up again and again. Islands lists bourbon, honey, lemon, marsala, egg white and nutmeg, finished with a spoonful of Italian extra-virgin olive oil. Each drink is rated on the bar's own 12-point potency scale. Other names in the coverage include Il Cacciatore, made with gin, cherry tomatoes and bianco vermouth, and Caffè Paradiso, a half-sized drink built on cold brew in the spirit of an Irish coffee."
+      },
+      {
+        type: "paragraph",
+        text: "Food is small and Italian. Time Out Hong Kong singles out the mortadella focaccia and the smoked olives. Islands describes the sandwich with mascarpone and ricotta, pickled green chillies and smoked olives, and notes a smoked mascarpone dip with chips for vegetarians. Robb Report reported that the bites, piattini and spuntini, come on hand-painted ceramics."
+      },
+      {
+        type: "heading",
+        text: "From Asia's No. 1 to the world's, twice"
+      },
+      {
+        type: "paragraph",
+        text: "The rise was fast. Bar Leone entered Asia's 50 Best Bars at No. 1 in 2024 and placed No. 2 in the world that year, The Standard reports. In 2025 it kept the Asian title and became the first bar from Asia to be named The World's Best Bar. At the 2026 ceremony in Milan, Tatler Asia reports, it held the top spot again."
+      },
+      {
+        type: "paragraph",
+        text: "The team has grown around it. A second Bar Leone opened in Shanghai on 9 November 2025, with a menu The Standard says is about 90 per cent the same as Hong Kong's. Montana, another Hong Kong bar co-founded by Antinori, entered the 2026 world list at No. 36."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Bar Leone did not win by inventing a new kind of bar. It took a very old one, the corner bar of a Roman neighbourhood, and did it with care. The menu is short on theatre and long on drinks people already know, made well. For an independent owner, that is the lesson: a clear, familiar idea, delivered consistently, can travel further than novelty."
+      },
+      {
+        type: "paragraph",
+        text: "The second lesson is about the street. Choosing a quieter block over the busiest strip bought the team space, and the walk-in-only policy keeps the room open to whoever turns up. Sharing recipes openly costs little and builds goodwill in the trade. None of this needs a big budget; it needs a point of view held for a long time."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: G/F, 11-15 Bridges Street, Central, Hong Kong."
+      },
+      {
+        type: "paragraph",
+        text: "When: Tuesday to Sunday from 5pm, closed on Mondays. Time Out Hong Kong lists closing at midnight, while other listings say late, so check before you go."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: the Filthy Martini, the Olive Oil Sour, the yuzu Negroni, and the mortadella focaccia with smoked olives."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: a relaxed evening with friends. It is walk-in only, and the SCMP's 100 Top Tables warns of waits of one to two hours on busy nights, so arrive early."
+      }
+    ],
+    business: {
+      name: "Bar Leone",
+      details: "Central, Hong Kong · Bar · The World's Best Bar (2025 and 2026)",
+      logo: null,
+      website: "https://www.barleonehk.com",
+      instagram: "https://www.instagram.com/barleonehk/",
+    },
+    readNext: [],
+  },
+  {
     slug: "boilermaker-goa",
     draft: false,
     publishedAt: "2026-10-25",
