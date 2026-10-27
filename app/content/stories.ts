@@ -49,6 +49,131 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "disfrutar-barcelona",
+    draft: false,
+    publishedAt: "2026-10-27",
+    kicker: "Feature · Restaurant · Barcelona",
+    title: "Disfrutar, Barcelona: three El Bulli chefs, one kitchen",
+    standfirst: "Disfrutar, in Barcelona's Eixample, is run by three El Bulli alumni, was named The World's Best Restaurant in 2024 and holds three Michelin stars.",
+    writer: "The Vitrea team",
+    date: "27 October 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "On Carrer de Villarroel in Barcelona's Eixample, opposite the Mercat del Ninot, a narrow façade gives little away. Inside, ceramics set the mood: bright, single-colour artistic tiles at the entrance, colourful tiles at the bar and a kitchen walled in raw baked brick, built so that guests can watch the cooks at work, Designboom reported when the room was finished."
+      },
+      {
+        type: "paragraph",
+        text: "This is Disfrutar, a tasting-menu restaurant in Barcelona, Spain, that opened in December 2014. Its name is Spanish for \"enjoy\", The Local notes. It is run by three chefs, Oriol Castro, Eduard Xatruch and Mateu Casañas, who all trained at El Bulli under Ferran Adrià. In June 2024 it was named No. 1 on The World's 50 Best Restaurants, and it holds three Michelin stars."
+      },
+      {
+        type: "heading",
+        text: "Three El Bulli chefs and the road to Disfrutar"
+      },
+      {
+        type: "paragraph",
+        text: "The three chefs joined El Bulli a year apart in the late 1990s, El Nacional reports. When that restaurant closed in 2011, they went into business together, first with Compartir in Cadaqués in 2012 and then with Disfrutar in Barcelona two years later, the bigger and more ambitious of the two projects."
+      },
+      {
+        type: "paragraph",
+        text: "Michelin's inspectors describe that El Bulli influence as play with shapes, textures and flavours, backed by serious craft. The kitchen has a laboratory that keeps producing new techniques, such as what the guide calls \"solid bubbles\"."
+      },
+      {
+        type: "paragraph",
+        text: "The team around the three founders matters too. At the time of the 2024 award, Catalan News named Paco Lara as head chef and Vicente Lara as floor manager."
+      },
+      {
+        type: "quote",
+        text: "This profession needs hours and hours, but it allows you to make people happy.",
+        attribution: "Mateu Casañas, co-chef, to Catalan News"
+      },
+      {
+        type: "heading",
+        text: "Two tasting menus and a table with secrets"
+      },
+      {
+        type: "paragraph",
+        text: "Disfrutar serves tasting menus. The Michelin Guide lists two: Classic, built around the signature dishes, and Festival, which follows the newest seasonal creations and leans on the local area. Wine pairings are offered, along with flavoured spirits such as wasabi and sea urchin."
+      },
+      {
+        type: "paragraph",
+        text: "Some dishes have become calling cards. One is the multi-spherical pesto with eel and pistachios, named by both Michelin and El Nacional. Another is a panchino, a Chinese-style bread stuffed with caviar and sour cream; Paco Lara told Catalan News it is the dish that draws the strongest reaction from diners. Time Out Barcelona singles out a macaroni dish inspired by carbonara and made with ham jelly."
+      },
+      {
+        type: "paragraph",
+        text: "The surprise extends to the furniture. In 2021 the restaurant introduced a table with hidden compartments that reveal small treats as the meal goes on, El Nacional reports. Michelin describes a \"living table\" that changes through the meal and must be requested when booking."
+      },
+      {
+        type: "heading",
+        text: "A Mediterranean room in Barcelona's Eixample"
+      },
+      {
+        type: "paragraph",
+        text: "The interior was designed by the studio El Equipo Creativo, with ceramics in many colours and shapes as the unifying theme, according to Designboom. The space is split into two moods: a more urban zone with the bar and wine store, and a calmer zone that opens onto an interior patio and terrace, with plants, green walls and irregular openings that frame the light."
+      },
+      {
+        type: "heading",
+        text: "From No. 18 to The World's Best Restaurant"
+      },
+      {
+        type: "paragraph",
+        text: "Disfrutar's rise on The World's 50 Best Restaurants was steady rather than sudden. It entered the list at No. 18 in 2018 and won the award for the highest new entry, El Nacional reports. It then kept climbing: No. 9 in 2019, No. 5 in 2021, No. 3 in 2022 and No. 2 in 2023, when it was also named the best restaurant in Europe."
+      },
+      {
+        type: "paragraph",
+        text: "In June 2024, at a ceremony in Las Vegas, it was named No. 1 in the world, Catalan News reported. Under the list's rules, a restaurant that reaches the top spot moves to the Best of the Best category and no longer competes for No. 1. The third Michelin star arrived in November 2023, and the Michelin Guide España 2026 still lists Disfrutar with three stars."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Disfrutar shows the value of a clear story told consistently. Three chefs with a shared background built a name that says exactly what they want guests to feel, then made every part of the experience, from the menu to the table itself, serve that idea of enjoyment and surprise. For an independent owner, the lesson is that a concept is easier to remember when the name, the room and the product all point the same way."
+      },
+      {
+        type: "paragraph",
+        text: "Its path also shows patience. The founders tested their partnership with a smaller restaurant first, then opened the bigger one, and climbed the rankings one step at a time over six years. Investing in research, as the kitchen laboratory does, kept giving guests and critics something new to talk about. For a small business, steady improvement and a reason to come back often beat a loud launch."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: Carrer de Villarroel 163, Eixample, 08036 Barcelona, Spain, opposite the Mercat del Ninot. The nearest metro is Hospital Clínic (L5)."
+      },
+      {
+        type: "paragraph",
+        text: "When: lunch and dinner from Monday to Friday, closed at weekends, according to the Michelin Guide. Time Out Barcelona lists different days, so check with the restaurant when you book."
+      },
+      {
+        type: "paragraph",
+        text: "How to book: the restaurant handles its own reservations, and Michelin notes that it always has a waiting list, so plan well ahead."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: the Classic or Festival tasting menu, including the multi-spherical pesto with eel and the panchino with caviar."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: a once-in-a-trip special-occasion lunch or dinner, or anyone curious about where El Bulli's ideas went next."
+      }
+    ],
+    business: {
+      name: "Disfrutar",
+      details: "Eixample, Barcelona · Restaurant · Opened December 2014",
+      logo: null,
+      website: "https://disfrutarbarcelona.com",
+      instagram: "",
+    },
+    readNext: [],
+  },
+  {
     slug: "masque-mumbai",
     draft: false,
     publishedAt: "2026-10-26",
