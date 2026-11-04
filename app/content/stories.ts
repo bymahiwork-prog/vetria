@@ -49,6 +49,127 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "soka-bengaluru",
+    draft: false,
+    publishedAt: "2026-11-04",
+    kicker: "Feature · Bar · Bengaluru",
+    title: "SOKA, Bengaluru: the 38-seat bar Asia ranked No. 18",
+    standfirst: "SOKA, a 38-seat cocktail bar in Bengaluru's Indiranagar, turns local stories into drinks and climbed to No. 18 on Asia's 50 Best Bars in 2026.",
+    writer: "The Vitrea team",
+    date: "4 November 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "The entrance to SOKA, on 1st Main Road in Bengaluru's Indiranagar, is easy to walk past. Inside, the room gathers around one long communal table, and above it hangs a large cocoon. Beyond that sits an earthy wall lined with diyas, and the lighting stays low enough that The Nod Mag's writer compared the place to a den."
+      },
+      {
+        type: "paragraph",
+        text: "SOKA is a cocktail bar in Bengaluru, India, run by bartender Avinash Kapoli and chef Sombir Choudhary, and its name comes from the founders' initials, Esquire India notes. It opened in 2023 in a space of about 531 sq ft, according to The Nod Mag, with 38 seats. In July 2026 it was named No. 18 on Asia's 50 Best Bars, up from No. 28 the year before."
+      },
+      {
+        type: "heading",
+        text: "Two consultants and a bar of their own"
+      },
+      {
+        type: "paragraph",
+        text: "Before SOKA, Kapoli and Choudhary spent years as restaurant consultants for a range of Indian brands, Zee Zest reported. SOKA was their chance to build something for themselves. Kapoli is also behind Jamming Goat, a bar in Goa, Man's World India notes."
+      },
+      {
+        type: "paragraph",
+        text: "The split of roles is clear. Kapoli leads the bar, and Choudhary runs the food, Outlook Traveller's eats section reports. Kapoli told Man's World that after the pandemic there was a growing appetite for open-air venues, and the pair saw a gap for small rooms where people could hold a proper conversation over a drink. The bar keeps numbers low by design: on a busy night it serves no more than 100 to 120 guests, he said."
+      },
+      {
+        type: "quote",
+        text: "The emphasis on storytelling in our space caters to consumers seeking an immersive experience rather than just a drink.",
+        attribution: "Avinash Kapoli, co-founder, to Man's World India"
+      },
+      {
+        type: "heading",
+        text: "Bengaluru memories, served in a glass"
+      },
+      {
+        type: "paragraph",
+        text: "SOKA's menu works with Indian ingredients and regional flavours, and many of them are sourced from Bengaluru and the surrounding area, Kapoli told Man's World. The drinks lean on stories from the city."
+      },
+      {
+        type: "paragraph",
+        text: "The signature MOFO Don, made with purple cabbage, is a nod to a local street vendor who sees himself as a don. Made in Heaven, built on aged and coconut rums with frozen strawberries, coconut milk and pineapple, honours the Bengaluru cricketers Rahul Dravid and Anil Kumble. Black Cadillac, a blend of aged rums, pays tribute to the city's old pubs, Esquire India writes."
+      },
+      {
+        type: "paragraph",
+        text: "Other drinks play with bar snacks and local produce. Cheese Cherry Pineapple turns a pub-snack combination into a blended, clarified cocktail with aged cheddar and cream cheese, according to Zee Zest. The Mysore High pairs Yelakki banana with rum and coffee liqueur, The Nod Mag reports. The Pi Pi Martini, made with Indian gin, jujube-pickled brine and dry vermouth, was singled out when the 2026 list was announced, Time Out notes."
+      },
+      {
+        type: "paragraph",
+        text: "Food comes as small \"nano plates\". Dishes named in reviews include a tempura avocado taco, chicken gyoza with a coconut cream sauce and SOKA fried chicken with raw mango chimichurri. Menus change, so some of these may have moved on."
+      },
+      {
+        type: "heading",
+        text: "A cocoon over the table in Indiranagar"
+      },
+      {
+        type: "paragraph",
+        text: "The cocoon above the table is more than decoration. Kapoli told Man's World it stands for the partnership between the two founders. Around it, Cathay Pacific's guide to the city's bars describes rattan chairs, diya lamps and rotating sculptures set against terracotta and copper tones, with local craft running through the room. Zee Zest pointed to the smaller details: messages on the walls, custom crockery and branded ice."
+      },
+      {
+        type: "paragraph",
+        text: "The bar also keeps its calendar busy. The Nod Mag lists recurring nights including Not a Bar Takeover, which brings in visiting bars, the food-led SOKA Sunday Rituals, and Nightcaps, which draws people from the trade."
+      },
+      {
+        type: "heading",
+        text: "SOKA's climb up the rankings"
+      },
+      {
+        type: "paragraph",
+        text: "SOKA reached No. 28 on Asia's 50 Best Bars in 2025, one of three Bengaluru bars on that list, Curly Tales reported. In 2026 it rose to No. 18, which Time Out described as a climb into the top 20. At home, it was named No. 2 on the 30 Best Bars India list in 2025, after placing third the year before."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "SOKA shows how far a small room can travel when its idea is clear. Instead of chasing size, the founders capped the number of guests and put a single shared table at the centre, so the space itself encourages conversation. For an independent owner, limits like these can become the selling point rather than a constraint."
+      },
+      {
+        type: "paragraph",
+        text: "It also shows the value of local storytelling. Naming drinks after a street vendor, two cricketers and the city's old pubs gives guests something to talk about and a reason to feel the bar belongs to Bengaluru. Regular events with other bars keep the place in front of the trade and give regulars a reason to return. A clear point of view, told consistently, is easier to remember than a long menu."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: No. 210, A Cross, 1st Main Road, 2nd Stage, Indiranagar (Domlur side), Bengaluru."
+      },
+      {
+        type: "paragraph",
+        text: "When: daily, 5pm to 1am, according to Time Out and Zee Zest. Seating is limited, so check ahead."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: the MOFO Don, the Pi Pi Martini or Made in Heaven, with a few nano plates such as the chicken gyoza."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: an intimate evening of conversation over cocktails, or one of the bar's guest takeover nights."
+      }
+    ],
+    business: {
+      name: "SOKA",
+      details: "Indiranagar, Bengaluru · Bar · Opened 2023",
+      logo: null,
+      website: "https://sokabar.com",
+      instagram: "",
+    },
+    readNext: [],
+  },
+  {
     slug: "disfrutar-barcelona",
     draft: false,
     publishedAt: "2026-10-27",
