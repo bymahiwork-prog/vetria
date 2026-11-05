@@ -49,6 +49,127 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "the-bombay-canteen-mumbai",
+    draft: false,
+    publishedAt: "2026-11-05",
+    kicker: "Feature · Restaurant & bar · Mumbai",
+    title: "The Bombay Canteen, Mumbai: a decade of regional Indian",
+    standfirst: "The Bombay Canteen opened in Lower Parel, Mumbai in 2015 under the late Floyd Cardoz. A decade on, it still cooks India's regional food by the season.",
+    writer: "The Vitrea team",
+    date: "5 November 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "At The Bombay Canteen in Mumbai, the menu once arrived in an accounting register, and enlarged recipe pages from old issues of Femina hung on the walls, Business Standard reported in the restaurant's first year. A sign outside read: \"Mumbai is the city, Bombay is an emotion.\" The restaurant sits in the Kamala Mills compound in Lower Parel, and it has been cooking there since 2015."
+      },
+      {
+        type: "paragraph",
+        text: "The Bombay Canteen is a restaurant and bar in Mumbai, India, that set out to take regional and seasonal Indian food seriously without making it formal. It opened in February 2015, with the New York-based chef Floyd Cardoz in the kitchen alongside two hospitality partners, Sameer Seth and Yash Bhanage, and the chef Thomas Zacharias. More than ten years on, it sits on Condé Nast Traveller's India's Top 50 Restaurants list for 2026 and on Tatler Asia's 20 Best Restaurants in India."
+      },
+      {
+        type: "heading",
+        text: "Floyd Cardoz and the partners behind The Bombay Canteen"
+      },
+      {
+        type: "paragraph",
+        text: "Cardoz grew up in Mumbai, trained at IHM Dadar and spent 12 years leading Tabla in New York, according to Business Standard. He came home to cook food he felt Indian restaurants had overlooked: humble, regional dishes such as kothu roti and dabeli, made with seasonal produce bought from Sassoon Docks and the markets at Grant Road and Vashi."
+      },
+      {
+        type: "paragraph",
+        text: "Seth and Bhanage met at Cornell's hotel school in 2010, YourStory reported. Seth had studied at IIM Kozhikode and worked in banking; Bhanage had trained at IHM Goa and worked with Hyatt in Mumbai. Their company, Hunger Inc. Hospitality, later opened O Pedro and The Bombay Sweet Shop."
+      },
+      {
+        type: "paragraph",
+        text: "Bhanage told YourStory that they chose the word \"canteen\" because they wanted the place to feel approachable and warm."
+      },
+      {
+        type: "paragraph",
+        text: "Cardoz died in March 2020, Restaurant Times noted. Zacharias ran the kitchen until 2022 before leaving to set up Locavore, and the kitchen is now led by Hussain Shahzad, who also leads the group's small restaurant Papa's in Bandra, named after Cardoz."
+      },
+      {
+        type: "quote",
+        text: "We must eat with our hands, get them dirty, and celebrate who we are.",
+        attribution: "Floyd Cardoz, to Business Standard (2015)"
+      },
+      {
+        type: "heading",
+        text: "A menu that follows the Canteen Calendar"
+      },
+      {
+        type: "paragraph",
+        text: "The kitchen changes its menu every three to four months, YourStory reported, and Outlook Traveller describes the cooking as driven by a \"Canteen Calendar\" of seasonal produce."
+      },
+      {
+        type: "paragraph",
+        text: "Some dishes have lasted through the changes. Eggs Kejriwal, cheese, eggs and chilli on toast, nods to the snack that began at the Willingdon Club in Mumbai. It was on the opening menu and still appears in recent listings. The early menu also had gulab nut, a doughnut-shaped gulab jamun soaked in rum."
+      },
+      {
+        type: "paragraph",
+        text: "More recent dishes named in the press include a chilled sea bass sev puri and a Coffee Rasaglia Sundae (Outlook Traveller), beef tartare with podi spice and corn locho (Esquire India), and prawn malai curry and a ghee roast chicken seekh (En Primeur Club)."
+      },
+      {
+        type: "paragraph",
+        text: "The bar has its own following. YourStory listed cocktails such as the Tamarind Whiskey Shake and Dilli Banta, and Restaurant Times describes a menu built around Bombay's film history, with a cocktail for each film."
+      },
+      {
+        type: "heading",
+        text: "An old Bombay bungalow inside a Lower Parel mill"
+      },
+      {
+        type: "paragraph",
+        text: "The room was designed by Busride Design Studio around the idea of an old bungalow in ruins, YourStory reported, with low walls about three feet high, glass dividers, worn walls that show the cement beneath, steel-framed windows and British-style brown furniture. Business Standard described it in 2015 as open and airy, with large glass windows and mosaic tiles."
+      },
+      {
+        type: "paragraph",
+        text: "The awards have followed steadily. Condé Nast Traveller India placed it first in its Top Restaurant Awards in 2018, according to YourStory. In 2024 it was named Best Indian Restaurant at the World Culinary Awards, ahead of Indian Accent, Masque and Masala Library, Outlook Traveller reported. In 2026 it ranked tenth on Condé Nast Traveller's India's Top 50 Restaurants, Esquire India reported."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "The Bombay Canteen shows how far a clear idea can travel. Its name, its signage and its menu all say the same thing: familiar Indian food, cooked with care, in a room that feels like the city. That consistency makes it easy to describe, and easy to recommend."
+      },
+      {
+        type: "paragraph",
+        text: "It also shows that a restaurant can outlast its founding chef. When Cardoz died and Zacharias moved on, the place kept its seasonal calendar and its regional focus, and new cooks built on it. For independent owners, the lesson is to write the concept down clearly enough that it belongs to the business, not to any one person. A changing menu with a few fixed favourites, like Eggs Kejriwal, gives regulars a reason to come back and newcomers a place to start."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit to The Bombay Canteen"
+      },
+      {
+        type: "paragraph",
+        text: "Where: Unit 1, Process House, Kamala Mills, S.B. Road, Lower Parel, Mumbai 400013."
+      },
+      {
+        type: "paragraph",
+        text: "When: daily, 12pm to 1:30am, according to En Primeur Club's listing (as of March 2026). Check before you go; booking is recommended."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: Eggs Kejriwal, prawn malai curry, and whatever the current seasonal menu leads with."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: a long lunch or dinner with friends, cocktails at the bar, and a meal built around India's regional cooking."
+      }
+    ],
+    business: {
+      name: "The Bombay Canteen",
+      details: "Kamala Mills, Lower Parel, Mumbai · Restaurant & bar · Opened 2015",
+      logo: null,
+      website: "https://www.thebombaycanteen.com",
+      instagram: "https://www.instagram.com/thebombaycanteen/",
+    },
+    readNext: [],
+  },
+  {
     slug: "handshake-speakeasy-mexico-city",
     draft: false,
     publishedAt: "2026-11-05",
