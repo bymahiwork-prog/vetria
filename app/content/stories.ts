@@ -49,6 +49,123 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "handshake-speakeasy-mexico-city",
+    draft: false,
+    publishedAt: "2026-11-05",
+    kicker: "Feature · Bar · Mexico City",
+    title: "Handshake Speakeasy, Mexico City: the world's No. 1 of 2024",
+    standfirst: "Handshake Speakeasy, a two-level cocktail bar in Mexico City's Colonia Juárez, nearly closed in the pandemic, then was named the world's best bar in 2024.",
+    writer: "The Vitrea team",
+    date: "5 November 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "Handshake Speakeasy sits behind unmarked doors on Calle Amberes in Colonia Juárez, Mexico City. Push past the heavy curtains and the whole team greets you at once, in unison, Time Out reported. The room is low-lit and trimmed in gold, with a black marble bar and velvet seats."
+      },
+      {
+        type: "paragraph",
+        text: "Handshake is a cocktail bar in Mexico City, Mexico, co-founded by the Dutch bartender Eric van Beek. It opened in 2019, just before the pandemic, and came close to shutting in its early months, Man's World India reported. Five years later it was named No. 1 on The World's 50 Best Bars 2024, and it has stayed in the global top ten since."
+      },
+      {
+        type: "heading",
+        text: "An Amsterdam bartender in Colonia Juárez"
+      },
+      {
+        type: "paragraph",
+        text: "Van Beek made his name in Amsterdam, where he won the Bacardi Legacy Global Cocktail Competition in 2018. He moved to Mexico in 2019 and joined his business partner at Handshake, according to Man's World India."
+      },
+      {
+        type: "paragraph",
+        text: "The timing was hard. The bar opened shortly before the pandemic, and in its early days it nearly did not survive. A grant from the 50 Best Recovery Programme helped it through, the magazine noted."
+      },
+      {
+        type: "paragraph",
+        text: "The building had an earlier life as a shoe shop, Remezcla reported. Today the bar runs across two levels, which its OpenTable listing calls Handshake Upstairs and Handshake Downstairs, each pouring a selection of the house cocktails."
+      },
+      {
+        type: "paragraph",
+        text: "Despite the name, the founders do not see it as a true speakeasy. The idea borrows the speakeasy look, but the mood is lively rather than hushed, one of the co-founders told Man's World India. Time Out, for its part, reaches for the Great Gatsby: dark wood, gold and a hint of 1920s glamour."
+      },
+      {
+        type: "quote",
+        text: "What makes us unique is the team and the Mexican vibe. We can't recreate that elsewhere.",
+        attribution: "Eric van Beek, co-founder, to Man's World India"
+      },
+      {
+        type: "heading",
+        text: "A lab behind the bar, and a gimlet with olive oil"
+      },
+      {
+        type: "paragraph",
+        text: "Much of Handshake's work happens out of sight. Van Beek has a laboratory attached to the bar, and he uses techniques borrowed from molecular gastronomy, Man's World India reported. Remezcla describes the back-of-house team clarifying juices, infusing cordials and developing new syrups, with some drinks taking around 48 hours to prepare."
+      },
+      {
+        type: "paragraph",
+        text: "The result, in Time Out's words, is a list where classics are deconstructed, clarified and reimagined. Remezcla counted more than 20 specialty drinks, from miniature classics and house signatures to tea champagnes and alcohol-free options."
+      },
+      {
+        type: "paragraph",
+        text: "The drink most often named is the Olive Oil Gimlet, a Mexican take on the classic made with Don Julio Blanco tequila, olive oil, Lillet, rosemary and green apple, Man's World India writes. En Primeur Club's guide also lists the Fig Negroni and the Mex-Thai among the signatures. One cocktail even arrives dressed as a bouquet of flowers, Time Out noted."
+      },
+      {
+        type: "heading",
+        text: "Handshake Speakeasy in the world rankings"
+      },
+      {
+        type: "paragraph",
+        text: "Handshake's climb was steady. En Primeur Club's record of its rankings shows No. 25 on The World's 50 Best Bars in 2021 and No. 3 in 2023. In 2024 it took the top spot, with Hong Kong's Bar Leone second. In 2025 the two swapped places, and Handshake finished No. 2 in the world, the only North American bar in that year's top ten, Time Out reported."
+      },
+      {
+        type: "paragraph",
+        text: "In October 2026, at a ceremony in Milan, it was ranked No. 6 on the list, now renamed The 50 Best Bars, and was again named The Best Bar in North America, according to 50 Best. It also topped North America's 50 Best Bars in both 2024 and 2025, the organisers announced."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Handshake shows that hospitality can be the product, not a bonus. The greeting in unison is a small ritual, but it tells every guest in the first ten seconds what kind of night they are in for. Van Beek's own view is that the team and the local mood are the parts nobody can copy, and for an independent owner that is the useful lesson: equipment and recipes can be bought, but a crew that behaves the same way every night cannot."
+      },
+      {
+        type: "paragraph",
+        text: "It is also a reminder that the hard work can sit out of view. The lab, the clarifying and the 48-hour preparations stay backstage, so what reaches the guest is a simple-sounding drink served quickly. And its shaky start is worth remembering: even a bar that would later top the world list needed outside support to get through its early days."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: Calle Amberes 65, Colonia Juárez, Cuauhtémoc, Mexico City, Mexico."
+      },
+      {
+        type: "paragraph",
+        text: "When: Sunday to Thursday 6pm to 1am, Friday and Saturday 6pm to 2am, according to its OpenTable listing. Tables are booked through OpenTable for 90-minute sittings, and groups of six or more book by email, so check before you go."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: the Olive Oil Gimlet, the Fig Negroni or the Mex-Thai, or one of the miniature classics."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: a booked evening of cocktails in Mexico City, or a stop for anyone following the world bar rankings."
+      }
+    ],
+    business: {
+      name: "Handshake Speakeasy",
+      details: "Colonia Juárez, Mexico City · Bar · Opened 2019",
+      logo: null,
+      website: "https://handshake.bar",
+      instagram: "",
+    },
+    readNext: [],
+  },
+  {
     slug: "soka-bengaluru",
     draft: false,
     publishedAt: "2026-11-04",
