@@ -49,6 +49,127 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "bar-spirit-forward-bengaluru",
+    draft: false,
+    publishedAt: "2026-11-06",
+    kicker: "Feature · Bar · Bengaluru",
+    title: "Bar Spirit Forward, Bengaluru: India's No. 1 bar for 2025",
+    standfirst: "Bar Spirit Forward, a classics-led cocktail bar on Lavelle Road in Bengaluru, was named India's best bar for 2025 and is No. 30 in Asia for 2026.",
+    writer: "The Vitrea team",
+    date: "6 November 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "At Bar Spirit Forward, the Vesper Martini arrives already diluted and frozen, poured straight from the bottle and finished with blue cheese olives, Time Out Bengaluru reported in January. The room around it is dark wood, leather and soft light, and the seats at the long bar counter are the ones people ask for. The bar sits on the ground floor of Hotel Southern Star on Lavelle Road, in Bengaluru's Ashok Nagar."
+      },
+      {
+        type: "paragraph",
+        text: "Bar Spirit Forward is a cocktail bar in Bengaluru co-founded by the bartender Arijit Bose, Esquire India reported. It opened in late 2023, according to The Nod Mag and Cathay Pacific's travel magazine. In January 2026 it was named India's Best Bar for 2025 at the 30 Best Bars India awards, and in July it climbed to No. 30 on Asia's 50 Best Bars. For a bar that is not yet three years old, that is a fast rise."
+      },
+      {
+        type: "heading",
+        text: "Arijit Bose and the idea behind Bar Spirit Forward"
+      },
+      {
+        type: "paragraph",
+        text: "Bose came to the project with a long drinks career behind him. Cathay Pacific's magazine describes him as an industry veteran who spent six years managing 28 Hong Kong Street in Singapore and has worked as a brand ambassador for Monkey 47 gin. The Nod Mag credits him with creating Bar Outrigger and Wineyard in Goa, and Una Hacienda, Middle Room and Wine In Progress in Bengaluru."
+      },
+      {
+        type: "paragraph",
+        text: "The name is the brief. The Nod Mag explains that the cocktails are built around a strong base spirit, measured carefully and kept uncluttered, with a short, punchy menu. Unsobered describes the bar's focus as spirits, technique and drinking with an element of education. Bose, the Nod Mag adds, talks about Bengaluru's appetite for casual luxury, and the bar was designed to work as a neighbourhood bar."
+      },
+      {
+        type: "quote",
+        text: "Bengaluru was ready. It just needed someone to break the ice.",
+        attribution: "Arijit Bose, to Cathay Pacific (2026)"
+      },
+      {
+        type: "heading",
+        text: "Classic cocktails, and a shadow list"
+      },
+      {
+        type: "paragraph",
+        text: "Time Out Bengaluru calls it a polished cocktail bar that treats the classics with rare precision, and notes that the menu leans classic on purpose. Beyond the printed list there is what Time Out calls a shadow list: close to sixty classic cocktails the bartenders will make on request."
+      },
+      {
+        type: "paragraph",
+        text: "The house drinks come up again and again in the press. The Southern Star mixes tequila with plum, guava and jalapeño, according to The Nod Mag and Design Pataki. The Old Cuban, a mix of rum, mint, citrus and prosecco, was singled out by Time Out and Outlook Traveller. The Nod Mag also points to a 3-Gin Martini, and Time Out and Outlook Traveller name the Tutti Frutti Negroni and a milk-and-cookies drink made with whisky."
+      },
+      {
+        type: "paragraph",
+        text: "Food is deliberately small. Time Out mentions chicken liver pâté, anchovy toast and warm buns that come and go as the chef tests ideas, while Outlook Traveller describes seasonal bar bites, including toast topped with pickled anchovies and salsa verde."
+      },
+      {
+        type: "heading",
+        text: "A theatre lounge on Lavelle Road"
+      },
+      {
+        type: "paragraph",
+        text: "Design Pataki, which covered the bar soon after it opened in 2023, credits the interiors to Studio Pomegranate and describes art deco glamour mixed with modern minimalism: rattan chairs, leather Chesterfield sofas and a turquoise backsplash behind the bar. Time Out compares the room to the backstage lounge of an old theatre, and Cathay Pacific's magazine notes the teak counter at its centre."
+      },
+      {
+        type: "paragraph",
+        text: "The entrance is discreet, Time Out adds, but the room fills quickly. Time Out Delhi, reporting on the 2026 Asia list, quoted the judges describing an unapologetically fun room behind the dark-academia look of wood and gilded shelves."
+      },
+      {
+        type: "heading",
+        text: "India's Best Bar, then No. 30 in Asia"
+      },
+      {
+        type: "paragraph",
+        text: "At the sixth edition of 30 Best Bars India, announced in Goa on 13 January 2026, Bar Spirit Forward took the No. 1 spot for 2025, with fellow Bengaluru bar SOKA second, The Whiskey Wash reported. Curly Tales and Unsobered note that it also won Best Independent Bar, and Unsobered adds Best Bar in Bangalore."
+      },
+      {
+        type: "paragraph",
+        text: "On Asia's 50 Best Bars it placed No. 37 in 2025, and at the ceremony in Macau on 28 July 2026 it rose seven places to No. 30, according to Esquire India and Time Out. Esquire's 2025 coverage described a bar built on bold, spirit-heavy flavours and serious craft with no shortcuts."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Bar Spirit Forward shows how far a clear, narrow idea can carry a small business. The name tells guests what to expect, the printed menu stays short, and the depth sits behind the bar in the form of a shadow list for people who want to explore. That keeps the offer easy to understand without making it shallow."
+      },
+      {
+        type: "paragraph",
+        text: "There is also a lesson in where it sits. A bar inside a hotel could easily feel anonymous, but this one has its own name, its own room and its own point of view, and the press writes about it as a destination. For independent owners, the takeaways are simple: say what you stand for in your name and your menu, put your best seats where the craft happens, and let regulars discover more over time rather than putting everything on the first page."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit to Bar Spirit Forward"
+      },
+      {
+        type: "paragraph",
+        text: "Where: Ground Floor, Hotel Southern Star, 40/2 Lavelle Road, Shanthala Nagar, Ashok Nagar, Bengaluru 560001."
+      },
+      {
+        type: "paragraph",
+        text: "When: Tuesday to Sunday, 5pm to 1am, closed Monday, according to Time Out. Check before you go; it fills up quickly."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: the Vesper Martini, the Southern Star and the Old Cuban; Time Out puts the cost at around ₹3,000 for two with drinks."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: a date (Time Out calls it a second-date bar), a seat at the counter, and anyone who wants a classic cocktail made carefully."
+      }
+    ],
+    business: {
+      name: "Bar Spirit Forward",
+      details: "Lavelle Road, Ashok Nagar, Bengaluru · Bar · Opened late 2023",
+      logo: null,
+      website: "",
+      instagram: "https://www.instagram.com/barspiritforward.blr/",
+    },
+    readNext: [],
+  },
+  {
     slug: "gaggan-bangkok",
     draft: false,
     publishedAt: "2026-11-06",
