@@ -49,6 +49,127 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "gaggan-bangkok",
+    draft: false,
+    publishedAt: "2026-11-06",
+    kicker: "Feature · Restaurant · Bangkok",
+    title: "Gaggan, Bangkok: 14 seats and five Asia No. 1 titles",
+    standfirst: "Gaggan Anand, who grew up in Kolkata, runs a 14-seat counter on Sukhumvit 31 in Bangkok, Thailand. It has been named Asia's best restaurant five times.",
+    writer: "The Vitrea team",
+    date: "6 November 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "At Gaggan in Bangkok, a neon sign reading \"Be a rebel.\" hangs over the room, and diners are asked to eat at least 22 of the 25 courses with their hands, Outlook Traveller reported this year. There are 14 seats at an L-shaped counter facing the open kitchen, and En Primeur Club describes a dark room with bright lights and a thumping soundtrack. The restaurant sits on Soi Sukhumvit 31 in the Khlong Tan Nuea neighbourhood of Bangkok, Thailand."
+      },
+      {
+        type: "paragraph",
+        text: "Gaggan is a progressive Indian restaurant run by the chef Gaggan Anand, who grew up in Kolkata. He first launched Gaggan in 2010, South China Morning Post reported, and unveiled a reimagined version in a new location in late 2019, according to The Star. It matters to Indian diners because it is one of the most decorated restaurants anywhere led by an Indian chef: Asia's 50 Best Restaurants has named it the best restaurant in Asia five times."
+      },
+      {
+        type: "heading",
+        text: "Gaggan Anand, from Kolkata to Bangkok"
+      },
+      {
+        type: "paragraph",
+        text: "Anand graduated from IHMCT Trivandrum and spent 12 years building his skills before opening his first restaurant in Bangkok, Outlook Traveller noted in a profile in March 2026."
+      },
+      {
+        type: "paragraph",
+        text: "The first Gaggan made his name. South China Morning Post recalls its 25-course emoji menu, where each course was marked by a small pictogram rather than a name, and a waiting list that at one point ran to a year. The restaurant was also featured on Netflix's Chef's Table, the same report said."
+      },
+      {
+        type: "paragraph",
+        text: "The current Gaggan is deliberately smaller. \"We made the restaurant extremely small, just 14 seats,\" Anand told The Peak Singapore in 2025. Outlook Traveller counts eight services a week and more than 30 servers looking after those 14 guests."
+      },
+      {
+        type: "quote",
+        text: "To everyone who announced the end of Gaggan, this award is here to say that Gaggan is back, or maybe he never left.",
+        attribution: "Gaggan Anand, as quoted by Outlook Traveller (2026)"
+      },
+      {
+        type: "heading",
+        text: "A 25-act tasting menu at the Gaggan counter in Bangkok"
+      },
+      {
+        type: "paragraph",
+        text: "The menu is a single tasting menu of about 25 courses, which Outlook Traveller describes as \"acts\": five drawn from India, five from Japan, five from Thailand and five meant to be shared, each followed by something sweet. The Star describes the cooking as progressive Indian food with influences from Japan, France and Thailand."
+      },
+      {
+        type: "paragraph",
+        text: "Some of the dishes are designed to provoke. South China Morning Post remembers Lick It Up, a course diners finished with their tongues, and Outlook Traveller describes a course built around rat brain. Others are easier to picture: En Primeur Club's listing names a broccoli cookie, a pork jowl taco, a boozy coffee foie gras waffle and an uni kiwi toast."
+      },
+      {
+        type: "paragraph",
+        text: "The rules are part of the show. Outlook Traveller notes that flash photography is not allowed and that the kitchen caters to vegetarians and meat eaters but not to vegans. The Michelin Guide sums the place up as a food theatre of progressive Indian cuisine, with bold flavours, stories and interactive energy."
+      },
+      {
+        type: "heading",
+        text: "Five times Asia's best restaurant"
+      },
+      {
+        type: "paragraph",
+        text: "Gaggan topped Asia's 50 Best Restaurants every year from 2015 to 2018, Outlook Traveller reported. In 2024 it ranked No. 3, The Star noted, and in March 2025, at the ceremony in Seoul, it rose two places to No. 1 again, Anand's fifth time at the top, according to The Peak and the Bangkok Post."
+      },
+      {
+        type: "paragraph",
+        text: "Anand told the Bangkok Post that night: \"After seven years, it's good to be back on top.\" He added that he had been in self-doubt, and dedicated the award to his team."
+      },
+      {
+        type: "paragraph",
+        text: "In the 2026 list it placed No. 3 and remained the highest-ranked restaurant in Thailand, Outlook Traveller reported. The Michelin Guide Thailand lists it as Gaggan Anand, and En Primeur Club records one Michelin star for 2026."
+      },
+      {
+        type: "paragraph",
+        text: "Anand's group has grown around it. In 2025 Gaggan at Louis Vuitton, also in Bangkok, entered the list at No. 31, and its pastry chef Dej Kewkacha was named Asia's Best Pastry Chef, the Bangkok Post reported."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Gaggan shows that a strong point of view can survive a reset. Anand moved to a new address, cut the room down to 14 seats and kept the things people talked about: the playfulness, the eating by hand, the sense of a performance. Within a few years the new restaurant was back at No. 1."
+      },
+      {
+        type: "paragraph",
+        text: "For independent owners, the useful lesson is how clearly the experience is defined. One menu, one sitting, a short list of house rules and a sign on the wall that says what the place stands for. Every guest leaves with the same story to tell. Going small also made the restaurant easier to run well, and scarcity did the rest of the marketing. Owners do not need a tasting menu to borrow this: a clear format, a few rules guests remember and a room built around the counter can do the same work."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit to Gaggan"
+      },
+      {
+        type: "paragraph",
+        text: "Where: 68 Soi Sukhumvit 31, Khlong Tan Nuea, Watthana, Bangkok 10110, Thailand."
+      },
+      {
+        type: "paragraph",
+        text: "When: dinner Thursday to Monday from 5pm until midnight, closed Tuesday and Wednesday, according to the Michelin Guide. Check before you go; booking is essential."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: there is one tasting menu; dishes named in recent listings include the broccoli cookie, pork jowl taco and uni kiwi toast."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: a special-occasion dinner, solo diners (the Michelin Guide marks it as good for dining alone), and anyone curious about modern Indian cooking abroad."
+      }
+    ],
+    business: {
+      name: "Gaggan",
+      details: "Sukhumvit 31, Khlong Tan Nuea, Bangkok · Restaurant · Asia's 50 Best No. 1 in 2025",
+      logo: null,
+      website: "https://www.gaggan.com",
+      instagram: "",
+    },
+    readNext: [],
+  },
+  {
     slug: "the-bombay-canteen-mumbai",
     draft: false,
     publishedAt: "2026-11-05",
