@@ -49,6 +49,123 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "naru-noodle-bar-bengaluru",
+    draft: false,
+    publishedAt: "2026-11-07",
+    kicker: "Feature · Restaurant · Bengaluru",
+    title: "Naru Noodle Bar, Bengaluru: a week of ramen in 90 seconds",
+    standfirst: "Naru Noodle Bar, Kavan Kuttappa's small ramen counter in Bengaluru's Shanti Nagar, grew from a lockdown project into the city's hardest table to book.",
+    writer: "The Vitrea team",
+    date: "7 November 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "On Monday evenings at 8pm, a week of tables at Naru Noodle Bar goes online. In 2024 The Nod Mag reported that roughly 400 covers were gone in under 90 seconds. The prize is a seat in a small ramen bar inside The Courtyard on Kengal Hanumanthaiah Road, in Shanti Nagar, Bengaluru, India, where the entrance is marked by red and black Japanese lanterns."
+      },
+      {
+        type: "paragraph",
+        text: "Naru is the work of chef and founder Kavan Kuttappa. It began during the 2020 lockdown, when he sold do-it-yourself ramen kits through Instagram, YourStory reported, and turned into a permanent restaurant at The Courtyard in 2022, according to The Nod Mag and Homegrown. Two years later the food writer Vir Sanghvi called it the most difficult restaurant to book in Bangalore."
+      },
+      {
+        type: "heading",
+        text: "Kavan Kuttappa and a ramen restaurant in Bengaluru"
+      },
+      {
+        type: "paragraph",
+        text: "Kuttappa trained at the Culinary Institute of America, The Nod Mag and Harper's Bazaar India note. Harper's adds that he worked at Eleven Madison Park and Momofuku in New York, and helped shape the menu at The Permit Room, the South Indian bar. LBB and Curly Tales describe him as a former culinary head of Toit and The Permit Room."
+      },
+      {
+        type: "paragraph",
+        text: "Vir Sanghvi wrote in 2024 that Kuttappa was classically trained in the Western tradition and fell for ramen while studying in America. When he could not find the noodles he wanted in India, he imported a ramen machine from Japan. The Nod Mag identifies it as a Yamato noodle machine that can turn out 100 portions in an hour."
+      },
+      {
+        type: "paragraph",
+        text: "In February 2025, Harper's Bazaar India put him on its list of 25 people to watch in food and hospitality, calling Naru a cult favourite for its broths."
+      },
+      {
+        type: "heading",
+        text: "Tori paitan, tantanmen and fried avocado temaki"
+      },
+      {
+        type: "paragraph",
+        text: "The menu is short: a handful of starters and a list of ramen. The Nod Mag's 2024 review describes four traditional bowls alongside house styles such as a Naati Tori Paitan, a chorizo tantanmen and a Sapporo-style miso, plus a vegetarian bowl built on a shiitake mushroom broth. LBB and Curly Tales also name a Hazelnut Tantanmen and vegan and vegetarian ramen."
+      },
+      {
+        type: "paragraph",
+        text: "Starters reported across LBB, Curly Tales, Hello! India and The Nod Mag include crispy chicken karaage, pork gyoza, togarashi edamame, aburi salmon and temaki tacos with fried avocado. The Nod Mag notes a cheesecake with berry compote developed with pastry chef Aarohi Sanghavi of Mäki Pâtisserie. To drink there is sake and kombucha, the latter from Mossant Fermentary, according to LBB and Curly Tales. The menu changes, so names on the day may differ."
+      },
+      {
+        type: "paragraph",
+        text: "Not every review has been glowing. In December 2022, soon after the restaurant opened, YourStory found the noodles undercooked and the broth lacking depth, and argued the social media buzz had run ahead of the food. Later reviews, including The Nod Mag's, were warmer."
+      },
+      {
+        type: "heading",
+        text: "From eight seats to twenty in Shanti Nagar"
+      },
+      {
+        type: "paragraph",
+        text: "When Naru opened, it had a counter with eight seats, Vir Sanghvi and The Nod Mag report; Sanghvi says it later grew to 20. The Nod Mag describes three tables for groups of four added to the room, which takes its cues from minka, traditional Japanese farmhouses: paper lamps, indigo shibori upholstery, a white marble bar flecked with bronze and an open kitchen."
+      },
+      {
+        type: "paragraph",
+        text: "Seating runs in fixed slots of about 75 minutes, LBB and Curly Tales note. Kuttappa told The Nod Mag that people often accuse him of rigging the booking system, which he denies."
+      },
+      {
+        type: "quote",
+        text: "It's always been the fastest finger first.",
+        attribution: "Kavan Kuttappa, to The Nod Mag (2024)"
+      },
+      {
+        type: "paragraph",
+        text: "The brand has also travelled. In March 2024 Naru took over Veronica's in Bandra, Mumbai, for a weekend of ramen, Homegrown reported. Two months later Virat Kohli and Anushka Sharma ate there and signed a bowl, which the restaurant shared on Instagram, Curly Tales reported."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Naru shows how far a narrow idea can go. One dish, a small room and a chef who went as far as importing a noodle machine to get it right: that focus is easier to explain, easier to staff and easier to remember than a long menu. It also started small and online, testing demand with kits before taking on a lease."
+      },
+      {
+        type: "paragraph",
+        text: "The booking system is the other lesson. A clear, public weekly release turns scarcity into a ritual people talk about, and Kuttappa's plain answer to accusations of rigging is a reminder that a fair process matters as much as the demand. The early critical review is worth noting too: buzz can run ahead of a product, and the restaurants that last are the ones that keep cooking until the food catches up."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit to Naru Noodle Bar"
+      },
+      {
+        type: "paragraph",
+        text: "Where: Ground floor, The Courtyard, 105 Kengal Hanumanthaiah Road, Shanti Nagar, Bengaluru."
+      },
+      {
+        type: "paragraph",
+        text: "When: Wednesday to Sunday, lunch and dinner in timed sittings, according to The Nod Mag (2024) and LBB. Bookings open online once a week (Monday evenings, per The Nod Mag); check Naru's Instagram before you plan around it."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: a tori paitan or the Hazelnut Tantanmen, chicken karaage and the fried avocado temaki."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: a focused bowl of ramen, a quick meal in a timed sitting, and anyone in Bengaluru fast enough on booking night."
+      }
+    ],
+    business: {
+      name: "Naru Noodle Bar",
+      details: "Shanti Nagar, Bengaluru · Restaurant · Permanent restaurant since 2022",
+      logo: null,
+      website: "https://www.narunoodlebar.com/",
+      instagram: "https://www.instagram.com/eatnaru/",
+    },
+    readNext: [],
+  },
+  {
     slug: "jigger-and-pony-singapore",
     draft: false,
     publishedAt: "2026-11-07",
