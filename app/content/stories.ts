@@ -49,6 +49,123 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "jigger-and-pony-singapore",
+    draft: false,
+    publishedAt: "2026-11-07",
+    kicker: "Feature · Bar · Singapore",
+    title: "Jigger & Pony, Singapore: a bar built on hospitality",
+    standfirst: "Jigger & Pony, the Amara Hotel cocktail bar in Singapore's Tanjong Pagar, is No. 9 in Asia and No. 18 in the world for 2026, 14 years after it opened.",
+    writer: "The Vitrea team",
+    date: "7 November 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "The menu at Jigger & Pony is not a card but a small magazine, and regulars collect them. The current one, called Bloom, holds 21 cocktails built around the idea of growth, Little Big Red Dot reported in October. You read it at the lobby level of the Amara Hotel on Tanjong Pagar Road, in Singapore, in a two-storey cocktail bar that has been on Asia's ranked lists for years."
+      },
+      {
+        type: "paragraph",
+        text: "Jigger & Pony was founded in 2012 by the husband-and-wife team Indra Kantono and Gan Guoyi, according to Wikipedia and Tatler Asia. It started on Amoy Street and moved to the Amara Hotel in 2018. In 2026 it placed No. 9 on Asia's 50 Best Bars, again the top bar in Singapore, and No. 18 on The World's 50 Best Bars, Little Big Red Dot and HungryGoWhere reported."
+      },
+      {
+        type: "heading",
+        text: "Indra Kantono, Gan Guoyi and a hospitality-first bar"
+      },
+      {
+        type: "paragraph",
+        text: "The founders did not come from behind the bar. Kantono told Tatler Asia in 2023 that neither he nor his wife was bartending when they opened, and that the bar's approach starts with hospitality."
+      },
+      {
+        type: "quote",
+        text: "We very much come from a hospitality philosophy.",
+        attribution: "Indra Kantono, to Tatler Asia (2023)"
+      },
+      {
+        type: "paragraph",
+        text: "The same piece describes a working habit borrowed from the Japanese idea of kaizen: aim to improve by 1 per cent a day. Tatler credits that mantra to Aki Eguchi, whom Kantono called his business partner and the group's beverage director. In 2025, creative director and partner Uno Jang won the Altos Bartenders' Bartender Award, voted by his peers, Stomp and HungryGoWhere reported. And at the 2026 Asia awards, Kantono himself received the Roku Industry Icon Award, according to HungryGoWhere."
+      },
+      {
+        type: "heading",
+        text: "From Amoy Street to Tanjong Pagar"
+      },
+      {
+        type: "paragraph",
+        text: "The original bar at 101 Amoy Street had 65 seats, Tatler Asia notes. The move to the Amara Hotel in 2018 more than doubled that, to a two-storey space with 140 seats. The owners told Australian Bartender in 2021 that they wanted a larger room over two floors, and that the idea for the new site was a \"Living Room of the City\"."
+      },
+      {
+        type: "paragraph",
+        text: "Like most bars, it had a hard 2020. Wikipedia records that it closed temporarily in March that year and reopened in September. During the pandemic the team also launched PONY, a range of bottled cocktails, Australian Bartender reported."
+      },
+      {
+        type: "heading",
+        text: "Menuzines, classics and a gin fizz"
+      },
+      {
+        type: "paragraph",
+        text: "The magazine-style menu has been part of the bar's identity for a while. The owners described it to Australian Bartender in 2021, when the edition in use was called The Decade Ahead. Little Big Red Dot calls them annual menuzines and says the current Bloom list mixes fruit-led, savoury and earthy drinks with pared-back takes on the classics."
+      },
+      {
+        type: "paragraph",
+        text: "Wikipedia lists a signature gin fizz with orange flower bubbles and a whisky sour with yuzu marmalade, alongside martinis, negronis and old fashioneds. Australian Bartender singled out the Crystal Ramos Gin Fizz as a clever twist on a classic. Tatler Asia's 2023 piece described an Ugly Tomatoes cocktail made with tomatoes from Genting Highlands and served in a deliberately misshapen glass; drinks rotate with each menu, so check what is current."
+      },
+      {
+        type: "heading",
+        text: "A fixture on the 50 Best lists"
+      },
+      {
+        type: "paragraph",
+        text: "Jigger & Pony was named Asia's best bar in 2020 and came second on that list from 2021 to 2023, according to Wikipedia. Tatler Asia notes it reached the global top 10 in 2020 and 2021. On The World's 50 Best Bars it was No. 5 in 2024 and No. 9 in 2025, HungryGoWhere and Stomp reported, before landing at No. 18 in 2026, announced in Milan on 7 October."
+      },
+      {
+        type: "paragraph",
+        text: "Outside the 50 Best system, Wikipedia notes that it was named Best International Hotel Bar at the 2023 Tales of the Cocktail awards. The Amara Hotel's own page describes it as a constant presence on the global and Asian lists."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Jigger & Pony is a reminder that a hospitality business does not have to be founded by a specialist to be taken seriously by specialists. Kantono and Gan built around how guests are treated and then brought in partners with deep drinks experience. For independent owners, that is a useful way to think about a team: know what you are best at, and hire or partner for the rest."
+      },
+      {
+        type: "paragraph",
+        text: "The menuzine is the other lesson. Turning a menu into something people keep gives the bar a yearly reason to be talked about, gives regulars something to collect, and tells a story that a list of drinks cannot. Add a stated habit of small daily improvements, and you have a business that has stayed near the top of a competitive city for more than a decade without reinventing itself every year."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit to Jigger & Pony"
+      },
+      {
+        type: "paragraph",
+        text: "Where: Lobby level, Amara Hotel, 165 Tanjong Pagar Road, Singapore 088539."
+      },
+      {
+        type: "paragraph",
+        text: "When: Sunday to Tuesday 6pm to midnight, Wednesday and Thursday 6pm to 1am, Friday and Saturday 6pm to 2am, according to the Amara Hotel. Check before you go."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: something from the current Bloom menuzine, or the signature gin fizz with orange flower bubbles."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: a classic cocktail made well, a group night out in a large, lively room, and anyone on a Singapore trip who wants to see one of Asia's most consistent bars."
+      }
+    ],
+    business: {
+      name: "Jigger & Pony",
+      details: "Amara Hotel, Tanjong Pagar, Singapore · Bar · Founded 2012",
+      logo: null,
+      website: "https://www.jiggerandpony.com/",
+      instagram: "",
+    },
+    readNext: [],
+  },
+  {
     slug: "bar-spirit-forward-bengaluru",
     draft: false,
     publishedAt: "2026-11-06",
