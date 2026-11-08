@@ -49,6 +49,127 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "sidecar-new-delhi",
+    draft: false,
+    publishedAt: "2026-11-08",
+    kicker: "Feature · Bar · New Delhi",
+    title: "Sidecar, New Delhi: the bartender's bar of GK II",
+    standfirst: "Sidecar, Minakshi Singh and Yangdup Lama's cocktail bar in Greater Kailash II, New Delhi, has spent eight years showing India what a bartender's bar can be.",
+    writer: "The Vitrea team",
+    date: "8 November 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "Climb the stairs above the M Block Market in Greater Kailash II, New Delhi, India, and the room that greets you looks more like an old library or a billiards room than a nightclub. Shelves of bottles line the wall behind the bar. That is how CNN Travel described Sidecar, and it is a fair summary of the bar's manner: quiet confidence, not noise."
+      },
+      {
+        type: "paragraph",
+        text: "Sidecar was co-founded in 2018 by Minakshi Singh and Yangdup Lama, CNN and Wikipedia report. Singh looks after programming and front of house; Lama runs the menus and the bar. Before Sidecar, the pair opened Cocktails and Dreams Speakeasy in Gurugram in 2012."
+      },
+      {
+        type: "heading",
+        text: "Minakshi Singh, Yangdup Lama and a bar's bar in New Delhi"
+      },
+      {
+        type: "paragraph",
+        text: "Lama's career goes back to the 1990s. Wikipedia lists him as Indian Bartender of the Year in 1996, and in 2024 Asia's 50 Best Bars gave him its Industry Icon award. He was also named a Keeper of the Quaich at Blair Castle, Scotland, in 2023."
+      },
+      {
+        type: "paragraph",
+        text: "The partners describe their venues as a bar's bar, CNN reported. Outlook Traveller, writing in August 2026, uses a similar phrase, a bartender's bar. The division of labour runs down to the furniture. Singh designed the furniture and lighting, the magazine notes, while Lama sketches his ideas for each bar before an architect takes over."
+      },
+      {
+        type: "paragraph",
+        text: "Singh told Outlook Traveller that for the longest time, every Sidecar menu has been written by its bartenders rather than by the owners or a consultant. That choice says a lot about how the bar sees its staff."
+      },
+      {
+        type: "heading",
+        text: "Sidecar Ke Kalakar and the cocktails"
+      },
+      {
+        type: "paragraph",
+        text: "The current list, the bar's sixth signature menu, is called Sidecar Ke Kalakar, Outlook Traveller reports. It treats bartenders as artists, and its drinks borrow their names and ideas from dance, writing and art."
+      },
+      {
+        type: "paragraph",
+        text: "The Muse reworks the classic Sidecar cocktail with bourbon, a house orange liqueur and gooseberry. Negative Space pairs vodka with Himalayan mint ice, tomato and balsamic. Longhand uses whisky infused with chironji and eucalyptus. Double Exposure layers cacao-nib vodka, cold brew, stout and jaggery, and Unplugged is a dessert drink built on mahua rum and a house toffee liqueur."
+      },
+      {
+        type: "paragraph",
+        text: "The bar's craft runs to the small things. CNN described a G&T made with orange-infused water and tea concentrate, smoked with Himalayan pinewood, and noted that the team makes its own bitters, tinctures and syrups. Food is bar food with a Delhi accent: Outlook Traveller lists momos, spring rolls, chermoula chicken skewers and Wai Wai sandekho."
+      },
+      {
+        type: "paragraph",
+        text: "Menus change, so the drinks named here may have moved on by the time you visit. Business Today, in May 2026, also pointed to a smoky vodka drink called Ceylon and Myrtle, made with VSOP brandy and a myrtle leaf cordial."
+      },
+      {
+        type: "quote",
+        text: "The day the beer starts to taste better at a particular bar is when you know it is a good bar.",
+        attribution: "Yangdup Lama, to Outlook Traveller (2026)"
+      },
+      {
+        type: "heading",
+        text: "Two floors in GK II and a run of awards"
+      },
+      {
+        type: "paragraph",
+        text: "En Primeur Club describes two moods across two floors: a library-like first floor, and a livelier second-floor bar with live music. It lists lounge, booth and bar seating, and says walk-ins are welcome."
+      },
+      {
+        type: "paragraph",
+        text: "The awards came quickly. CNN reported that Sidecar won three awards at the first 30 Best Bars India awards in October 2019, including India's top bar. At the fourth edition of the awards, YourStory reported, it was named No. 1 for the second time in a row and also won Best Independent Bar and Best Cocktail Menu, the latter for Arq, a menu built on Indian ingredients."
+      },
+      {
+        type: "paragraph",
+        text: "Business Today calls Sidecar the first Indian bar to break into Asia's 50 Best Bars. According to En Primeur Club, it has appeared on that ranking or its extended list every year from 2020 to 2025, peaking at No. 14 in 2022, and it reached No. 47 on The World's 50 Best Bars in 2021. In 2025 it was No. 62 in Asia, on the 51–100 list."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Sidecar shows what consistency looks like over eight years. It did not chase every trend; it kept refining one idea, a serious bar run for people who care about drinks, and changed the menu around it. Each new list gives regulars a reason to return and gives the press a fresh story, without changing what the bar is."
+      },
+      {
+        type: "paragraph",
+        text: "The other lesson is about people. Letting bartenders write the menus, and building a whole menu as a tribute to them, turns staff into the brand's storytellers. For any independent owner, that is a way to keep good people and to make the work visible to guests. The house-made syrups and bitters make the same point in a quieter way: the details guests never see are part of why they come back."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: M-29, M Block Market, Greater Kailash II, New Delhi 110048 (first floor)."
+      },
+      {
+        type: "paragraph",
+        text: "When: Business Today lists daily, 10am to 1am. Check with the bar before you go."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: The Muse, Negative Space or Double Exposure from Sidecar Ke Kalakar, and the chermoula chicken skewers."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: a serious cocktail evening, or live music on the second floor."
+      }
+    ],
+    business: {
+      name: "Sidecar",
+      details: "Greater Kailash II, New Delhi · Bar · Opened 2018",
+      logo: null,
+      website: "https://sidecarindia.com",
+      instagram: "",
+    },
+    readNext: [],
+  },
+  {
     slug: "naru-noodle-bar-bengaluru",
     draft: false,
     publishedAt: "2026-11-07",
