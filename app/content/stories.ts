@@ -49,6 +49,131 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "sips-barcelona",
+    draft: false,
+    publishedAt: "2026-11-08",
+    kicker: "Feature · Bar · Barcelona",
+    title: "Sips, Barcelona: the world's best bar with no counter",
+    standfirst: "Sips, Simone Caporale and Marc Álvarez's cocktail bar in Barcelona's Eixample, was named the world's best bar in 2023, and still has no counter to sit at.",
+    writer: "The Vitrea team",
+    date: "8 November 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "Walk into Sips on Carrer de Muntaner in Barcelona's Eixample, in Spain, and the first thing you notice is what is missing. There is no bar counter and no row of stools. The bartenders work at an island in the middle of the room, two of them facing each other, and every table can see what they are doing."
+      },
+      {
+        type: "paragraph",
+        text: "Sips opened in 2021, during the pandemic, according to Tasting Table, and Difford's Guide gives the same year. It is run by two well-known bartenders, Simone Caporale and Marc Álvarez. Two years after opening, in October 2023, it was named the World's Best Bar on The World's 50 Best Bars list."
+      },
+      {
+        type: "heading",
+        text: "Simone Caporale and Marc Álvarez: the people behind Sips"
+      },
+      {
+        type: "paragraph",
+        text: "Both founders arrived with long careers. Caporale, who was born in Italy, was named World's Best Bartender in 2014, Tasting Table reports. He worked alongside Alex Kretena and Monica Berg until 2019, when the three chose to focus on their own bars: Kretena and Berg on Tayēr + Elementary in London, Caporale on Sips."
+      },
+      {
+        type: "paragraph",
+        text: "Álvarez spent eight years working with the El Bulli chefs Ferran and Albert Adrià, rising to bar manager of their elBarri group, the same report says. That kitchen background shows in how Sips talks about drinks. Álvarez told Catalan News that the bar is moving closer to chefs and gastronomy."
+      },
+      {
+        type: "paragraph",
+        text: "The bar calls itself a \"drinkery house\" rather than a cocktail bar, Catalan News and Barcelona Yellow both note. The missing counter is the point of the room, not an accident of the floor plan."
+      },
+      {
+        type: "quote",
+        text: "Our main idea was to be the most democratic bar in the world because we don't have a proper bar counter",
+        attribution: "Marc Álvarez, to Catalan News (2022)"
+      },
+      {
+        type: "heading",
+        text: "Serious cocktails in unserious forms"
+      },
+      {
+        type: "paragraph",
+        text: "When it named Sips the world's best bar, the 50 Best academy praised its \"serious cocktails served in unserious forms\", Tasting Table reported. The drinks are technically demanding, and Difford's Guide notes that some ingredients are made with Rotovap reduced-pressure stills."
+      },
+      {
+        type: "paragraph",
+        text: "The serves are where the fun shows. Catalan News described Primordial arriving in a pair of hands, and Tasting Table lists it as 12-year-old Scotch, port and nashi pear, presented in a metal cast of two hands rather than a glass. Krypta comes in something like a giant egg on a stand, with three holes near the top for herbs that lift the aroma."
+      },
+      {
+        type: "paragraph",
+        text: "Aroma is a theme. Álvarez explained to Catalan News that we always smell while we drink, so the nose is working at the same time as the tongue. Another drink, Compressed, spins a peach in a centrifuge with pectic acid; the flavoured water dilutes the cocktail, and the pressed fruit is served alongside as something like a cracker."
+      },
+      {
+        type: "paragraph",
+        text: "Classics get what Catalan News called a Sips twist. Difford's Guide, asking for a plain Daiquiri, was served a fruit-forward Mulata Daiquiri over crushed ice instead. Menus change, so the drinks named here may have moved on by the time you visit."
+      },
+      {
+        type: "heading",
+        text: "An island bar in Eixample and a run on the rankings"
+      },
+      {
+        type: "paragraph",
+        text: "The room is small. Catalan News describes round marble tables with a gold-coloured finish, low, comfortable chairs and a palette of dark greens and greys. The glassware is made by the glassblower Ferran Collado. En Primeur Club adds that the space is sound-dampened, so conversation carries."
+      },
+      {
+        type: "paragraph",
+        text: "The rankings moved fast. Sips was the biggest climber on The World's 50 Best Bars in 2022, Catalan News reported, finishing third that year, according to Tasting Table. In 2023 it went to No. 1, replacing its Barcelona neighbour Paradiso."
+      },
+      {
+        type: "paragraph",
+        text: "It stayed near the top. Barcelona Yellow and En Primeur Club both record it at No. 3 in 2024, and Euro Weekly News reports it was third again in 2025. On the 2026 list, revealed in Milan in October, Sips is No. 16, one place above Paradiso, according to The 50 Best."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Sips is a lesson in removing something everyone assumes they need. Taking away the counter changed who the room is for: no one has the best seat, and the bartenders become the show for every table. One clear design decision gave the bar its story, and that story is easy for guests and press to retell."
+      },
+      {
+        type: "paragraph",
+        text: "The second lesson is about borrowing from next door. Álvarez brought a chef's way of thinking into a bar, and the playful serves keep the technique from feeling stiff. For an independent owner, the takeaway is that rigour and fun can share one menu, and a single memorable serve, such as a drink in a pair of hands, can do more for word of mouth than a long list."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: Carrer de Muntaner 108, Eixample, 08036 Barcelona, Spain."
+      },
+      {
+        type: "paragraph",
+        text: "When: Tuesday to Saturday, 6:30pm to 2am, closed Sunday and Monday, per En Primeur Club (March 2026). Barcelona Yellow lists Thursday to Saturday only, so check before you go."
+      },
+      {
+        type: "paragraph",
+        text: "Booking: Difford's Guide reported a no-reservations policy and a queue outside in 2023; En Primeur Club now lists bookings through CoverManager. Check the bar's website first."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: Primordial, Krypta, or a classic with the house twist, such as the Mulata Daiquiri."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: a cocktail-focused evening, conversation in a small room, and watching bartenders work up close."
+      }
+    ],
+    business: {
+      name: "Sips",
+      details: "Eixample, Barcelona · Bar · World's Best Bar 2023",
+      logo: null,
+      website: "https://sips.barcelona/",
+      instagram: "https://www.instagram.com/sips.drinkeryhouse/",
+    },
+    readNext: [],
+  },
+  {
     slug: "sidecar-new-delhi",
     draft: false,
     publishedAt: "2026-11-08",
