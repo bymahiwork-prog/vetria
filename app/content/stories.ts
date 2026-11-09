@@ -49,6 +49,123 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "o-pedro-mumbai",
+    draft: false,
+    publishedAt: "2026-11-09",
+    kicker: "Feature · Restaurant & bar · Mumbai",
+    title: "O Pedro, Mumbai: a Goan tavern in BKC",
+    standfirst: "O Pedro, the Hunger Inc team's Goa-inspired restaurant and bar in Mumbai's Bandra Kurla Complex, opened in 2017 and made both of Tatler's India lists in 2026.",
+    writer: "The Vitrea team",
+    date: "9 November 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "The bread comes first at O Pedro. A basket of warm sourdough poee, the Goan bakery roll, arrives with house-made butters, and Tatler Asia suggests you order it before anything else. Business Standard's 2017 launch review listed the butters as balchao, cheesy black pepper, whipped pork and rosemary, and choriz. It is a small start that tells you what this restaurant in Mumbai's Bandra Kurla Complex is about."
+      },
+      {
+        type: "paragraph",
+        text: "O Pedro is an all-day, Goa-inspired restaurant and bar from Hunger Inc. Hospitality, the group behind The Bombay Canteen. It opened in 2017, according to The Nod Mag and Slurrp. Business Standard named the partners at launch as Sameer Seth, Yash Bhanage and the chef Floyd Cardoz, who has since died. Nine years on, Tatler Asia still describes it as always bustling, and in 2026 it appeared on both Tatler's restaurant and bar lists for India."
+      },
+      {
+        type: "heading",
+        text: "Why the Hunger Inc team chose Goa for BKC"
+      },
+      {
+        type: "paragraph",
+        text: "Goa was not the first idea. The founders first thought about a Mexican restaurant before settling on Goa, The Nod Mag reported in a 2025 interview with Seth and Bhanage. Seth told the magazine it was a random idea they never expected to take off the way it did."
+      },
+      {
+        type: "paragraph",
+        text: "The aim was to show a wider Goa than most city menus do. Cardoz told Elle Decor India that Goa had more to offer than prawn curry and sausages. The team researched in Goa and Mumbai, Elle Decor reported, including learning to make poee with a Goan baker and studying the local traditions of feni and urak."
+      },
+      {
+        type: "quote",
+        text: "At some level, there is a bit of Goa in everyone. Everyone aspires to be laidback and chilled out",
+        attribution: "Sameer Seth, to Business Standard (2017)"
+      },
+      {
+        type: "paragraph",
+        text: "The kitchen is now led by executive chef Hussain Shahzad, according to Harper's Bazaar India and En Primeur Club. Harper's describes the food as progressive Goan and Portuguese-inspired, and profiled senior sous chef Shraddha Tayade, who joined O Pedro in 2017 as it was about to open, after starting as a commis at The Bombay Canteen."
+      },
+      {
+        type: "heading",
+        text: "Poee, balchao and a rum-led bar"
+      },
+      {
+        type: "paragraph",
+        text: "The menu mixes Goan home cooking with dishes that play with it. Tatler's must-tries are the bone marrow aad-maas, Rosy's crab curry and wood-fire roasted seafood. The Infatuation also singled out the bone marrow, along with an alesande dangar poee sandwich, a mushroom ceviche and Panji-style watana rassa served with bhatura."
+      },
+      {
+        type: "paragraph",
+        text: "Some dishes have lasted since the start. Business Standard's launch review mentioned Beryl's fish curry and the Panji green watana rassa, and Harper's Bazaar still listed Beryl's Fish Curry and the Prawn Bal-Chow in 2023. Desserts lean Portuguese: pastel de nata, serradura and bebinca, the layered Indo-Portuguese cake, all appear in Tatler's profile."
+      },
+      {
+        type: "paragraph",
+        text: "The bar is a destination of its own. Esquire India describes the drinks as tropical, rum-led and kokum-infused. Tatler's picks are Where Else, made with fig-infused bourbon, aromatised wine, ginger and orange bitters; a Carrot Rhubarb Highball; and Baga Brew, a rum drink with coffee-jaggery syrup, walnut bitters and clarified coconut milk. The Vasco Sour, made with toddy vinegar and pisco, appears in both the 2017 launch review and Tatler's 2026 profile. Menus change, so check what is on when you go."
+      },
+      {
+        type: "heading",
+        text: "A Chandor house in Bandra Kurla Complex, and the awards"
+      },
+      {
+        type: "paragraph",
+        text: "The room was designed by Ayaz Basrai of Busride Design Studio. He told Elle Decor India that the team took inspiration from the Menezes Braganza house in Chandor, a Goan mansion around 350 years old, and deliberately avoided bright turmeric walls and Mario Miranda murals. Business Standard described vaulted ceilings, pale yellows and blues, planter's chairs and a wooden bar in homage to Goan taverns."
+      },
+      {
+        type: "paragraph",
+        text: "The Infatuation compared an evening there to a sundowner at a colourful beach shack. The Nod Mag noted another touch of character: an automated phone reservation line recorded to sound like a grumpy Goan uncle."
+      },
+      {
+        type: "paragraph",
+        text: "Recognition has followed. O Pedro ranked No. 19 at the Condé Nast Traveller x Zomato Top Restaurant Awards, Slurrp reported in November 2024. En Primeur Club records it at No. 47 on Opinionated About Dining's 2025 Casual in Asia list. In 2026 Tatler Asia, publishing its first India list, named it among the 20 best restaurants and the 20 best bars in the country, one of a handful of places, including The Bombay Canteen, on both, Curly Tales reported."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "O Pedro shows how far a narrow, well-researched idea can travel. Rather than a general coastal menu, the team went to Goa, learnt from bakers and drinks traditions, and built the menu around specific regional dishes and named family recipes. That depth gives guests and writers something concrete to talk about, years after opening."
+      },
+      {
+        type: "paragraph",
+        text: "It also shows how to keep a concept fresh without losing it. The bread basket, the fish curry and the Vasco Sour have stayed, while new dishes and cocktails rotate around them. For independent owners, the lesson is to decide what your signatures are, protect them, and let everything else change. Small, playful details, like a phone line with a personality, cost little and make a place easy to remember."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: Unit No. 2, Jet Airways–Godrej BKC, Plot C-68, G Block, Bandra Kurla Complex, Bandra East, Mumbai 400051."
+      },
+      {
+        type: "paragraph",
+        text: "When: daily, noon to 1am, according to En Primeur Club. Check before you go, and book ahead."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: sourdough poee with butters, bone marrow aad-maas, Rosy's crab curry, Beryl's fish curry, the Vasco Sour and Baga Brew."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: groups, long lunches and evening drinks with Goan small plates."
+      }
+    ],
+    business: {
+      name: "O Pedro",
+      details: "Bandra Kurla Complex, Mumbai · Restaurant & bar · Opened 2017",
+      logo: null,
+      website: "https://www.opedromumbai.com/",
+      instagram: "https://www.instagram.com/opedromumbai/",
+    },
+    readNext: [],
+  },
+  {
     slug: "sips-barcelona",
     draft: false,
     publishedAt: "2026-11-08",
