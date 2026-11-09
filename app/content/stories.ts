@@ -49,6 +49,119 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "orfali-bros-dubai",
+    draft: false,
+    publishedAt: "2026-11-09",
+    kicker: "Feature · Restaurant · Dubai",
+    title: "Orfali Bros Bistro, Dubai: three brothers, two stars",
+    standfirst: "Orfali Bros Bistro, three Aleppo-born brothers' restaurant in Dubai's Jumeirah, opened in 2021, topped MENA's 50 Best three times and has two Michelin stars.",
+    writer: "The Vitrea team",
+    date: "9 November 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "At Orfali Bros Bistro the kitchen is the first thing you see. The Michelin Guide described it in 2022 as a two-storey test kitchen shaped like a tower, open so that diners face the cooks, and split into savoury and pastry sections. Upstairs, two of the brothers make desserts in a pastry kitchen that overlooks the dining room, Khaleej Times reported. The restaurant sits in Wasl 51, a development in Jumeirah 1, Dubai, in the United Arab Emirates."
+      },
+      {
+        type: "paragraph",
+        text: "It is run by three brothers from Aleppo, Syria: Mohammad, Wassim and Omar Orfali. Mohammad leads the savoury kitchen and the two younger brothers run pastry. They opened it in March 2021, in the middle of the pandemic. Since then it has been named the best restaurant in the Middle East and North Africa three years running, and in October 2026 the Michelin Guide promoted it to two stars."
+      },
+      {
+        type: "heading",
+        text: "From Aleppo to Dubai: how the Orfali brothers built a bistro"
+      },
+      {
+        type: "paragraph",
+        text: "Mohammad left Syria and moved to Dubai in 2007, Khaleej Times reported in 2022, and his brothers followed in the early 2010s. Before they had a restaurant they taught: the Michelin Guide records a series of cooking courses called The Orfali Bros Masterclass, with more than 24 held before the 2020 pandemic."
+      },
+      {
+        type: "paragraph",
+        text: "The business itself started small. In a 2025 interview with Khaleej Times, the brothers described it beginning as a pastry shop, which Mohammad grew into a restaurant after Covid. The first menu was salads and sandwiches for takeaway, then pizza. By 2025 the team had grown to 60 people, and in 2022 Mohammad told Khaleej Times he had hired young chefs from 20 nationalities."
+      },
+      {
+        type: "quote",
+        text: "We are not a Syrian restaurant. We are Syrian people, and we are so proud of that.",
+        attribution: "Mohammad Orfali, to Khaleej Times (2025)"
+      },
+      {
+        type: "paragraph",
+        text: "That line explains the cooking. The Michelin Guide's 2022 profile described Aleppian food and pastries reimagined and mixed with other food cultures on the same plate. Its 2026 citation, as quoted by The National, roots the menu in the brothers' Aleppian, Armenian and Turkish heritage."
+      },
+      {
+        type: "heading",
+        text: "Corn bombs, shish barak and a savoury éclair"
+      },
+      {
+        type: "paragraph",
+        text: "Several dishes come up again and again in the press. Khaleej Times named the OB croquettes, the corn bomb and shish barak à la gyoza, a take on the Levantine dumpling. En Primeur Club lists the corn bomb, the shish barak and a wagyu kebab as signatures."
+      },
+      {
+        type: "paragraph",
+        text: "The Michelin Guide's early profile picked out dishes that show how the brothers think. Eat H is a bulgur and tomato dish wrapped in shiso leaves instead of vine leaves or cabbage; Mohammad said it draws on Aleppian, Armenian, Kurdish and Turkish methods. Their imam bayildi uses grilled rather than fried aubergine, with makdous muhammara, tarator, toasted walnuts and verjuice. Guess What is Mohammad's version of fattoush, with sourdough, feta and Kalamata olives."
+      },
+      {
+        type: "paragraph",
+        text: "Pastry is not an afterthought here. The National, reporting on the restaurant's first Michelin star in 2024, described an umami éclair with porcini emulsion, Marmite, cacao nibs and beef prosciutto, and listed foie gras with quince vinegar and hazelnut miso and adobo chicken wings among the dishes. En Primeur Club says the pastry team makes éclairs, buns and plated desserts, and that there is a zero-proof drinks programme. The Michelin citation also mentions a tasting menu called Voyage. Menus change, so check what is on when you book."
+      },
+      {
+        type: "heading",
+        text: "Orfali Bros Bistro's awards: MENA's 50 Best and Michelin"
+      },
+      {
+        type: "paragraph",
+        text: "The awards have built steadily. When the Michelin Guide arrived in Dubai in 2022, Orfali Bros was one of 14 restaurants in the city to receive a Bib Gourmand, for good food at good value, Khaleej Times reported. In 2024 it was promoted to one star, The National reported, and in the 2026 guide it moved up to two, one of four two-star restaurants in Dubai. The National quoted Michelin describing its evolution from a neighbourhood bistro into a flagship of Middle Eastern gastronomy."
+      },
+      {
+        type: "paragraph",
+        text: "On the 50 Best lists, it topped Middle East and North Africa's 50 Best Restaurants for a third year in a row in 2025, according to Khaleej Times, and ranked 46th on the World's 50 Best Restaurants in 2023. In February 2026 it placed fourth on the MENA list, behind Khufu's in Giza, and Omar and Wassim Orfali were named the region's Best Pastry Chefs, The National and Curly Tales reported."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Orfali Bros is a reminder that a strong idea can start small. The brothers taught classes and ran a pastry counter before they had a full restaurant, and the menu moved from takeaway sandwiches to tasting menus over a few years. They grew into recognition rather than launching for it."
+      },
+      {
+        type: "paragraph",
+        text: "It also shows the value of a clear point of view. The brothers do not present a museum version of Syrian food; they use it as a starting point and say so plainly. For any independent owner, the lesson is to know exactly where your food comes from, tell that story in your own words, and make the space show it, as the open, two-storey kitchen does here. Splitting the work by strength, with one brother on savoury and two on pastry, has also given the restaurant a second signature that the awards have noticed."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: Wasl 51, Building D, Al Wasl Road, Jumeirah 1, Dubai, United Arab Emirates."
+      },
+      {
+        type: "paragraph",
+        text: "When: En Primeur Club lists dinner from 5:45pm to 11:30pm, Wednesday to Monday, closed Tuesday (as of March 2026). Earlier listings gave daytime hours, so check before you go. Reservations are required, according to En Primeur Club."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: the corn bomb, shish barak à la gyoza, the OB croquettes and something from the pastry kitchen, such as an éclair."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: dinner, and anyone curious about modern Middle Eastern cooking and pastry."
+      }
+    ],
+    business: {
+      name: "Orfali Bros Bistro",
+      details: "Jumeirah 1, Dubai · Restaurant · Opened 2021",
+      logo: null,
+      website: "https://orfalibros.com",
+      instagram: "",
+    },
+    readNext: [],
+  },
+  {
     slug: "o-pedro-mumbai",
     draft: false,
     publishedAt: "2026-11-09",
