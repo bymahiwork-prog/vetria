@@ -49,6 +49,131 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "alquimico-cartagena",
+    draft: false,
+    publishedAt: "2026-11-10",
+    kicker: "Feature · Bar · Cartagena",
+    title: "Alquímico, Cartagena: the farm bar ranked world No. 3",
+    standfirst: "Alquímico, a three-floor cocktail bar in Cartagena's old city in Colombia, sources from its own coffee farm and ranked No. 3 in the world in 2026.",
+    writer: "The Vitrea team",
+    date: "10 November 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "Alquímico occupies a 19th-century mansion on Calle del Colegio in the walled old city of Cartagena, Colombia, a few blocks from the Torre del Reloj, Forbes Colombia reported. Each of its three floors is its own bar with its own menu. On the ground floor, the bar team is made up entirely of women, according to La República and En Primeur Club."
+      },
+      {
+        type: "paragraph",
+        text: "The cocktail bar was founded by Jean Trinh, a French engineer and backpacker born to Vietnamese parents, who arrived in Cartagena in 2013 and first ran a small bar called Laboratorio, Forbes Colombia reported. Alquímico followed in 2016; Difford's Guide names Yeferson Avila Rodriguez as his business partner, and La República names Paola Oviedo as a co-founder. In 2026, its tenth year, it ranked third on The 50 Best Bars list, the bar's first time on the podium, La República noted."
+      },
+      {
+        type: "heading",
+        text: "From Laboratorio to a mansion in Cartagena's old city"
+      },
+      {
+        type: "paragraph",
+        text: "La República reported that Trinh noticed the country's cocktail scene leaned on imported spirits, and turned instead to the maceration and infusion techniques of the French islands, built around Colombian produce. The three floors carry names: La Mansión on the ground floor, El Balcón on the second and La Terraza on the roof."
+      },
+      {
+        type: "paragraph",
+        text: "Difford's Guide describes the ground floor as centred on Colombian ingredients, El Balcón as classic cocktails reworked with local produce, and the rooftop as inspired by the bar's farm. La República gave examples from the second floor: a Bloody Mary, a coffee tonic and a caipirinha, rebuilt with tree tomato and Isabella grapes. Here Magazine described a DJ downstairs and dancing on the roof until closing."
+      },
+      {
+        type: "heading",
+        text: "The farm in Filandia, 900 kilometres away"
+      },
+      {
+        type: "paragraph",
+        text: "The bar's supply line starts far from the coast. Difford's Guide reports an 11-hectare farm near Filandia, in Quindío, Colombia's coffee region, about 900 kilometres from Cartagena, growing more than 150 varieties of fruit and vegetables."
+      },
+      {
+        type: "paragraph",
+        text: "The farm became central during the pandemic. Here Magazine reported that the bar was about to mark its fourth anniversary in March 2020 when it was forced to close, and that 22 bartenders and their families moved to the farm. There the team kept bees in ten hives, planted more than 2,000 coffee trees and 120 fruit trees as part of a reforestation project with native trees, and set up a greenhouse."
+      },
+      {
+        type: "quote",
+        text: "At first it felt like a crazy idea, but ultimately, going to the farm was the best decision we ever made.",
+        attribution: "Miguel Ángel Mora, bartender, to Here Magazine"
+      },
+      {
+        type: "paragraph",
+        text: "The farm's coffee now goes into the bar's espresso martini, which Difford's lists as the Ketel One Asocoman Espresso Martini, with 20 per cent of its proceeds going to community projects. The same page describes Alquímico Lab, which makes wines from Colombian fruits and spices and several styles of mead."
+      },
+      {
+        type: "heading",
+        text: "A menu with names behind it"
+      },
+      {
+        type: "paragraph",
+        text: "The ground-floor menu, called Comunidad, is built with Asocoman, a farmers' association in the Montes de María. Drinks International reported in 2025 that each of its eight cocktails uses an ingredient from an Asocoman farmer, whose illustration and words appear beside the drink, and that a share of each sale funds water storage and purification. Among the drinks it named were Cenizas, with mezcal, morita chilli oil and oloroso sherry, and Ajonjolí, with Scotch whisky, sesame paste and an orange and carrot cordial."
+      },
+      {
+        type: "paragraph",
+        text: "Difford's Guide reports that the bar funded a water treatment plant for the community in 2025, and in 2026 backed a production centre and school for a youth group. The second floor supports Colectivo Canta, according to La República, and 20 Embera Chamí families weave the necklaces the staff wear, La República and Forbes Colombia reported."
+      },
+      {
+        type: "paragraph",
+        text: "Food follows the same thinking. The Daily Meal described a mostly plant-based menu in 2022, and La República reported a vegetarian and vegan menu developed with Jaime Rodríguez. Oviedo told La República that the bar avoids calling it a vegetarian menu, so the label does not put anyone off."
+      },
+      {
+        type: "heading",
+        text: "Alquímico's rankings: from first Colombian entry to No. 3"
+      },
+      {
+        type: "paragraph",
+        text: "In 2020 Alquímico became the first Colombian bar on The World's 50 Best Bars, and won the Ketel One Sustainable Bar Award the same year, Difford's Guide reports. It ranked No. 10 in 2022, No. 9 in 2023, No. 8 in 2024 and No. 11 in 2025."
+      },
+      {
+        type: "paragraph",
+        text: "In October 2026 it rose to No. 3, behind Bar Leone in Hong Kong and Moebius Milano, and was named the Best Bar in South America, La República reported. Bloomberg Línea's report of the 2026 list confirms the third place. In August 2026 it also received the Michter's Art of Hospitality Award, which Forbes Colombia described as recognition as the world's most hospitable bar."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Alquímico shows how a supply chain can become the story. The farm, the Asocoman growers and the weavers are not side projects mentioned on a website; they are written into the menu, the uniform and the reason a drink exists. A guest does not need to know any of it to enjoy a cocktail, but the details are there for those who ask."
+      },
+      {
+        type: "paragraph",
+        text: "For independent owners, the lesson is that a mission works best when it is specific and visible. Three floors with three distinct menus give regulars a reason to explore, and naming the farmer behind a drink turns sourcing into something customers can see. Alquímico also stayed on the world list for years before its podium, which is a reminder that consistency builds a reputation."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: Calle del Colegio #34-24, El Centro, Cartagena de Indias, Bolívar, Colombia."
+      },
+      {
+        type: "paragraph",
+        text: "When: The Daily Meal, citing the bar's Facebook page in 2022, listed 6pm to 2am daily, and until 3am on Friday and Saturday. Check before you go; En Primeur Club says walk-ins are welcome."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: the Ketel One Asocoman Espresso Martini, and a drink from the Comunidad menu on the ground floor."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: cocktails with friends, a night that moves between floors, and dancing on the rooftop."
+      }
+    ],
+    business: {
+      name: "Alquímico",
+      details: "El Centro, Cartagena, Colombia · Bar · Opened 2016",
+      logo: null,
+      website: "https://alquimico.com",
+      instagram: "",
+    },
+    readNext: [],
+  },
+  {
     slug: "cobbler-and-crew-pune",
     draft: false,
     publishedAt: "2026-11-10",
