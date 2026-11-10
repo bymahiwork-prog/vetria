@@ -49,6 +49,123 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "cobbler-and-crew-pune",
+    draft: false,
+    publishedAt: "2026-11-10",
+    kicker: "Feature · Bar · Pune",
+    title: "Cobbler & Crew, Pune: the cocktail society of Kalyani Nagar",
+    standfirst: "Cobbler & Crew, a cocktail bar in Pune's Kalyani Nagar, opened in 2022 and ranked second on the 30 Best Bars India list in under two years, with four awards.",
+    writer: "The Vitrea team",
+    date: "10 November 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "Cobbler & Crew sits on the ground floor of the Barons Club building on North Avenue in Kalyani Nagar, Pune, across the road from Jogger's Park. Slurrp described the approach as a leafy lane. LBB wrote that the whole bar is designed for a cocktail-first experience, and one of the drinks it picked out arrived garnished with bhakarwadi, the spiced Puneri snack."
+      },
+      {
+        type: "paragraph",
+        text: "It is a cocktail bar in Maharashtra, India, opened in 2022 by Vijeta Singh, Karan Khilnani and Mayur Marne, The Week reported. Less than two years later it placed second on the 30 Best Bars India list for 2023, behind Delhi's Sidecar, and collected four more awards on the same night. It was the only Pune bar in that year's top 30, Man's World India noted."
+      },
+      {
+        type: "heading",
+        text: "The people behind Cobbler & Crew in Pune"
+      },
+      {
+        type: "paragraph",
+        text: "Indian Retailer's opening report called it Pune's first cocktail society. It named Marne, a former Diageo brand ambassador, as head of the bar, with the food menu led by Rohit More, who previously worked with Oberoi. Slurrp later described Marne as partner and head mixologist, and reported that the bar was set up by the team behind the bistro-bar Elephant and Co."
+      },
+      {
+        type: "paragraph",
+        text: "The founders did not take Pune's appetite for granted. Singh told The Week that the assumption going in was that the city might not take to a serious cocktail programme straight away."
+      },
+      {
+        type: "quote",
+        text: "What we found instead was not lack of interest, but lack of exposure.",
+        attribution: "Vijeta Singh, co-founder, to The Week (2026)"
+      },
+      {
+        type: "paragraph",
+        text: "In a separate interview with India Food Network, Singh described putting her time, money and energy into the bar as a leap into the unknown."
+      },
+      {
+        type: "heading",
+        text: "Shrikhand, thecha and a jazz menu: the drinks"
+      },
+      {
+        type: "paragraph",
+        text: "The local streak shows up in the glass. At launch, Indian Retailer reported a list of 12 cocktails plus a seasonal menu of eight, including a milky, dessert-style drink called The Shrikhand and twists built on bhakarwadi, khakra and thecha. LBB picked out Feelin Good, Oh Temptation, Mist From The Sea and The Golden Lady."
+      },
+      {
+        type: "paragraph",
+        text: "The menu changes in editions. Slurrp reported that the first was themed on jazz, the second was a throwback to the 1990s and the third was called Parallel Universe. District's listing mentions a Himalayan gin martini and the \"Back to 90's\" menu. Slurrp's write-up of Feeling Good, which LBB lists as Feelin Good, describes a basil-led drink with 14 ingredients and a parmesan leather garnish."
+      },
+      {
+        type: "paragraph",
+        text: "The food leans Mediterranean with global influences, in En Primeur Club's description, which lists truffle tagliatelle, pesto pizza, Goan chorizo and chicken karaage. On Sundays there is a brunch of tapas and pinchos with a flight of mini cocktails, such as a Cutting Masala Chai Punch and a Kulfi Jungle Bird. Slurrp reported that the brunch menu changes every three to four months. Menus move on, so check what is current when you go."
+      },
+      {
+        type: "heading",
+        text: "Cobbler & Crew's awards: from new entry to India's top two"
+      },
+      {
+        type: "paragraph",
+        text: "At the fourth edition of 30 Best Bars India, held in Goa in January 2024, Cobbler & Crew ranked second. It also took Highest New Entry, Best Bar Team, Best Bartender and Best Work in Sustainability, the last shared with another Pune bar, Soy Como Soy, YourStory and Curly Tales reported."
+      },
+      {
+        type: "paragraph",
+        text: "The Best Bartender award went to Aashi Bhatnagar. Man's World India reported that she was the first woman to win it in the awards' four-year history, and Slurrp reported that in 2023 she became the first Indian woman to win World Class India Bartender of the Year."
+      },
+      {
+        type: "paragraph",
+        text: "The bar has stayed on the lists since. It placed 19th on 30 Best Bars India 2025, and Marne shared the Best Bartenders award with Macleigh Fernandes of Goa's Boilermaker, Curly Tales reported in January 2026. In 2025 it also ranked 428th on the Top 500 Bars list, the only Pune bar on it, according to India Food Network. In September 2026 Time Out India included it in the masterlist for 30 Best Bars India 2026, ahead of the final countdown."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Cobbler & Crew opened in a city that, by its own co-founder's account, was not obviously waiting for it. Instead of softening the idea, the team leaned into Pune itself. Shrikhand, bhakarwadi and thecha on a cocktail list give a local drinker an easy way in, and give a visitor a reason to come."
+      },
+      {
+        type: "paragraph",
+        text: "The other lesson is rhythm. Themed menu editions and a brunch that changes every few months give regulars a reason to return and give the bar something new to talk about. Recognition has followed the team as well as the drinks, with awards for its bartenders and for sustainability alongside its rankings. For an independent owner outside the big metros, it is a case for building local flavour into the product and letting consistency do the rest."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: Ground floor, Barons Club, North Avenue, opposite Jogger's Park, Kalyani Nagar, Pune, Maharashtra 411006."
+      },
+      {
+        type: "paragraph",
+        text: "When: En Primeur Club lists 6pm to 1:30am Monday to Friday and 1pm to 1:30am on Saturday and Sunday (as of April 2026). Check before you go; reservations are recommended."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: Feelin Good, The Shrikhand if it is on, and the mini cocktail flight at Sunday brunch."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: cocktails with friends, Sunday brunch and live music; District lists live music on Wednesdays."
+      }
+    ],
+    business: {
+      name: "Cobbler & Crew",
+      details: "Kalyani Nagar, Pune · Bar · Opened 2022",
+      logo: null,
+      website: "",
+      instagram: "",
+    },
+    readNext: [],
+  },
+  {
     slug: "orfali-bros-dubai",
     draft: false,
     publishedAt: "2026-11-09",
