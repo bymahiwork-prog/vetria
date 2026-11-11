@@ -49,6 +49,131 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "comorin-gurugram",
+    draft: false,
+    publishedAt: "2026-11-11",
+    kicker: "Feature · Restaurant & bar · Gurugram",
+    title: "Comorin, Gurugram: India's best restaurant bar, four times",
+    standfirst: "Comorin, the Indian Accent team's all-day restaurant and cocktail bar on Gurugram's Golf Course Road, was named India's Best Restaurant Bar four years running.",
+    writer: "The Vitrea team",
+    date: "11 November 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "At Comorin, on the first floor of Two Horizon Center on Golf Course Road in Gurugram, the Negroni starts with a vermouth flavoured with khus, and one of the cocktails comes out of a tap. Restaurant India described a counter where spirits are infused sous vide, and a bottled Coffee Manhattan, when the place opened in late 2018."
+      },
+      {
+        type: "paragraph",
+        text: "Comorin is an all-day restaurant, cocktail bar, coffee bar and small market in one room, from the group behind Indian Accent. Restaurant India reported that it was Old World Hospitality's 30th restaurant, owned and run by its company EHV, with the concept created by director Rishiv Khattar. In its 2024 edition, 30 Best Bars India named it the Best Restaurant Bar for the fourth year in a row, Curly Tales reported."
+      },
+      {
+        type: "heading",
+        text: "A restaurant named after Cape Comorin"
+      },
+      {
+        type: "paragraph",
+        text: "The name refers to Cape Comorin, the old name for Kanyakumari at India's southern tip, according to Restaurant India and The Punch Magazine. The idea was comfort food from across the country rather than a single region. Mishry reported that Manish Mehrotra, then the group's consulting chef, described it as a restaurant that celebrates the food of ordinary people."
+      },
+      {
+        type: "paragraph",
+        text: "Rohit Khattar, chairman of Old World Hospitality, pitched it as somewhere for the people who work and live around it, not a special-occasion dining room."
+      },
+      {
+        type: "quote",
+        text: "It is a relaxed space that encourages communal dining and welcomes guests from the offices and residences around.",
+        attribution: "Rohit Khattar, chairman, Old World Hospitality, to Restaurant India"
+      },
+      {
+        type: "paragraph",
+        text: "The kitchen was led from the start by executive chef Dhiraj Dargan, and the bar by Varun Sharma, The Punch Magazine reported in 2019. Both have since taken group-wide roles: the Free Press Journal described Dargan as EHV's brand chef and Sharma as its head of bars in 2025."
+      },
+      {
+        type: "heading",
+        text: "Khus vermouth, pickled whiskey and gunpowder idli"
+      },
+      {
+        type: "paragraph",
+        text: "Tatler Asia describes a bar built on house-made liquors, infusions and fermentations. Its listing names the Khus Vermouth Negroni, made with sous vide gin; the Pickled Pom Whiskey, a bourbon infused with pickling spices; and the Comorin 75, made with gin infused with rhododendron. The Punch Magazine also listed a fennel liqueur, a coffee liqueur and a walnut bourbon among the bar's own infusions at launch."
+      },
+      {
+        type: "paragraph",
+        text: "The menu is split into small, large and extra-large plates, Mishry reported. Dishes that recur across reviews from 2018 to 2026 include lemon gunpowder idli with golden cashews, sweet corn khichdi, and hot buttered mutton seekh kebabs with Kashmiri roti. Larger plates include Andhra gongura chicken, a whole red snapper, Bombay pao bhaji and Champaran meat with sattu paratha."
+      },
+      {
+        type: "paragraph",
+        text: "For dessert, Delhiites Magazine and Mishry both singled out the cheeni malai toast, served on brioche with honeycomb. Dargan told The Punch Magazine that the kitchen keeps styling and reinterpretation to a minimum and lets the food speak for itself."
+      },
+      {
+        type: "heading",
+        text: "Step-up levels, a Green Room and a market"
+      },
+      {
+        type: "paragraph",
+        text: "The space was designed by London's Russell Sage Studio, Restaurant India reported. At launch The Punch Magazine counted 130 seats over three step-up levels, each with tables at a matching height, along with wave murals and a patio. Delhiites Magazine described retro-futuristic touches and a private Green Room behind a curtain at the back."
+      },
+      {
+        type: "paragraph",
+        text: "Retail was part of the plan from day one. The Punch Magazine reported coffee from Blue Tokai and a market section stocked with partners such as Nicobar and Clay Men, and Tatler Asia now lists a retail counter selling house-made syrups, coffee blends and pantry staples."
+      },
+      {
+        type: "heading",
+        text: "Comorin's record at 30 Best Bars India"
+      },
+      {
+        type: "paragraph",
+        text: "In the 30 Best Bars India ranking for 2022, Comorin entered at No. 6 and was named Best Restaurant Bar, Outlook Traveller reported. It ranked No. 11 in the fourth edition, again with the Best Restaurant Bar title, according to YourStory, and No. 13 in the 2024 edition, when it won that award for the fourth consecutive year, Curly Tales reported."
+      },
+      {
+        type: "paragraph",
+        text: "In 2026 it appears in Tatler's Best 20 Bars India, according to its Tatler Asia listing, and Time Out India's report on the 2026 30 Best Bars India masterlist included it. In May 2025 the group opened a second Comorin at Nilaya Anthology in Lower Parel, Mumbai, Outlook Traveller and Zee Zest reported."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Comorin is a useful case of a serious bar that does not ask guests to treat it as a destination. It sits in an office complex, opens at noon and serves idli and pao bhaji alongside its infusions. The ambition sits in the glass and on the plate, not in rules about how to behave."
+      },
+      {
+        type: "paragraph",
+        text: "For independent owners, the lesson is consistency and clear signatures. A handful of dishes and drinks have stayed on the menu and in reviews for years, which gives regulars and critics something to return to and talk about. The market counter does a quieter job: it lets the brand leave with the guest, as a bottle of syrup or a bag of coffee."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: 101, First Floor, Two Horizon Center, DLF Phase 5, Sector 43, Golf Course Road, Gurugram."
+      },
+      {
+        type: "paragraph",
+        text: "When: En Primeur Club lists noon to midnight Sunday to Thursday and noon to 1am on Friday and Saturday (as of April 2026). Check before you go."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: Khus Vermouth Negroni, Comorin 75, lemon gunpowder idli, hot buttered seekh kebabs, Champaran meat with sattu paratha, cheeni malai toast."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: a long lunch near the office, cocktails with small plates, a private dinner in the Green Room."
+      }
+    ],
+    business: {
+      name: "Comorin",
+      details: "Golf Course Road, Gurugram · Restaurant & bar · Opened 2018",
+      logo: null,
+      website: "https://www.comorin.in/",
+      instagram: "https://www.instagram.com/comorin.in/",
+    },
+    readNext: [],
+  },
+  {
     slug: "alquimico-cartagena",
     draft: false,
     publishedAt: "2026-11-10",
