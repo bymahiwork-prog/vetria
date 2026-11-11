@@ -49,6 +49,123 @@ export type FeatureStory = {
 
 export const stories: FeatureStory[] = [
   {
+    slug: "quintonil-mexico-city",
+    draft: false,
+    publishedAt: "2026-11-11",
+    kicker: "Feature · Restaurant · Mexico City",
+    title: "Quintonil, Mexico City: the world's No. 4 restaurant",
+    standfirst: "Quintonil, Jorge Vallejo and Alejandra Flores's restaurant in Polanco, Mexico City, is No. 4 in the world for 2026 and the best restaurant in Latin America.",
+    writer: "The Vitrea team",
+    date: "11 November 2026",
+    readTime: "5 min read",
+    heroImage: null,
+    heroAlt: "",
+    heroCaption: "",
+    body: [
+      {
+        type: "paragraph",
+        text: "From Newton Street in Polanco, Mexico City, Quintonil is easy to walk past. The Michelin Guide calls the facade discreet, and Wikipedia's entry describes an entrance tucked behind a faded window and a plain curtain. Inside are two small dining rooms and a counter facing the kitchen, with about a dozen tables between them, AFP reported."
+      },
+      {
+        type: "paragraph",
+        text: "That small room in Mexico is now one of the most decorated restaurants anywhere. In early November 2026, at a ceremony in Lima, The World's 50 Best Restaurants placed Quintonil at No. 4 and named it the Best Restaurant in Latin America, according to CNN and Mexico News Daily. It is run by a married couple: chef Jorge Vallejo in the kitchen and Alejandra Flores, who leads service. They opened it in 2012."
+      },
+      {
+        type: "heading",
+        text: "From a Polanco fonda to a world list"
+      },
+      {
+        type: "paragraph",
+        text: "Vallejo and Flores met in 2009 while both were working at Pujol, and left in 2011 to open a place of their own. Before Pujol, Vallejo cooked on cruise ships, AFP reported; Wikipedia notes he also trained at Noma in Copenhagen. Flores studied restaurant management at CESSA and hospitality at Les Roches in Switzerland, and had been director of operations and commercial director at the Enrique Olvera group, according to Quintonil's own site."
+      },
+      {
+        type: "paragraph",
+        text: "Quintonil opened on 9 March 2012 with a small loan. It began as a casual fonda with a daily menu, secondhand furniture and secondhand tableware, and grew into fine dining over the following years, Wikipedia records."
+      },
+      {
+        type: "paragraph",
+        text: "The name is a plant. Mexico News Daily describes quintonil as an edible wild plant of the amaranth family, and Fodor's calls it a wild green herb found in milpas, the traditional maize fields. It suits a restaurant that has always been built around what grows in Mexico."
+      },
+      {
+        type: "heading",
+        text: "Cooking that is 98 per cent Mexican"
+      },
+      {
+        type: "paragraph",
+        text: "Vallejo told AFP that the restaurant's ingredients, wines included, are 98 per cent Mexican; the exceptions are caviar, one fish and olive oil. Produce comes from Milpa Alta and Xochimilco on the edge of the city, and Mexico News Daily reported that many ingredients come from an urban garden about 30 metres away. Wikipedia describes the cooking as mostly plant-based, built on heirloom vegetables, native herbs and insects."
+      },
+      {
+        type: "paragraph",
+        text: "The format today is a seasonal tasting menu. The November 2026 menu on Quintonil's site, titled Our Mexico, opens with a charred cactus paddle tostada with caviar, avocado and tuna, and moves through steelhead trout with adobo de chicatana and rib eye with chichilo negro and huitlacoche. It closes with a Mexican cornbread with rompope de nixtamal and vanilla from Chichicaxtle."
+      },
+      {
+        type: "paragraph",
+        text: "Michelin's inspectors singled out a tartlet of guajillo-glazed mussels with a seafood mole made from dried scallops, and a dessert of coconut sorbet, caviar and plankton oil. They noted that insects are used with subtlety. When 50 Best announced the 2026 list, it highlighted roast duck with a coconut manchamanteles mole and a wild mushroom chileatole, a corn masa soup. Vallejo told AFP that a vegetable mole made with asparagus was the dish closest to his heart that season."
+      },
+      {
+        type: "heading",
+        text: "Two Michelin stars and a steady climb on 50 Best"
+      },
+      {
+        type: "paragraph",
+        text: "Quintonil's rise has been gradual rather than sudden. Wikipedia's record of its World's 50 Best positions runs from No. 12 in 2016, through No. 9 in 2022 and 2023 and No. 7 in 2024, to No. 3 in 2025, when Mexico News Daily reported it became the first Mexican restaurant ever to reach the top three. In 2026 it moved to No. 4 and was the only Mexican restaurant in the top 50."
+      },
+      {
+        type: "paragraph",
+        text: "When the Michelin Guide first came to Mexico in 2024, Quintonil and Pujol were the only restaurants given two stars. The 2026 guide keeps Quintonil at two stars."
+      },
+      {
+        type: "quote",
+        text: "I truly believe in the saying, 'He who does not live to serve does not serve to live.'",
+        attribution: "Alejandra Flores, co-founder of Quintonil, to AFP"
+      },
+      {
+        type: "paragraph",
+        text: "The hospitality is not an afterthought. 50 Best has described the restaurant as the setting for Vallejo's boundary-pushing cooking and Flores's exceptional hospitality, and Wikipedia says the couple opened with a family idea: to welcome customers and say goodbye to friends."
+      },
+      {
+        type: "heading",
+        text: "Why it matters"
+      },
+      {
+        type: "paragraph",
+        text: "Quintonil did not start as a fine-dining project. It started as a small fonda with borrowed money and used furniture, run by two people who split the work clearly: one in the kitchen, one in the dining room. Fourteen years on, that split is still how the restaurant is described by Michelin, 50 Best and the press. For an independent owner, it is a reminder that a clear division of roles between partners is part of the product guests experience."
+      },
+      {
+        type: "paragraph",
+        text: "The other lesson is focus. Quintonil's story is told through its ingredients: a named herb, named farming areas, a garden down the street, a share of Mexican produce the chef can state in a single number. A small restaurant does not need to win awards to use the same approach. Knowing where things come from, and saying so plainly on the menu, gives guests and writers something specific to remember and repeat."
+      },
+      {
+        type: "heading",
+        text: "Plan your visit"
+      },
+      {
+        type: "paragraph",
+        text: "Where: Newton 55, Polanco, Miguel Hidalgo, Mexico City, Mexico."
+      },
+      {
+        type: "paragraph",
+        text: "When: Monday to Saturday from 1pm, closed on Sundays, according to the restaurant's site. Bookings are taken only through the reservations page on its website."
+      },
+      {
+        type: "paragraph",
+        text: "What to order: the seasonal tasting menu, which is the only format. The site lists it at 6,090 Mexican pesos per person for November 2026, with several drinks pairings, including a Mexican wine pairing and a non-alcoholic one, and offers vegan, pescatarian and vegetarian versions."
+      },
+      {
+        type: "paragraph",
+        text: "Good for: a date night, as Michelin puts it. The restaurant does not recommend it for children under 12, and there is no valet, so plan to use public parking a few blocks away."
+      }
+    ],
+    business: {
+      name: "Quintonil",
+      details: "Polanco, Mexico City · Restaurant · Opened 2012",
+      logo: null,
+      website: "https://quintonil.com/en",
+      instagram: "",
+    },
+    readNext: [],
+  },
+  {
     slug: "comorin-gurugram",
     draft: false,
     publishedAt: "2026-11-11",
